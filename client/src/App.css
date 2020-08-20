@@ -1,3 +1,7 @@
+body {
+  --cta-color: rgb(235, 131, 96);
+}
+
 .app {
   /* background: gray; */
 }
