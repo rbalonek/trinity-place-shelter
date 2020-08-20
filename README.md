@@ -54,7 +54,7 @@ Connect "Donate" with Paypal <br/>
 # Schema
 
 ```
-const Post = new Schema(
+const Volunteer = new Schema(
   {
     firstName: { type: String, required: true },
     lastName: { type: String, required: true },
