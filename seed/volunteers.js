@@ -1,6 +1,5 @@
 const db = require('../db/connection')
 const Volunteer = require('../models/volunteer')
-const volunteer = require('../models/volunteer')
 
 db.on('error', console.error.bind(console, 'MongoDB connection error:'))
 
