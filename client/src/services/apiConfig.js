@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const apiUrl = `INSERT HEROKU API URL HERE. DON'T FORGET TO END IN /API`
+const apiUrl = 'https://api-trinity-volunteers.herokuapp.com/api'
 
 const api = axios.create({
   baseURL: apiUrl,
