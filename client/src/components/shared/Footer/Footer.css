@@ -2,19 +2,22 @@
   position: absolute;
   bottom: 0;
   width: 100%;
-  height: auto;
-  
+  height: 500px;
+
   background-color: black;
-
 }
 
-.container{
+.container {
   display: flex;
 }
 
-.iFrame{
-  border:none;
-  overflow:hidden;
-
+.iFrame {
+  border: none;
+  overflow: hidden;
+  /* bottom: 10px; */
   display: flex;
+  position: absolute;
+    right: 0;
+    margin-right: 100px;
+    margin-top: 50px;
 }
