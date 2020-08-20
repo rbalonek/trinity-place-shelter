@@ -5,7 +5,11 @@ import Logo from '../../../assets/Logo/Trinity-Logo.png'
 function HeaderNav() {
   return (
     <div className="header-nav">
-      <img src={Logo} alt="trinity place shelter logo" />
+      <img
+        className="header-nav__logo"
+        src={Logo}
+        alt="trinity place shelter logo"
+      />
       <nav>
         <ul className="header-nav__container">
           <li>OUR STORY</li>
@@ -13,7 +17,14 @@ function HeaderNav() {
           <li>RESOURCES</li>
           <li>FAQ</li>
         </ul>
-        <button className="header-nav__donateButton">DONATE</button>
+        <button
+          onClick={() => {
+            alert('DONATE - Coming Soon!')
+          }}
+          className="header-nav__donateButton"
+        >
+          DONATE
+        </button>
       </nav>
     </div>
   )

@@ -1,7 +1,9 @@
 body {
-  --cta-color: rgb(235, 131, 96);
+  --cta-color: rgb(232, 129, 95);
 }
 
 .app {
-  /* background: gray; */
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }

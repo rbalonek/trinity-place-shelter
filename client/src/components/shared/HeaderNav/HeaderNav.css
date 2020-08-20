@@ -6,6 +6,11 @@
   margin-left: 25px;
 }
 
+.header-nav__logo {
+  height: 195px;
+  z-index: 100;
+}
+
 .header-nav > nav {
   border: 1px solid blue;
   display: flex;
@@ -33,11 +38,18 @@
 }
 
 .header-nav__donateButton {
+  background-color: var(--cta-color);
+  color: white;
   height: 45px;
-  width: 135px;
+  width: 150px;
   font-size: 24px;
   font-weight: bold;
   border-radius: 50px;
   border: none;
+  outline: none;
   margin-right: 115px;
+}
+
+.header-nav__donateButton:hover {
+  opacity: 0.8;
 }
