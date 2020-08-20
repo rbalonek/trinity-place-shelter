@@ -5,7 +5,7 @@ import Home from './screens/Home/Home'
 import Volunteer from './screens/Volunteer/Volunteer'
 import VolunteerForm from './screens/VolunteerForm/VolunteerForm'
 import Donate from './screens/Donate/Donate'
-import DonateForm from './screens/DonateForm/DonateForm'
+import Admin from './screens/Admin/Admin'
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
         <Route exact path="/volunteer" component={Volunteer} />
         <Route exact path="/volunteer-form" component={VolunteerForm} />
         <Route exact path="/donate" component={Donate} />
-        <Route exact path="/donate-form" component={DonateForm} />
+        <Route exact path="/admin" component={Admin} />
       </Switch>
     </div>
   )
