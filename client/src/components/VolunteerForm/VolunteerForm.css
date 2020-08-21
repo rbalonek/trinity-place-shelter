@@ -55,3 +55,34 @@ body {
   height: 535px;
 }
 
+.volunteer-form {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ 
+
+}
+.input-box-div_short{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 310px ;
+  
+  
+
+}
+.input-box_div, 
+.long-input_box {
+  width: 635px;
+}
+
+.short-input_box {
+  height: 33px;
+  margin: 10px;
+}
+
+textarea {
+  width: 635px;
+}
+
