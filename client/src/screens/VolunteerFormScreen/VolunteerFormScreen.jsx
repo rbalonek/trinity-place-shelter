@@ -1,7 +1,7 @@
 import React from 'react'
-import './VolunteerForm.css'
+import './VolunteerFormScreen.css'
 
-function VolunteerForm() {
+function VolunteerFormScreen() {
   return (
     <div className="volunteer-form">
       <h1>Welcome to VolunteerForm</h1>
@@ -9,4 +9,4 @@ function VolunteerForm() {
   )
 }
 
-export default VolunteerForm
+export default VolunteerFormScreen
