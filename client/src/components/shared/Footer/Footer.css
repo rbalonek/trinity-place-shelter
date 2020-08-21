@@ -1,3 +1,82 @@
 .footer {
-  color: darkorange;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 400px;
+  background-color: black;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container-left {
+  display: flex;
+  width: 50%;
+}
+
+.containder-right {
+  display: flex;
+  width: 50%;
+}
+a {
+  color:inherit;
+  text-decoration: none;
+ }
+
+.footer-nav-links {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  font-size: 15px;
+  left: 100px;
+  top: 50px;
+}
+.footer-501-info {
+  color: white;
+  flex-direction: column;
+  position: absolute;
+  font-size: 15px;
+  left: 300px;
+  top: 50px;
+}
+
+.footer-payment-methods {
+  display: flex;
+  position: absolute;
+  top: 270px;
+  left: 100px;
+}
+.footer-payment-methods-bottom {
+  display: flex;
+  position: absolute;
+  top: 305px;
+  left: 100px;
+}
+.footer-card {
+  block-size: 30px;
+  margin-right: 10px;
+}
+
+.iframe-div {
+  position: absolute;
+  top: 50px;
+  right: 100px;
+}
+.iFrame {
+  /* position: absolute;
+  top: 0;
+  right: 0; */
+
+  /* border: none;
+  overflow: scroll; */
+  /* width: 100%; */
+  /* bottom: 10px; */
+  /* display: flex; */
+  /* position: absolute; */
+  /* right: 0;
+  margin-right: 100px;
+  margin-bottom: 50px; */
 }
