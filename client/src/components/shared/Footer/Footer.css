@@ -20,6 +20,10 @@
   display: flex;
   width: 50%;
 }
+a {
+  color:inherit;
+  text-decoration: none;
+ }
 
 .footer-nav-links {
   color: white;
