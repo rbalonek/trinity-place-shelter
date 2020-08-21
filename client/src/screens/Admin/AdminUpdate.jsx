@@ -99,7 +99,6 @@ function AdminUpdate(props) {
             value={volunteer.secondAddress}
             placeholder="Address Line 2"
             name="secondAddress"
-            required
             autoFocus
             onChange={handleChange}
           />
@@ -131,7 +130,6 @@ function AdminUpdate(props) {
             value={volunteer.message}
             placeholder="Volunteer message..."
             name="message"
-            required
             autoFocus
             onChange={handleChange}
           />
