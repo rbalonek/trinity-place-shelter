@@ -23,8 +23,6 @@ const main = async () => {
       email: 'realMickyMouse@disney.com',
       phone: '123-456-0789',
       address: '99 Hell Road',
-      secondAddress: '',
-      secondAddress: '',
       city: 'Orlando',
       state: 'Florida',
       zip: '99999',
