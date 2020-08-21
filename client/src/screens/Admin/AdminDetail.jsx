@@ -1,17 +1,12 @@
 import React, { useState, useEffect } from 'react'
 import { useParams, Redirect, Link } from 'react-router-dom'
-import {
-  getVolunteer,
-  updateVolunteer,
-  deleteVolunteer,
-} from '../../services/volunteers'
+import { getVolunteer, deleteVolunteer } from '../../services/volunteers'
 import './AdminDetail.css'
 
 function AdminDetail(props) {
   const [volunteer, setVolunteer] = useState(null)
   const [isLoaded, setLoaded] = useState(false)
-  // const [isUpdated, setUpdated] = useState(false)
-  // const [isDeleted, setDeleted] = useState(false)
+  const [isDeleted, setDeleted] = useState(false)
   const { id } = useParams()
 
   useEffect(() => {
@@ -22,6 +17,14 @@ function AdminDetail(props) {
     }
     fetchVolunteer()
   }, [id])
+
+  const handleDeleteVolunteer = async (e) => {
+    e.preventDefault()
+    const deleted = await deleteVolunteer(volunteer._id)
+    setDeleted({ deleted })
+  }
+
+  if (isDeleted) return <Redirect to={`/admin`} />
 
   const backToAdmin = () => {
     props.history.push('/admin')
@@ -58,7 +61,7 @@ function AdminDetail(props) {
         <Link to={`/admin-detail/${volunteer._id}/update`}>
           <button>Update Volunteer</button>
         </Link>
-        <button onClick={() => alert('Delete coming soon!')}>Delete</button>
+        <button onClick={handleDeleteVolunteer}>Delete</button>
       </div>
     </div>
   )

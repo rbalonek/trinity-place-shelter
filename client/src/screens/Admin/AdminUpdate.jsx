@@ -135,6 +135,7 @@ function AdminUpdate(props) {
             autoFocus
             onChange={handleChange}
           />
+          {isUpdated ? <p>Update saved!</p> : ''}
           <button type="submit">Save Update</button>
         </form>
       </div>
