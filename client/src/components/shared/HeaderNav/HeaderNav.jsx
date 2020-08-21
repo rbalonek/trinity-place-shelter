@@ -1,10 +1,38 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import './HeaderNav.css'
+import Logo from '../../../assets/Logo/Trinity-Logo.png'
 
 function HeaderNav() {
   return (
     <div className="header-nav">
-      <h1>HEADER/NAV</h1>
+      <Link className="header-nav__logo" to="/">
+        <img
+          className="header-nav__logo"
+          src={Logo}
+          alt="trinity place shelter logo"
+        />
+      </Link>
+      <nav>
+        <ul className="header-nav__container">
+          <li>OUR STORY</li>
+          <li>
+            <Link to="/volunteer" className="header-nav--link">
+              VOLUNTEER
+            </Link>
+          </li>
+          <li>RESOURCES</li>
+          <li>FAQ</li>
+        </ul>
+        <button
+          onClick={() => {
+            alert('DONATE - Coming Soon!')
+          }}
+          className="header-nav__donateButton"
+        >
+          DONATE
+        </button>
+      </nav>
     </div>
   )
 }
