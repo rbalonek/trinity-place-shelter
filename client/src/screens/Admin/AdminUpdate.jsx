@@ -33,6 +33,21 @@ function AdminUpdate(props) {
     fetchVolunteer()
   }, [id])
 
+  const handleChange = (e) => {
+    const { name, value } = e.target
+    setVolunteer({
+      ...volunteer,
+      [name]: value,
+    })
+  }
+
+  const handleSubmit = async (e) => {
+    e.preventDefault()
+    let { id } = props.match.params
+    const updated = await updateVolunteer(id, volunteer)
+    setUpdated(updated)
+  }
+
   const backToAdmin = () => {
     props.history.push('/admin')
   }
@@ -47,21 +62,75 @@ function AdminUpdate(props) {
         <p>
           <b>Update Volunteer:</b>
         </p>
-        <p>
-          Name: {volunteer.firstName} {volunteer.lastName}
-        </p>
-        <p>Email: {volunteer.email}</p>
-        <p>Phone: {volunteer.phone}</p>
-        <p>Address: {volunteer.address}</p>
-        <p>
-          {typeof volunteer.secondAddress === 'undefined'
-            ? '(No additional address info provided.)'
-            : `Address 2: ${volunteer.secondAddress}`}
-        </p>
-        <p>
-          Location: {volunteer.city}, {volunteer.state} {volunteer.zip}
-        </p>
-        <p>Message: {volunteer.message}</p>
+        <form className="admin-update__form">
+          <input
+            value={volunteer.firstName}
+            name="firstName"
+            required
+            autoFocus
+            onChange={handleChange}
+          />
+          <input
+            value={volunteer.lastName}
+            name="lastName"
+            required
+            autoFocus
+            onChange={handleChange}
+          />
+          <input
+            value={volunteer.phone}
+            name="phone"
+            required
+            autoFocus
+            onChange={handleChange}
+          />
+          <input
+            value={volunteer.address}
+            name="address"
+            required
+            autoFocus
+            onChange={handleChange}
+          />
+          <input
+            value={volunteer.secondAddress}
+            placeholder="Address Line 2"
+            name="secondAddress"
+            required
+            autoFocus
+            onChange={handleChange}
+          />
+          <input
+            value={volunteer.city}
+            name="city"
+            required
+            autoFocus
+            onChange={handleChange}
+          />
+          <input
+            value={volunteer.state}
+            name="state"
+            required
+            autoFocus
+            onChange={handleChange}
+          />
+          <input
+            value={volunteer.zip}
+            name="zip"
+            required
+            autoFocus
+            onChange={handleChange}
+          />
+          <textarea
+            value={volunteer.message}
+            rows={10}
+            cols={78}
+            placeholder="Volunteer message..."
+            name="message"
+            required
+            autoFocus
+            onChange={handleChange}
+          />
+        </form>
       </div>
       <div className="admin-update__buttons">
         <button onClick={backToAdmin}>Back to Admin</button>
