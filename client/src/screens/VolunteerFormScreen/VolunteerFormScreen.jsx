@@ -2,7 +2,7 @@ import React from 'react'
 import VolunteerForm from '../../components/VolunteerForm/VolunteerForm'
 import './VolunteerFormScreen.css'
 
-//Component
+// Component
 import YellowBox from "../../components/YellowBox/YellowBox.js"
 import SmallBlackBar from "../../components/SmallBlackBar/SmallBlackBar.js"
 
