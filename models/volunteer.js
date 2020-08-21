@@ -12,6 +12,7 @@ const Volunteer = new Schema(
     city: { type: String, required: true },
     state: { type: String, required: true },
     zip: { type: String, required: true },
+    message: { type: String, required: false },
   },
   { timestamps: true }
 )

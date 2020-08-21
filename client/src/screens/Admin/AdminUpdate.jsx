@@ -5,10 +5,15 @@ import {
   updateVolunteer,
   deleteVolunteer,
 } from '../../services/volunteers'
-import './AdminDetail.css'
+import './AdminUpdate.css'
 
-function AdminDetail(props) {
-  const [volunteer, setVolunteer] = useState(null)
+function AdminUpdate(props) {
+  const [volunteer, setVolunteer] = useState({
+    name: '',
+    description: '',
+    imgURL: '',
+    price: '',
+  })
   const [isLoaded, setLoaded] = useState(false)
   // const [isUpdated, setUpdated] = useState(false)
   // const [isDeleted, setDeleted] = useState(false)
@@ -51,7 +56,6 @@ function AdminDetail(props) {
         <p>
           {volunteer.city}, {volunteer.state} {volunteer.zip}
         </p>
-        <p>{volunteer.message}</p>
       </div>
       <div className="admin-detail__buttons">
         <button onClick={backToAdmin}>Back to Admin</button>
@@ -64,4 +68,4 @@ function AdminDetail(props) {
   )
 }
 
-export default AdminDetail
+export default AdminUpdate
