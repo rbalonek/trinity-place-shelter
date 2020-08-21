@@ -1,0 +1,12 @@
+.volunteer-item {
+  border: 1px solid red;
+  color: purple;
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.volunteer-item > p {
+  border: 1px solid green;
+  margin-left: auto;
+}

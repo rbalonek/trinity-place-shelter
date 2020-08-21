@@ -1,7 +1,7 @@
 // @ts-nocheck
-import React from "react";
-import "./Footer.css";
-import { Link } from "react-router-dom";
+import React from 'react'
+import './Footer.css'
+import { Link } from 'react-router-dom'
 
 function Footer() {
   return (
@@ -12,7 +12,7 @@ function Footer() {
             <div className="footer-nav-links">
               <Link to="/">
                 <p>Home</p>
-              </Link>{" "}
+              </Link>{' '}
               <br />
               <p>Our Story</p>
               <br />
@@ -77,23 +77,10 @@ function Footer() {
               />
             </div>
           </div>
-
-          <div className="container-right"></div>
-          <div className="iframe-div">
-            <iframe
-              src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ftrinityplaceshelter%2F&tabs=timeline&width=200&height=300&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
-              width="200"
-              height="300"
-              scrolling="no"
-              frameborder="0"
-              allowTransparency="true"
-              allow="encrypted-media"
-            ></iframe>
-          </div>
         </div>
       </div>
     </footer>
-  );
+  )
 }
 
-export default Footer;
+export default Footer
