@@ -1,3 +1,13 @@
 .admin {
-  color: orange;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.admin__volunteers {
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 75px;
 }

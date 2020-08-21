@@ -1,0 +1,18 @@
+.admin-detail {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.admin-detail__details {
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
+
+.admin-detail__details > p {
+  padding: 10px;
+}
