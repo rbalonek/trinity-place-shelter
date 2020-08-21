@@ -9,15 +9,20 @@ import './AdminUpdate.css'
 
 function AdminUpdate(props) {
   const [volunteer, setVolunteer] = useState({
-    name: '',
-    description: '',
-    imgURL: '',
-    price: '',
+    firstName: '',
+    lastName: '',
+    email: '',
+    phone: '',
+    address: '',
+    secondAddress: '',
+    city: '',
+    state: '',
+    zip: '',
+    message: '',
   })
   const [isLoaded, setLoaded] = useState(false)
-  // const [isUpdated, setUpdated] = useState(false)
-  // const [isDeleted, setDeleted] = useState(false)
-  const { id } = useParams()
+  const [isUpdated, setUpdated] = useState(false)
+  let { id } = useParams()
 
   useEffect(() => {
     const fetchVolunteer = async () => {
@@ -37,10 +42,10 @@ function AdminUpdate(props) {
   }
 
   return (
-    <div className="admin-detail">
-      <div className="admin-detail__details">
+    <div className="admin-update">
+      <div className="admin-update__details">
         <p>
-          <b>Volunteer Detail:</b>
+          <b>Update Volunteer:</b>
         </p>
         <p>
           Name: {volunteer.firstName} {volunteer.lastName}
@@ -51,18 +56,16 @@ function AdminUpdate(props) {
         <p>
           {typeof volunteer.secondAddress === 'undefined'
             ? '(No additional address info provided.)'
-            : volunteer.secondAddress}
+            : `Address 2: ${volunteer.secondAddress}`}
         </p>
         <p>
-          {volunteer.city}, {volunteer.state} {volunteer.zip}
+          Location: {volunteer.city}, {volunteer.state} {volunteer.zip}
         </p>
+        <p>Message: {volunteer.message}</p>
       </div>
-      <div className="admin-detail__buttons">
+      <div className="admin-update__buttons">
         <button onClick={backToAdmin}>Back to Admin</button>
-        <button onClick={() => alert('Update coming soon!')}>
-          Update Volunteer
-        </button>
-        <button onClick={() => alert('Delete coming soon!')}>Delete</button>
+        <button onClick={() => alert('PUT request')}>Save Update</button>
       </div>
     </div>
   )

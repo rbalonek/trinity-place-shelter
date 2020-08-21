@@ -55,9 +55,9 @@ function AdminDetail(props) {
       </div>
       <div className="admin-detail__buttons">
         <button onClick={backToAdmin}>Back to Admin</button>
-        <button onClick={() => alert('Update coming soon!')}>
-          Update Volunteer
-        </button>
+        <Link to={`/admin-detail/${volunteer._id}/update`}>
+          <button>Update Volunteer</button>
+        </Link>
         <button onClick={() => alert('Delete coming soon!')}>Delete</button>
       </div>
     </div>

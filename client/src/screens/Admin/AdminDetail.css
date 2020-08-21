@@ -11,8 +11,13 @@
   padding: 5px;
   border-radius: 20px;
   margin-bottom: 30px;
+  max-width: 600px;
 }
 
 .admin-detail__details > p {
   padding: 10px;
+}
+
+.admin-detail__buttons {
+  margin-bottom: 5vh;
 }
