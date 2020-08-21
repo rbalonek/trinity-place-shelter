@@ -1,3 +1,4 @@
 .home {
-  color: purple;
+  display: flex;
+  flex: 1;
 }

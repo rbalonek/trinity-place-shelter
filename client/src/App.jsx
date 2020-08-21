@@ -6,10 +6,12 @@ import Volunteer from './screens/Volunteer/Volunteer'
 import VolunteerFormScreen from './screens/VolunteerFormScreen/VolunteerFormScreen'
 import Donate from './screens/Donate/Donate'
 import Admin from './screens/Admin/Admin'
+import HeaderNav from './components/shared/HeaderNav/HeaderNav'
 
 function App() {
   return (
     <div className="app">
+      <HeaderNav />
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/volunteer" component={Volunteer} />
