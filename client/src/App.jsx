@@ -8,6 +8,7 @@ import Donate from './screens/Donate/Donate'
 import Admin from './screens/Admin/Admin'
 import AdminDetail from './screens/Admin/AdminDetail'
 import HeaderNav from './components/shared/HeaderNav/HeaderNav'
+import Footer from './components/shared/Footer/Footer'
 
 function App() {
   return (
