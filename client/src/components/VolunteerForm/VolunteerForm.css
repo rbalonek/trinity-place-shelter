@@ -75,6 +75,9 @@
   height: 33px;
   border: none;
   background: rgba(137, 207, 240, 0.35);
+  outline: none;
+  color: white;
+  font-size: 16px;
 }
 
 .input-box_div {
@@ -83,14 +86,17 @@
 }
 
 .long-input_box,
-textarea {
+.message {
   width: 635px;
   height: 33px;
   background: rgba(137, 207, 240, 0.35);
   border: none;
+  outline: none;
+  color: white;
+  font-size: 16px;
 }
 
-textarea {
+.message {
   height: 90px;
   resize: none;
 }
@@ -111,4 +117,8 @@ textarea {
   border-radius: 50px;
   border: none;
   outline: none;
+  cursor: pointer;
+}
+.button:hover {
+  opacity: 0.8;
 }

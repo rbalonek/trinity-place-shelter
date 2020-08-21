@@ -12,7 +12,7 @@ function VolunteerItem({ _id, firstName, lastName, createdAt, updatedAt }) {
         <h3>
           {firstName} {lastName}
         </h3>
-        <p>Created: {transformTimestamp(createdAt)}</p>
+        <p>Updated: {transformTimestamp(updatedAt)}</p>
       </div>
     </Link>
   )

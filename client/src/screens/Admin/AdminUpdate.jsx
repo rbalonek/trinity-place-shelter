@@ -9,15 +9,20 @@ import './AdminUpdate.css'
 
 function AdminUpdate(props) {
   const [volunteer, setVolunteer] = useState({
-    name: '',
-    description: '',
-    imgURL: '',
-    price: '',
+    firstName: '',
+    lastName: '',
+    email: '',
+    phone: '',
+    address: '',
+    secondAddress: '',
+    city: '',
+    state: '',
+    zip: '',
+    message: '',
   })
   const [isLoaded, setLoaded] = useState(false)
-  // const [isUpdated, setUpdated] = useState(false)
-  // const [isDeleted, setDeleted] = useState(false)
-  const { id } = useParams()
+  const [isUpdated, setUpdated] = useState(false)
+  let { id } = useParams()
 
   useEffect(() => {
     const fetchVolunteer = async () => {
@@ -28,6 +33,21 @@ function AdminUpdate(props) {
     fetchVolunteer()
   }, [id])
 
+  const handleChange = (e) => {
+    const { name, value } = e.target
+    setVolunteer({
+      ...volunteer,
+      [name]: value,
+    })
+  }
+
+  const handleSubmit = async (e) => {
+    e.preventDefault()
+    let { id } = props.match.params
+    const updated = await updateVolunteer(id, volunteer)
+    setUpdated(updated)
+  }
+
   const backToAdmin = () => {
     props.history.push('/admin')
   }
@@ -37,32 +57,88 @@ function AdminUpdate(props) {
   }
 
   return (
-    <div className="admin-detail">
-      <div className="admin-detail__details">
+    <div className="admin-update">
+      <div className="admin-update__details">
         <p>
-          <b>Volunteer Detail:</b>
+          <b>Update Volunteer:</b>
         </p>
-        <p>
-          Name: {volunteer.firstName} {volunteer.lastName}
-        </p>
-        <p>Email: {volunteer.email}</p>
-        <p>Phone: {volunteer.phone}</p>
-        <p>Address: {volunteer.address}</p>
-        <p>
-          {typeof volunteer.secondAddress === 'undefined'
-            ? '(No additional address info provided.)'
-            : volunteer.secondAddress}
-        </p>
-        <p>
-          {volunteer.city}, {volunteer.state} {volunteer.zip}
-        </p>
+        <form onSubmit={handleSubmit} className="admin-update__form">
+          <input
+            value={volunteer.firstName}
+            placeholder="First Name"
+            name="firstName"
+            required
+            autoFocus
+            onChange={handleChange}
+          />
+          <input
+            value={volunteer.lastName}
+            placeholder="Last Name"
+            name="lastName"
+            required
+            autoFocus
+            onChange={handleChange}
+          />
+          <input
+            value={volunteer.phone}
+            placeholder="Phone"
+            name="phone"
+            required
+            autoFocus
+            onChange={handleChange}
+          />
+          <input
+            value={volunteer.address}
+            placeholder="Address"
+            name="address"
+            required
+            autoFocus
+            onChange={handleChange}
+          />
+          <input
+            value={volunteer.secondAddress}
+            placeholder="Address Line 2"
+            name="secondAddress"
+            autoFocus
+            onChange={handleChange}
+          />
+          <input
+            value={volunteer.city}
+            placeholder="City"
+            name="city"
+            required
+            autoFocus
+            onChange={handleChange}
+          />
+          <input
+            value={volunteer.state}
+            placeholder="State"
+            name="state"
+            required
+            autoFocus
+            onChange={handleChange}
+          />
+          <input
+            value={volunteer.zip}
+            placeholder="Zip"
+            name="zip"
+            required
+            autoFocus
+            onChange={handleChange}
+          />
+          <textarea
+            value={volunteer.message}
+            placeholder="Volunteer message..."
+            name="message"
+            autoFocus
+            onChange={handleChange}
+          />
+          {isUpdated ? <p>Update saved!</p> : ''}
+          <button type="submit">Save Update</button>
+        </form>
       </div>
-      <div className="admin-detail__buttons">
+      <div className="admin-update__buttons">
         <button onClick={backToAdmin}>Back to Admin</button>
-        <button onClick={() => alert('Update coming soon!')}>
-          Update Volunteer
-        </button>
-        <button onClick={() => alert('Delete coming soon!')}>Delete</button>
       </div>
     </div>
   )
