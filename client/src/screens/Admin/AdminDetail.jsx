@@ -1,17 +1,12 @@
 import React, { useState, useEffect } from 'react'
 import { useParams, Redirect, Link } from 'react-router-dom'
-import {
-  getVolunteer,
-  updateVolunteer,
-  deleteVolunteer,
-} from '../../services/volunteers'
+import { getVolunteer, deleteVolunteer } from '../../services/volunteers'
 import './AdminDetail.css'
 
 function AdminDetail(props) {
   const [volunteer, setVolunteer] = useState(null)
   const [isLoaded, setLoaded] = useState(false)
-  // const [isUpdated, setUpdated] = useState(false)
-  // const [isDeleted, setDeleted] = useState(false)
+  const [isDeleted, setDeleted] = useState(false)
   const { id } = useParams()
 
   useEffect(() => {
@@ -22,6 +17,14 @@ function AdminDetail(props) {
     }
     fetchVolunteer()
   }, [id])
+
+  const handleDeleteVolunteer = async (e) => {
+    e.preventDefault()
+    const deleted = await deleteVolunteer(volunteer._id)
+    setDeleted({ deleted })
+  }
+
+  if (isDeleted) return <Redirect to={`/admin`} />
 
   const backToAdmin = () => {
     props.history.push('/admin')
@@ -46,19 +49,19 @@ function AdminDetail(props) {
         <p>
           {typeof volunteer.secondAddress === 'undefined'
             ? '(No additional address info provided.)'
-            : volunteer.secondAddress}
+            : `Address 2: ${volunteer.secondAddress}`}
         </p>
         <p>
-          {volunteer.city}, {volunteer.state} {volunteer.zip}
+          Location: {volunteer.city}, {volunteer.state} {volunteer.zip}
         </p>
-        <p>{volunteer.message}</p>
+        <p>Message: {volunteer.message}</p>
       </div>
       <div className="admin-detail__buttons">
         <button onClick={backToAdmin}>Back to Admin</button>
-        <button onClick={() => alert('Update coming soon!')}>
-          Update Volunteer
-        </button>
-        <button onClick={() => alert('Delete coming soon!')}>Delete</button>
+        <Link to={`/admin-detail/${volunteer._id}/update`}>
+          <button>Update Volunteer</button>
+        </Link>
+        <button onClick={handleDeleteVolunteer}>Delete</button>
       </div>
     </div>
   )
