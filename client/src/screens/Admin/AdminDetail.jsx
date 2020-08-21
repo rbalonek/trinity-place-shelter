@@ -10,8 +10,8 @@ import './AdminDetail.css'
 function AdminDetail(props) {
   const [volunteer, setVolunteer] = useState(null)
   const [isLoaded, setLoaded] = useState(false)
-  const [isUpdated, setUpdated] = useState(false)
-  const [isDeleted, setDeleted] = useState(false)
+  // const [isUpdated, setUpdated] = useState(false)
+  // const [isDeleted, setDeleted] = useState(false)
   const { id } = useParams()
 
   useEffect(() => {

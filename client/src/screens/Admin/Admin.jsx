@@ -14,7 +14,6 @@ function Admin() {
     }
     fetchVolunteers()
   }, [])
-  console.log(allVolunteers)
 
   const renderVolunteers = allVolunteers.map((volunteer) => {
     return (
@@ -31,8 +30,10 @@ function Admin() {
 
   return (
     <div className="admin">
-      <h1>Welcome to Admin</h1>
-      <div className="admin__volunteers">{renderVolunteers}</div>
+      <div className="admin__volunteers">
+        <h1>Volunteers Admin Screen</h1>
+        {renderVolunteers}
+      </div>
       <Footer />
     </div>
   )

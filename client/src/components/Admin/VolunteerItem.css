@@ -1,12 +1,15 @@
 .volunteer-item {
-  border: 1px solid red;
-  color: purple;
+  border-bottom: 1px solid darkgray;
   display: flex;
   align-items: center;
   padding-bottom: 10px;
+  margin: 10px 0;
+}
+
+.volunteer-item:hover {
+  color: gray;
 }
 
 .volunteer-item > p {
-  border: 1px solid green;
   margin-left: auto;
 }
