@@ -1,12 +1,14 @@
 import React from 'react'
-import './Donors.css'
 
-function Donors() {
+
+export default function Donors({children,title,subtitle}) {
+  
   return (
     <div className="donors">
-      <h1>Donors</h1>
+      <h1>{title}</h1>
+      <div></div>
+      <p>{subtitle}</p>
+      {children}
     </div>
   )
 }
-
-export default Donors

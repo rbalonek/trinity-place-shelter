@@ -1,3 +1,44 @@
-.donors {
+/* .donors {
   color: darkolivegreen;
+} */
+
+/* Banner */
+.donors {
+  display: inline-block;
+  padding: 2rem;
+  text-align: right;
+  text-transform: capitalize;
+  letter-spacing: var(--mainSpacing);
+}
+.donors h1 {
+  font-size: 0.5rem;
+  color: white;
+}
+
+.donors p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  color: white;
+  text-align: justify;
+
+}
+
+@media screen and (min-width: 992px) {
+  .donors {
+    padding: 2rem 6rem;
+  }
+  .donors h1 {
+    font-size: 2rem;
+  }
+}
+
+/* Style */
+.defaultStyle
+ {
+  height: 300px;
+  width: fit-content;
+  background: url("https://api.time.com/wp-content/uploads/2019/05/lgbtq-pride-month-movies.jpg")center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

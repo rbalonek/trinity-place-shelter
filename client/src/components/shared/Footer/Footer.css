@@ -1,3 +1,58 @@
 .footer {
-  color: darkorange;
+  /* position: absolute; */
+  /* bottom: 0; */
+  display: flex;
+  width: 100%;
+  height: 300px;
+  background-color: black;
+
+  contain: content;
+  justify-content: space-evenly;
+  min-block-size: fit-content;
 }
+
+a {
+  color:inherit;
+  text-decoration: none;
+ }
+
+.footer-nav-links {
+  color: white;
+   position: absolute;
+  font-size: 12px;
+  left: 100px;
+  top: 30px;
+}
+.container {
+  display: flex;
+  align-items: center;
+  /* flex-wrap: wrap; */
+}
+
+
+.footer-payment-methods {
+  display: flex;
+  /* place-self: flex-end; */
+  position: absolute;
+  top: 200px;
+  left: 100px;
+}
+.footer-payment-methods-bottom {
+  display: flex;
+  position: absolute;
+  top: 240px;
+  left: 100px;
+}
+.footer-card {
+  block-size: 30px;
+  margin-right: 10px;
+}
+
+.footer-501-info {
+  color: white;
+  font-size: 15px;
+  right: 100px;
+  top: 30px;
+  text-align: center;
+}
+
