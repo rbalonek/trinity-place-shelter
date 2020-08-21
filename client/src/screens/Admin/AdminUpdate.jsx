@@ -62,9 +62,10 @@ function AdminUpdate(props) {
         <p>
           <b>Update Volunteer:</b>
         </p>
-        <form className="admin-update__form">
+        <form onSubmit={handleSubmit} className="admin-update__form">
           <input
             value={volunteer.firstName}
+            placeholder="First Name"
             name="firstName"
             required
             autoFocus
@@ -72,6 +73,7 @@ function AdminUpdate(props) {
           />
           <input
             value={volunteer.lastName}
+            placeholder="Last Name"
             name="lastName"
             required
             autoFocus
@@ -79,6 +81,7 @@ function AdminUpdate(props) {
           />
           <input
             value={volunteer.phone}
+            placeholder="Phone"
             name="phone"
             required
             autoFocus
@@ -86,6 +89,7 @@ function AdminUpdate(props) {
           />
           <input
             value={volunteer.address}
+            placeholder="Address"
             name="address"
             required
             autoFocus
@@ -101,6 +105,7 @@ function AdminUpdate(props) {
           />
           <input
             value={volunteer.city}
+            placeholder="City"
             name="city"
             required
             autoFocus
@@ -108,6 +113,7 @@ function AdminUpdate(props) {
           />
           <input
             value={volunteer.state}
+            placeholder="State"
             name="state"
             required
             autoFocus
@@ -115,6 +121,7 @@ function AdminUpdate(props) {
           />
           <input
             value={volunteer.zip}
+            placeholder="Zip"
             name="zip"
             required
             autoFocus
@@ -122,19 +129,17 @@ function AdminUpdate(props) {
           />
           <textarea
             value={volunteer.message}
-            rows={10}
-            cols={78}
             placeholder="Volunteer message..."
             name="message"
             required
             autoFocus
             onChange={handleChange}
           />
+          <button type="submit">Save Update</button>
         </form>
       </div>
       <div className="admin-update__buttons">
         <button onClick={backToAdmin}>Back to Admin</button>
-        <button onClick={() => alert('PUT request')}>Save Update</button>
       </div>
     </div>
   )
