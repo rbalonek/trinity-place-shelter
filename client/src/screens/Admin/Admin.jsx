@@ -20,6 +20,7 @@ function Admin() {
     return (
       <VolunteerItem
         key={volunteer._id}
+        _id={volunteer._id}
         firstName={volunteer.firstName}
         lastName={volunteer.lastName}
         createdAt={volunteer.createdAt}
