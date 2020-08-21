@@ -15,6 +15,7 @@ const main = async () => {
       city: 'Sin City',
       state: 'Wisconsin',
       zip: '66666',
+      message: 'To hell with circumstances; I create opportunities.',
     },
     {
       firstName: 'Micky',
@@ -23,9 +24,12 @@ const main = async () => {
       phone: '123-456-0789',
       address: '99 Hell Road',
       secondAddress: '',
+      secondAddress: '',
       city: 'Orlando',
       state: 'Florida',
       zip: '99999',
+      message:
+        'All our dreams can come true, if we have the courage to pursue them.',
     },
   ]
 
