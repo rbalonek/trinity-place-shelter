@@ -21,8 +21,9 @@ function App() {
         <Route exact path="/admin" component={Admin} />
         <Route exact path="/admin-detail/:id" component={AdminDetail} />
       </Switch>
+      <Footer />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

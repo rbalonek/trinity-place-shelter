@@ -11,16 +11,33 @@
   letter-spacing: var(--mainSpacing);
 }
 .donors h1 {
-  font-size: 0.5rem;
+  font-size: 2.5rem;
   color: white;
 }
+.donors div {
+  width: 10rem;
+  height: 5px;
+  background: var(--primaryColor);
+  margin: 1.7rem auto;
+}
 
-.donors p {
-  font-size: 1.2rem;
-  margin-bottom: 2rem;
-  color: white;
-  text-align: justify;
+.donors p {   
+  font-size: 1.2rem;   
+  color: white;   
+  text-align: right;   
+  margin-top: 30px;   
+  margin-bottom: 30px;   
+  margin-left: 60rem;   
+  margin-right: 0.5rem;   
+}
 
+@media screen and (min-width: 576px) {
+  .donors {
+    padding: 2rem 3rem;
+  }
+  .donors h1 {
+    font-size: 3rem;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -36,9 +53,30 @@
 .defaultStyle
  {
   height: 300px;
-  width: fit-content;
   background: url("https://api.time.com/wp-content/uploads/2019/05/lgbtq-pride-month-movies.jpg")center/cover no-repeat;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: right;
+  justify-content: right;
 }
+
+
+/* .section-title {
+  text-align: right;
+  margin-bottom: 4rem;
+  
+}
+.section-title h4 {
+  font-size: 2rem;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+  
+}
+.section-title div {
+  text-align: right;
+  width: 250rem;
+  height: 5px;
+  margin: 0 auto;
+  background: var(--primaryColor);
+  padding: 10px 10px;
+} */
+
