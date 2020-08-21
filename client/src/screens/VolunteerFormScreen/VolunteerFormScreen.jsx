@@ -1,10 +1,12 @@
 import React from 'react'
+import VolunteerForm from '../../components/VolunteerForm/VolunteerForm'
 import './VolunteerFormScreen.css'
 
 function VolunteerFormScreen() {
   return (
     <div className="volunteer-form">
-      <h1>Welcome to VolunteerForm</h1>
+      
+      <VolunteerForm />
     </div>
   )
 }
