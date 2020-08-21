@@ -24,7 +24,7 @@ function App() {
       </Switch>
       <Footer />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
