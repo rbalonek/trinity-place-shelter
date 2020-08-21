@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import './Admin.css'
 import { getVolunteers } from '../../services/volunteers'
-import Footer from '../../components/shared/Footer/Footer'
 import VolunteerItem from '../../components/Admin/VolunteerItem'
 
 function Admin() {
@@ -34,7 +33,6 @@ function Admin() {
         <h1>Volunteers Admin Screen</h1>
         {renderVolunteers}
       </div>
-      <Footer />
     </div>
   )
 }
