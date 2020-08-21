@@ -9,9 +9,7 @@ function Home() {
   return (
 
     <div className="home">
-
       <Donors />
-
     </div>
   );
 

@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+}
+
+.volunteer-div {
+  width: 100vw;
+  background-image: url("https://res.cloudinary.com/bobalobbadingdong/image/upload/v1597945995/Trinity-Place-Shelter/HomePage/Form_background_box_a6tryx.png"),
+    url("../../images/Background\ Shapes.png");
+  background-size: cover;
+}
+.header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+  margin: auto;
+  color: white;
+  padding-top: 80px;
+
+  margin-bottom: 100px;
+  width: 710px;
+  top: 500px;
+}
+
+.volunteer-text {
+  display: flex;
+  align-items: center;
+  padding-right: 33px;
+}
+.divider {
+  display: flex;
+  align-items: center;
+  font-size: 64px;
+  margin-bottom: 10px;
+  padding-right: 20px;
+  text-align: center;
+}
+
+.volunteer-p {
+  display: flex;
+  align-items: center;
+}
+
+.volunteer-div_form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 645px;
+  height: 900px;
+  margin: auto;
+}
+
+.form {
+  width: 650px;
+  height: 800px;
+  margin: auto;
+}
+.input-box-div_short {
+  padding: 10px;
+  display: inline-block;
+  padding-right: 20px;
+  width: 300px;
+  margin-right: 25px;
+}
+
+.input-label {
+  display: block;
+  color: white;
+  font-size: 12px;
+}
+
+.short-input_box {
+  display: inline-block;
+  width: 310px;
+  height: 33px;
+  border: none;
+  background: rgba(137, 207, 240, 0.35);
+  outline: none;
+  color: white;
+  font-size: 16px;
+}
+
+.input-box_div {
+  display: block;
+  padding: 10px;
+}
+
+.long-input_box,
+.message {
+  width: 635px;
+  height: 33px;
+  background: rgba(137, 207, 240, 0.35);
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 16px;
+}
+
+.message {
+  height: 90px;
+  resize: none;
+}
+
+.button-div {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 40px;
+}
+
+.button {
+  background-color: var(--cta-color);
+  color: white;
+  height: 45px;
+  width: 150px;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.button:hover {
+  opacity: 0.8;
+}

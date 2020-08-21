@@ -6,7 +6,10 @@ import Volunteer from './screens/Volunteer/Volunteer'
 import VolunteerFormScreen from './screens/VolunteerFormScreen/VolunteerFormScreen'
 import Donate from './screens/Donate/Donate'
 import Admin from './screens/Admin/Admin'
+import AdminDetail from './screens/Admin/AdminDetail'
+import AdminUpdate from './screens/Admin/AdminUpdate'
 import HeaderNav from './components/shared/HeaderNav/HeaderNav'
+import Footer from './components/shared/Footer/Footer'
 
 function App() {
   return (
@@ -18,7 +21,10 @@ function App() {
         <Route exact path="/volunteer-form" component={VolunteerFormScreen} />
         <Route exact path="/donate" component={Donate} />
         <Route exact path="/admin" component={Admin} />
+        <Route exact path="/admin-detail/:id" component={AdminDetail} />
+        <Route exact path="/admin-detail/:id/update" component={AdminUpdate} />
       </Switch>
+      <Footer />
     </div>
   )
 }

@@ -1,0 +1,50 @@
+.admin-update {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  padding-top: 5vh;
+}
+
+.admin-update__details {
+  border: 2px solid black;
+  padding: 5px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  max-width: 600px;
+}
+
+.admin-update__details > p {
+  padding: 10px;
+}
+
+.admin-update__form {
+  display: flex;
+  flex-direction: column;
+  padding: 0 5px;
+}
+
+.admin-update__form > input {
+  padding: 5px;
+  margin-bottom: 10px;
+  min-width: 200px;
+}
+
+.admin-update__form > textarea {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: transparent;
+  border: 1px solid rgba(33, 33, 33, 0.5);
+  border-radius: 3px;
+  padding: 5px;
+  margin-bottom: 10px;
+  max-width: 400px;
+}
+
+.admin-update__form > p {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.admin-update__buttons {
+  margin-bottom: 5vh;
+}
