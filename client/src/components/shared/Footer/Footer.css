@@ -1,6 +1,4 @@
 .footer {
-  /* position: absolute; */
-  /* bottom: 0; */
   display: flex;
   width: 100%;
   height: 300px;
@@ -26,9 +24,7 @@ a {
 .container {
   display: flex;
   align-items: center;
-  /* flex-wrap: wrap; */
 }
-
 
 .footer-payment-methods {
   display: flex;
@@ -56,3 +52,36 @@ a {
   text-align: center;
 }
 
+/* SAFARI  */
+  
+  
+@media not all and (min-resolution:.001dpcm) { @media
+  {
+    .footer-nav-links {
+      color: white;
+      position: relative;
+      font-size: 12px;
+      left: 100%;
+      top: 2%;
+    }
+    .footer-payment-methods {
+      display: flex;
+      position: static;
+      margin-left: 50px;
+      margin-top: 30%;
+    }
+    .footer-payment-methods-bottom {
+      display: flex;
+      position: static;
+      margin-top: 30%;
+    }
+    .footer-card {
+      block-size: 10px;
+    }
+    
+    .footer-501-info {
+      color: white;
+      font-size: 15px;
+      text-align: center;
+    }
+  }}
