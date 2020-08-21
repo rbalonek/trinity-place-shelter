@@ -46,12 +46,12 @@ function AdminDetail(props) {
         <p>
           {typeof volunteer.secondAddress === 'undefined'
             ? '(No additional address info provided.)'
-            : volunteer.secondAddress}
+            : `Address 2: ${volunteer.secondAddress}`}
         </p>
         <p>
-          {volunteer.city}, {volunteer.state} {volunteer.zip}
+          Location: {volunteer.city}, {volunteer.state} {volunteer.zip}
         </p>
-        <p>{volunteer.message}</p>
+        <p>Message: {volunteer.message}</p>
       </div>
       <div className="admin-detail__buttons">
         <button onClick={backToAdmin}>Back to Admin</button>
