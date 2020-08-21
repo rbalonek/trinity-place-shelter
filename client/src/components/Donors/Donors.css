@@ -19,6 +19,8 @@
   font-size: 1.2rem;
   margin-bottom: 2rem;
   color: white;
+  text-align: justify;
+
 }
 
 @media screen and (min-width: 992px) {
