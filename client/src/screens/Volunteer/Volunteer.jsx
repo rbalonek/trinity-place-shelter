@@ -2,7 +2,7 @@ import React from 'react'
 import './Volunteer.css'
 
 //Components
-import HomeIconBox from "../../components/HomeIconBox/HomeIconBox.js"
+import HomeIconBox from '../../components/HomeIconBox/HomeIconBox.js'
 
 function Volunteer() {
   return (
