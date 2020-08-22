@@ -8,16 +8,7 @@ function Volunteer() {
   return (
     <div className="volunteer">
       <div className="volunteer__banner">
-        <div className="volunteer__content">
-          <h1>DIVIDER</h1>
-        </div>
-        <div className="volunteer__carousel">
-          <h1>EVERYONE DESERVES...</h1>
-          <h1>A WARM BED</h1>
-          <h1>A SAFE SPACE</h1>
-          <h1>A ROOF OVERHEAD</h1>
-          <h1>LOVE & ACCEPTANCE</h1>
-        </div>
+        <div className="box"></div>
       </div>
       <HomeIconBox />
     </div>
@@ -25,3 +16,12 @@ function Volunteer() {
 }
 
 export default Volunteer
+
+/*
+<HomeIconBox /> 
+<h1>EVERYONE DESERVES...</h1>
+<h1>A WARM BED</h1>
+<h1>A SAFE SPACE</h1>
+<h1>A ROOF OVERHEAD</h1>
+<h1>LOVE & ACCEPTANCE</h1>
+*/

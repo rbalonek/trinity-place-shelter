@@ -1,26 +1,20 @@
 .volunteer {
-  border: 1px solid red;
-  background: gray;
-  display: flex;
-  flex-direction: column;
+  color: black;
 }
 
 .volunteer__banner {
   display: flex;
+  justify-content: flex-end;
+  height: 420px;
+  background: url('../../assets/images/VolunteerBanner/volunteer-banner-img-1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: calc(40%);
 }
 
-.volunteer__content {
-  border: 3px solid green;
-  width: 50%;
-  background: black;
-  margin-left: auto;
-}
-
-.volunteer__carousel {
-  border: 3px solid orange;
-  height: 425px;
-  background: darkblue;
-  width: 50%;
+.box {
+  width: calc(35% + 220px);
   box-sizing: border-box;
-  border-left: 100px solid black;
+  border-left: 320px solid transparent;
+  border-bottom: 420px solid rgb(31, 31, 30);
 }

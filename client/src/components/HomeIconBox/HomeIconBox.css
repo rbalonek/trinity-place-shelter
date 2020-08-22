@@ -1,13 +1,8 @@
 .house-icon-div {
-  border: 3px solid yellow;
   width: 100%;
   height: auto;
-  /* align-items: center; */
   text-align: center;
-}
-
-.house-icon {
-  /* height: 75%; */
+  padding-top: 50px;
 }
 
 .house-text {
