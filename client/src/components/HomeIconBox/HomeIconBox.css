@@ -1,16 +1,12 @@
-.house-icon-div{
-  width:100%;
-  height:auto;
-  /* align-items: center; */
+.house-icon-div {
+  width: 100%;
+  height: auto;
   text-align: center;
+  padding-top: 50px;
 }
 
-.house-icon{
-/* height: 75%; */
-}
-
-.house-text{
-  color:black;
+.house-text {
+  color: black;
   position: relative;
   bottom: 250px;
 }

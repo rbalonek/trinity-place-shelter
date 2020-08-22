@@ -1,10 +1,6 @@
 import React, { useState, useEffect } from 'react'
-import { useParams, Redirect, Link } from 'react-router-dom'
-import {
-  getVolunteer,
-  updateVolunteer,
-  deleteVolunteer,
-} from '../../services/volunteers'
+import { useParams } from 'react-router-dom'
+import { getVolunteer, updateVolunteer } from '../../services/volunteers'
 import './AdminUpdate.css'
 
 function AdminUpdate(props) {
