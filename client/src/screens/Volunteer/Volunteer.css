@@ -12,9 +12,32 @@
   background-position-y: calc(40%);
 }
 
-.box {
+.volunteer__bannerRight {
   width: calc(35% + 220px);
   box-sizing: border-box;
   border-left: 320px solid transparent;
   border-bottom: 420px solid rgb(31, 31, 30);
+  z-index: 100;
+}
+
+.volunteer__bannerAngledLine {
+  position: absolute;
+  width: calc(38% + 220px);
+  box-sizing: border-box;
+  border-left: 320px solid transparent;
+  border-bottom: 420px solid white;
+}
+
+.volunteer_bannerText {
+  height: 420px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15%;
+}
+
+.volunteer_bannerText > h3 {
+  padding: 20px 0;
 }
