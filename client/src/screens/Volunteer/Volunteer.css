@@ -1,4 +1,26 @@
 .volunteer {
-  border: 3px solid skyblue;
+  border: 1px solid red;
   background: gray;
+  display: flex;
+  flex-direction: column;
+}
+
+.volunteer__banner {
+  display: flex;
+}
+
+.volunteer__content {
+  border: 3px solid green;
+  width: 50%;
+  background: black;
+  margin-left: auto;
+}
+
+.volunteer__carousel {
+  border: 3px solid orange;
+  height: 425px;
+  background: darkblue;
+  width: 50%;
+  box-sizing: border-box;
+  border-left: 100px solid black;
 }

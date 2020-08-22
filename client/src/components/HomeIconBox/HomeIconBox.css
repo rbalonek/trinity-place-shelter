@@ -1,16 +1,17 @@
-.house-icon-div{
-  width:100%;
-  height:auto;
+.house-icon-div {
+  border: 3px solid yellow;
+  width: 100%;
+  height: auto;
   /* align-items: center; */
   text-align: center;
 }
 
-.house-icon{
-/* height: 75%; */
+.house-icon {
+  /* height: 75%; */
 }
 
-.house-text{
-  color:black;
+.house-text {
+  color: black;
   position: relative;
   bottom: 250px;
 }
