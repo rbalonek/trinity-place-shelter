@@ -1,0 +1,6 @@
+.donateExampleBanner {
+  height: 600px;
+  background: url('../../assets/images/donate-examples-background.jpg')
+    no-repeat center center;
+  background-size: cover;
+}
