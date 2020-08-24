@@ -1,96 +1,63 @@
-/* .donors {
-  color: darkolivegreen;
-} */
-
-/* Banner */
-/* .donors {
-  display: inline-block;
-  padding: 2rem;
-  text-align: right;
-  text-transform: capitalize;
-  letter-spacing: var(--mainSpacing);
-}
-.donors h1 {
-  font-size: 2.5rem;
-  color: white;
-}
-.donors div {
-  width: 10rem;
-  height: 5px;
-  background: var(--primaryColor);
-  margin: 1.7rem auto;
-}
-
-.donors p {   
-  font-size: 1.2rem;   
-  color: white;   
-  text-align: right;   
-  margin-top: 30px;   
-  margin-bottom: 30px;   
-  margin-left: 60rem;   
-  margin-right: 0.5rem;   
-}
-
-@media screen and (min-width: 576px) {
-  .donors {
-    padding: 2rem 3rem;
-  }
-  .donors h1 {
-    font-size: 3rem;
-  }
-}
-
-@media screen and (min-width: 992px) {
-  .donors {
-    padding: 2rem 6rem;
-  }
-  .donors h1 {
-    font-size: 2rem;
-  }
-}
-
-/* Style */
-/* .defaultStyle
- {
-  height: 300px;
-  background: url("https://api.time.com/wp-content/uploads/2019/05/lgbtq-pride-month-movies.jpg")center/cover no-repeat;
-  display: flex;
-  align-items: right;
-  justify-content: right;
-} */ 
-
-
 .banner {
-  background: url("https://api.time.com/wp-content/uploads/2019/05/lgbtq-pride-month-movies.jpg") center/cover no-repeat;
+  background: url("https://res.cloudinary.com/bobalobbadingdong/image/upload/v1597945994/Trinity-Place-Shelter/HomePage/feet-people-holding-rainbow-flag-celebrating-lgbt-pride_bi48wy.jpg") center/cover no-repeat;
   width: 100%;
-  min-height:10vh;
+  min-height:40vh;
   max-height: 50vh;
-
+  
 }
 
 .banner-content {
   font-size:18px;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing:1.5px;
   justify-content: right;
   margin-left: auto;
-  width: 50%;
+  width: 60%;
+  margin-top: 30px;
 }
 
 .banner-content h1 {
-margin-top: 50px;
-font-size: 1.5rem;
+font-size: 2vw;
 font-weight: 600;
-letter-spacing: 3px;
+/* letter-spacing: 2px; */
 font-family: sans-serif;
 color: white;
+text-align: right;
+margin-right: 200px;
+position:flex;
 }
 
 .banner-content p {
-  margin-top: 40px;
-  font-size: 18px;
+  margin-top: 10px;
   color: white;
   justify-content: right;
+
   position: flex;
-  font-size: .8rem;
+  font-size: 1.2rem;
 }
+/* i-frame */
+
+.box{
+  float:right;
+  margin-top: 250px;
+  margin-right:200px;
+}
+
+.follow-us {
+
+  float:left;
+  margin-top: 400px;
+  
+  margin-left:200px;
+  margin-right:200px;
+  font-size: 1.0rem;
+  color: black;
+
+
+}
+
+.social-media{
+ 
+}
+/* logo slider */
+
