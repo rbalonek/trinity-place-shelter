@@ -15,10 +15,11 @@ function Footer() {
           <Link to="/volunteer"> 
             <p>Volunteer</p>
           </Link> <br />
-          <p>Resources</p> <br />
-          <p>FAQ</p> <br />
           <Link to="/donate">
             <p>Donate</p>
+          </Link> <br />
+          <Link to="/admin">
+            <p>Doners</p>
           </Link> <br />
         </div>
 
