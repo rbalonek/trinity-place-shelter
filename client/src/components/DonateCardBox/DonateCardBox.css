@@ -15,13 +15,15 @@
   justify-content: left;
   width: 340px;
   padding: 10px;
+  margin-right: 20px;
 }
  .credit-card {
    height: 30px;
    width: 38px;
-   padding: 3px;
+   padding: 4px;
    padding-left: 0;
-   padding-right:5px ;
+   padding-right:0px ;
+   margin-left: 10px;
  }
 
 
