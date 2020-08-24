@@ -23,6 +23,8 @@ export default function FolowUsVideo() {
         <p>as a client. Thanks for everything TPS!”-Former Resident</p>
         </div>
       </div>
+      <div className="half-screen-div">
+      </div>
       </div>
   )
 }

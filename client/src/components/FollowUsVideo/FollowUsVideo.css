@@ -26,11 +26,20 @@ img {
   bottom: 220px;
 }
 .p-text-follow {
-  color: black;
+  color: white;
   position: relative;
   bottom: 310px;
   left: 100%;
   font-size: 12px;
   margin-bottom: 30px;
 }
-
+.half-screen-div{
+  width: calc(35% + 405px);
+  box-sizing: border-box;
+  border-left: 90px solid transparent;
+  border-bottom: 252px solid rgb(31, 31, 30);
+  z-index: -1;
+  position: absolute;
+  bottom: 50px;
+  right: 0;
+}
