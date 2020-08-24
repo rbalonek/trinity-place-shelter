@@ -16,7 +16,6 @@
 }
 
 .donateExampleBanner__circles {
-  border: 1px solid red;
   display: flex;
   justify-content: flex-end;
   margin-right: 30px;
@@ -26,6 +25,11 @@
   height: 300px;
   width: 300px;
   border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .--orange {
