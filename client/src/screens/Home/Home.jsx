@@ -3,7 +3,7 @@ import './Home.css'
 
 //components
 import Donors from '../../components/Donors/Donors'
-import WhiteSpace from "../../components/WhiteSpace/WhiteSpace.js"
+import WhiteSpace from '../../components/WhiteSpace/WhiteSpace.js'
 
 function Home() {
   return (
