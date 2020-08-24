@@ -14,13 +14,13 @@
 }
 
 .left-div {
-  background-image: url("https://res.cloudinary.com/bobalobbadingdong/image/upload/v1598039564/Trinity-Place-Shelter/HomePage/300x300_2_wf2pgm.png");
+  background-image: url('../../assets/images/Shapes\ Volunteer\ Filter.png'),  url("https://res.cloudinary.com/bobalobbadingdong/image/upload/v1598039564/Trinity-Place-Shelter/HomePage/300x300_2_wf2pgm.png");
 }
 .middle-div {
-  background-image: url("https://res.cloudinary.com/bobalobbadingdong/image/upload/v1598039314/Trinity-Place-Shelter/HomePage/image_1_rn3kvq.png");
+  background-image: url('../../assets/images/Shapes\ Volunteer\ Filter.png'), url("https://res.cloudinary.com/bobalobbadingdong/image/upload/v1598039314/Trinity-Place-Shelter/HomePage/image_1_rn3kvq.png");
 }
 .right-div {
-  background-image: url("https://secure.img1-fg.wfcdn.com/im/37820363/resize-h600%5Ecompr-r85/1191/119103944/Kogan+Floating+Desk.jpg");
+  background-image: url('../../assets/images/Shapes\ Volunteer\ Filter.png'), url("https://secure.img1-fg.wfcdn.com/im/37820363/resize-h600%5Ecompr-r85/1191/119103944/Kogan+Floating+Desk.jpg");
 }
 
 .food-circle {
