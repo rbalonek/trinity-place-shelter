@@ -28,7 +28,7 @@ img {
   color: black;
   position: relative;
   bottom: 310px;
-  left: 620px;
+  left: 100%;
   font-size: 12px;
   margin-bottom: 30px;
 }
