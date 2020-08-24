@@ -1,0 +1,30 @@
+.card-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgb(57,32,132);
+  width: 340px;
+  height: 300px;
+  margin: auto;
+}
+
+.card-image {
+  display: flex;
+  justify-content: left;
+  
+  width: 340px;
+  padding: 10px;
+}
+
+
+
+
+.card-input {
+  background: rgba(196, 196, 196, 0.35);
+  outline: none;
+  border: none;
+  width: 321px;
+  height: 33px;
+  margin: 15px;
+}

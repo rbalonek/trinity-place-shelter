@@ -8,9 +8,15 @@ import DonateExampleBanner from '../../components/DonateExampleBanner/DonateExam
 import WhiteSpace from "../../components/WhiteSpace/WhiteSpace.js"
 
 
+
+
+
 function Donate() {
   return (
     <div className="donate">
+      
+     
+      
       <DonateForm />
       <WhiteSpace />
       <WhiteSpace />
