@@ -3,7 +3,6 @@
   width: 100%;
   height: 300px;
   background-color: black;
-
   contain: content;
   justify-content: space-evenly;
   min-block-size: fit-content;

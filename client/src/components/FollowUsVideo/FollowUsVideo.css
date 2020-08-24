@@ -1,6 +1,7 @@
 .follow-us-div {
   width: 100%;
   top: 40px;
+  max-height: 250px;
 }
 .follow-text-div {
   font-size: small;
@@ -32,3 +33,4 @@ img {
   font-size: 12px;
   margin-bottom: 30px;
 }
+
