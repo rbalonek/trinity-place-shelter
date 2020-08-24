@@ -1,0 +1,20 @@
+.volunteer-options-container{
+  display:flex;
+  width: 100%;
+}
+.left-div,
+.middle-div,
+.right-div{
+height: 200px;
+width: 100%;
+}
+
+.left-div{
+background-image: url("https://res.cloudinary.com/bobalobbadingdong/image/upload/v1598039564/Trinity-Place-Shelter/HomePage/300x300_2_wf2pgm.png");
+}
+.middle-div{
+background-image: url("https://res.cloudinary.com/bobalobbadingdong/image/upload/v1598039564/Trinity-Place-Shelter/HomePage/300x300_3_ui0stj.png");
+}
+.right-div{
+background-image: url("https://res.cloudinary.com/bobalobbadingdong/image/upload/v1598039564/Trinity-Place-Shelter/HomePage/300x300_2_wf2pgm.png");
+}
