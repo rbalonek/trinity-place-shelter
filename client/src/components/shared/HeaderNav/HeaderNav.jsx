@@ -26,7 +26,7 @@ function HeaderNav() {
         </ul>
         <button
           onClick={() => {
-            alert('DONATE - Coming Soon!')
+            window.location.href = '/donate';
           }}
           className="header-nav__donateButton"
         >

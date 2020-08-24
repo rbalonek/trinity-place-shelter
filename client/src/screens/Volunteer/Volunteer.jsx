@@ -4,6 +4,9 @@ import './Volunteer.css'
 //Components
 import HomeIconBox from '../../components/HomeIconBox/HomeIconBox.js'
 import VolunteerOptions from '../../components/VolunteerOptions/VolunteerOptions.js'
+import SmallBlackBar from "../../components/SmallBlackBar/SmallBlackBar.js"
+import WhiteSpace from "../../components/WhiteSpace/WhiteSpace.js"
+import VolunteerNowButton from "../../components/VolunteerNowButton/VolunteerNowButton.js"
 
 function Volunteer() {
   return (
@@ -20,7 +23,9 @@ function Volunteer() {
         </div>
         <div className="volunteer__bannerAngledLine"></div>
       </div>
+      <VolunteerNowButton />
       <VolunteerOptions />
+      <SmallBlackBar />
       <HomeIconBox />
     </div>
   )

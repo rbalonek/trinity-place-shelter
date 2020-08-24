@@ -1,0 +1,15 @@
+
+.small-white-bar {
+  background-color: white;
+  height: fit-content;
+  /* position: static;
+  bottom: 100px; */
+  width: 100%;
+}
+.white-bar-text {
+  color: black;
+  text-align: center;
+  font-family: robato;
+  font-size: 1vw;
+  font-weight: bold;
+}
