@@ -2,6 +2,7 @@ import React from 'react'
 import "./VolunteerOptions.css"
 
 
+
 export default function VolunteerOptions() {
   return (
     <div className="volunteer-options-container">
@@ -22,9 +23,6 @@ export default function VolunteerOptions() {
       <p className="food-text">OFFER SUPPORT WITH UPKEEP</p>
         <p className="food-text">OF RESIDENTS’ LAPTOP COMPUTERS</p>
       </div>
-      <div className="small-white-bar">
-      <p className="white-bar-text">PLEASE NOTE: in order to provide a safe space and ensure comfort and privacy for the youth, we generally do not have opportunities for volunteers to interact with our residents.</p>
-    </div>
     </div>
   )
 }
