@@ -2,12 +2,18 @@
   box-sizing: border-box;
 }
 
+
+
+
 .volunteer-div {
   width: 100vw;
-  background-image: url('https://res.cloudinary.com/bobalobbadingdong/image/upload/v1597945995/Trinity-Place-Shelter/HomePage/Form_background_box_a6tryx.png'),
-    url('../../assets/images/Background\ Shapes.png');
-  background-size: cover;
-}
+
+  background-image: url("../../assets/images/Background\ Shapes.png"), url("https://res.cloudinary.com/bobalobbadingdong/image/upload/v1597945995/Trinity-Place-Shelter/HomePage/Form_background_box_a6tryx.png");
+  background-position:  1px,  center ;
+  background-size: 100% 124%,  cover;
+  }
+
+
 .header-container {
   display: flex;
   flex-direction: row;
