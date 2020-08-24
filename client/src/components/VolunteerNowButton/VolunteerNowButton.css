@@ -1,0 +1,28 @@
+.volunteer-button-div {
+  text-align: center;
+  height: 30px;
+}
+.volunteer-button {
+  background-color: var(--cta-color);
+  color: white;
+  height: 60px;
+  /* width: 150px; */
+  /* font-size: 24px; */
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  margin-right: 25px;
+  margin-top: 50px;
+  position: relative;
+  bottom: 70px;
+  z-index: 100;
+  width: 200px;
+  right: 50px;
+}
+.volunteer-button:hover{
+  transform: scale(.9);
+  transition: 250ms all;
+  transition: all .2s ease;
+}
