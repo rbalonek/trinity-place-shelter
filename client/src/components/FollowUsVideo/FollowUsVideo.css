@@ -1,0 +1,34 @@
+.follow-us-div {
+  width: 100%;
+  top: 40px;
+}
+.follow-text-div {
+  font-size: small;
+  position: relative;
+  top: 30px;
+  left: 70px;
+}
+
+.social-media {
+  position: relative;
+  width: 50%;
+  top: 40px;
+  left: 50px;
+}
+img {
+  margin-left: 20px;
+}
+.iframe {
+  width: 50%;
+  position: relative;
+  left: 100%;
+  bottom: 220px;
+}
+.p-text-follow {
+  color: black;
+  position: relative;
+  bottom: 310px;
+  left: 620px;
+  font-size: 12px;
+  margin-bottom: 30px;
+}
