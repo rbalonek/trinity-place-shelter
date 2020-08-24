@@ -39,7 +39,7 @@ function VolunteerForm() {
 
   
   return (
-    <div className="volunteer-div">
+    <div className="volunteer-div" >
       <div className="header-container">
         <h1 className="volunteer-text">VOLUNTEER</h1>{" "}
         <h1 className="divider">|</h1>
