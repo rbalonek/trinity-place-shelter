@@ -32,6 +32,7 @@
   display: flex;
   align-items: center;
   padding-right: 33px;
+  /* font-family: 'Roboto', sans-serif; */
 }
 .divider {
   display: flex;
