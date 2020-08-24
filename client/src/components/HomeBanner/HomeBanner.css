@@ -1,5 +1,7 @@
 .banner {
-  background: url("https://res.cloudinary.com/bobalobbadingdong/image/upload/v1597945994/Trinity-Place-Shelter/HomePage/feet-people-holding-rainbow-flag-celebrating-lgbt-pride_bi48wy.jpg") center/cover no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url('https://res.cloudinary.com/bobalobbadingdong/image/upload/v1597945994/Trinity-Place-Shelter/HomePage/feet-people-holding-rainbow-flag-celebrating-lgbt-pride_bi48wy.jpg')
+      center/cover no-repeat;
   width: 100%;
   min-height:60vh;
   /* max-height: 50vh; */
@@ -9,7 +11,7 @@
 .banner-content {
   /* font-size:18px; */
   font-weight: 600;
-  letter-spacing:1.5px;
+  letter-spacing: 1.5px;
   justify-content: right;
   margin-left: auto;
   width: 60%;
@@ -17,14 +19,11 @@
 }
 
 .banner-content h1 {
-font-size: 2vw;
-font-weight: 600;
-/* letter-spacing: 2px; */
-font-family: sans-serif;
-color: white;
-text-align: right;
-margin-right: 200px;
-position:flex;
+  font-weight: 600;
+  font-family: sans-serif;
+  color: white;
+  margin-right: 200px;
+  position: flex;
 }
 
 .banner-content p {
