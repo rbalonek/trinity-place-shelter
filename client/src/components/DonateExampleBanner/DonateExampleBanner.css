@@ -1,14 +1,44 @@
 .donateExampleBanner {
   height: 600px;
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     url('../../assets/images/donate-examples-background.jpg') no-repeat center
       center;
   background-size: cover;
   color: white;
+  display: flex;
+  align-items: center;
 }
 
 .donateExampleBanner > h1 {
-  padding-top: 10%;
-  margin-left: 6%;
-  max-width: 500px;
+  font-size: 34px;
+  padding-left: 35px;
+  padding-bottom: 200px;
+}
+
+.donateExampleBanner__circles {
+  border: 1px solid red;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 30px;
+}
+
+.donateExampleBanner__circle {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+}
+
+.--orange {
+  background: var(--cta-color);
+  margin-top: 120px;
+}
+
+.--red {
+  background: rgb(168, 75, 82);
+  margin-top: -50px;
+}
+
+.--purple {
+  background: rgb(71, 58, 158);
+  margin-top: 120px;
 }
