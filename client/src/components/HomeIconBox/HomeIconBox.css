@@ -1,0 +1,12 @@
+.house-icon-div {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.house-text {
+  color: black;
+  position: relative;
+  bottom: 250px;
+}

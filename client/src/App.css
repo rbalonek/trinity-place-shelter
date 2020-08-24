@@ -1,5 +1,6 @@
 body {
   --cta-color: rgb(232, 129, 95);
+  width: fit-content;
 }
 
 .app {

@@ -1,0 +1,10 @@
+.small-black-bar{
+  background-color: black;
+  height: fit-content;
+}
+.black-bar-text{
+  color: white;
+  text-align: center;
+  font-family: robato;
+  font-size: 1.3vw;
+}

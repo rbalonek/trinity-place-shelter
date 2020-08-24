@@ -1,0 +1,37 @@
+.volunteer-options-container {
+  display: flex;
+  width: 100%;
+}
+.left-div,
+.middle-div,
+.right-div {
+  height: 300px;
+  width: 100%;
+  background: center;
+  text-align: center;
+  background-size: cover;
+}
+
+.left-div {
+  background-image: url('../../assets/images/Shapes\ Volunteer\ Filter.png'),  url("https://res.cloudinary.com/bobalobbadingdong/image/upload/v1598039564/Trinity-Place-Shelter/HomePage/300x300_2_wf2pgm.png");
+}
+.middle-div {
+  background-image: url('../../assets/images/Shapes\ Volunteer\ Filter.png'), url("https://res.cloudinary.com/bobalobbadingdong/image/upload/v1598039314/Trinity-Place-Shelter/HomePage/image_1_rn3kvq.png");
+}
+.right-div {
+  background-image: url('../../assets/images/Shapes\ Volunteer\ Filter.png'), url("https://secure.img1-fg.wfcdn.com/im/37820363/resize-h600%5Ecompr-r85/1191/119103944/Kogan+Floating+Desk.jpg");
+}
+
+.food-circle {
+  height: 180px;
+  position: relative;
+  top: 50px;
+}
+.food-text {
+  color: white;
+  font-size: 9px;
+  position: relative;
+  bottom: 50px;
+  margin-bottom: 5px;
+}
+

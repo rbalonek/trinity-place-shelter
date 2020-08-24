@@ -1,10 +1,19 @@
 import React from 'react'
 import './Donate.css'
 
+//Components
+import YellowBox from '../../components/YellowBox/YellowBox.js'
+import DonateExampleBanner from '../../components/DonateExampleBanner/DonateExampleBanner'
+import WhiteSpace from "../../components/WhiteSpace/WhiteSpace.js"
+
 function Donate() {
   return (
     <div className="donate">
-      <h1>Welcome to Donate</h1>
+      <WhiteSpace />
+      <WhiteSpace />
+      <DonateExampleBanner />
+      <WhiteSpace />
+      <YellowBox />
     </div>
   )
 }
