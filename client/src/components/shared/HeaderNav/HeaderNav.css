@@ -16,6 +16,7 @@
   flex: 1;
   justify-content: flex-end;
   align-items: center;
+  width: fit-content;
 }
 
 .header-nav__container {
@@ -27,7 +28,8 @@
 .header-nav__container > li {
   color: black;
   margin-right: 35px;
-  font-size: 24px;
+  /* font-size: 24px; */
+  font-size: 2vw;
   font-weight: bold;
   cursor: pointer;
 }
@@ -50,12 +52,13 @@
   color: white;
   height: 45px;
   width: 150px;
-  font-size: 24px;
+  /* font-size: 24px; */
+  font-size: 2vw;
   font-weight: bold;
   border-radius: 50px;
   border: none;
   outline: none;
-  margin-right: 115px;
+  margin-right: 25px;
   margin-top: 50px;
 }
 
