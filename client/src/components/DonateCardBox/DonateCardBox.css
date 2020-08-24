@@ -1,0 +1,69 @@
+.card-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: rgb(57,32,132);
+  width: 340px;
+  height: 325px;
+  margin: auto;
+  
+}
+
+.card-image {
+  display: flex;
+  justify-content: left;
+  width: 340px;
+  padding: 10px;
+}
+ .credit-card {
+   height: 30px;
+   width: 38px;
+   padding: 3px;
+   padding-left: 0;
+   padding-right:5px ;
+ }
+
+
+
+.card-input {
+  background: rgba(196, 196, 196, 0.35);
+  outline: none;
+  border: none;
+  width: 321px;
+  height: 33px;
+  margin: 15px;
+  
+}
+
+.card-tab {
+  padding-top: 0;
+  width: 340px;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding-left: 0;
+ 
+  
+
+}
+.recurring, .one-time {
+  
+  margin-right: auto;
+  padding-left: 40px;
+  padding-bottom: 5px;
+  color: white;
+
+}
+
+.one-time-div, .recurring-div {
+  width: 155px;
+  margin-right:auto;
+
+ 
+
+}
+
+.one-time-div {
+  background: rgb(89, 60,173);
+}

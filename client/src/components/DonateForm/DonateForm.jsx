@@ -1,10 +1,20 @@
 import React from 'react'
 import './DonateForm.css'
+import DonateCardBox from '../DonateCardBox/DonateCardBox'
+
+
+
+
+
 
 function DonateForm() {
   return (
+   
+    
     
     <div className="donate-div" >
+      <DonateCardBox/>
+   
     
       <div className="donate-div_form">
         
