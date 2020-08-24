@@ -17,6 +17,7 @@
 }
 .middle-div {
   background-image: url('../../assets/images/Shapes\ Volunteer\ Filter.png'), url("https://res.cloudinary.com/bobalobbadingdong/image/upload/v1598294695/Trinity-Place-Shelter/HomePage/volunteers_djfl9f.png");
+  background-position-y: -40px;
 }
 .right-div {
   background-image: url('../../assets/images/Shapes\ Volunteer\ Filter.png'), url("https://res.cloudinary.com/bobalobbadingdong/image/upload/v1598294695/Trinity-Place-Shelter/HomePage/computer_hnhvv0.png");
