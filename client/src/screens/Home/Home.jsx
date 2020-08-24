@@ -5,6 +5,7 @@ import './Home.css'
 import HomeBanner from '../../components/HomeBanner/HomeBanner'
 import WhiteSpace from "../../components/WhiteSpace/WhiteSpace.js"
 import FollowUsVideo from '../../components/FollowUsVideo/FolowUsVideo'
+import SmallBlackBorder from "../../components/SmallBlackBorder/SmallBlackBorder"
 
 function Home() {
   return (
@@ -12,6 +13,8 @@ function Home() {
       <HomeBanner />
       <WhiteSpace />
       <FollowUsVideo />
+      <SmallBlackBorder />
+      <WhiteSpace />
     </div>
   )
 }
