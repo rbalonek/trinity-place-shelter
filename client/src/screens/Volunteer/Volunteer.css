@@ -5,29 +5,73 @@
 .volunteer__banner {
   background: gray;
   display: flex;
-  justify-content: flex-end;
+  /* justify-content: flex-end; */
   height: 420px;
   /* background: url('../../assets/images/VolunteerBanner/volunteer-banner-img-1.jpg'); */
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat;
   background-size: cover;
-  background-position-y: calc(40%);
+  background-position-y: calc(40%); */
+  overflow: hidden;
 }
+
+.volunteer__bannerSlider {
+  min-width: 100%;
+  transition: 0.5s;
+}
+
+.volunteer__bannerButton {
+  position: absolute;
+  top: 135px;
+  width: 10%;
+  height: 420px;
+  z-index: 50;
+  background: none;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 40px;
+}
+
+.--left {
+  left: 0;
+}
+
+.--right {
+  right: 0;
+}
+
+.chevron {
+  font-size: 72px !important;
+}
+
+.volunteer__bannerButton:hover {
+  background: rgba(33, 33, 33, 0.4);
+}
+
+/* .volunteer__bannerSlide > img {
+  object-fit: cover;
+  min-width: 100%;
+  margin-left: 0;
+} */
 
 .volunteer__bannerRight {
-  width: calc(35% + 220px);
-  box-sizing: border-box;
+  display: flex;
+  /* width: calc(40% + 220px); */
+  /* width: 500px; */
+  background: black;
+  /* box-sizing: border-box;
   border-left: 320px solid transparent;
-  border-bottom: 420px solid rgb(31, 31, 30);
-  z-index: 100;
+  border-bottom: 420px solid rgb(31, 31, 30); */
+  /* z-index: 100; */
 }
 
-.volunteer__bannerAngledLine {
+/* .volunteer__bannerAngledLine {
   position: absolute;
-  width: calc(38% + 220px);
+  width: calc(15% + 220px);
   box-sizing: border-box;
   border-left: 320px solid transparent;
   border-bottom: 420px solid white;
-}
+} */
 
 .volunteer_bannerText {
   height: 420px;
