@@ -15,8 +15,9 @@ export default function FolowUsVideo() {
     <a href="https://twitter.com/TPShelter" target="_blank" className="social-icon" ><img src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/twitter_circle-512.png" height="50"></img></a>
     
         <div className="iframe">
-      <iframe title="vimeo-player" src="https://player.vimeo.com/video/68974299" width="300" height="360" frameborder="0" allowfullscreen></iframe>
+        <iframe id="player" title="vimeo-player" src="https://player.vimeo.com/video/68974299" width="300" height="360" frameborder="0" allowfullscreen></iframe>
         </div>
+        
         <div className="p-text-follow">
         <p>“The program was well run and staff truly caring. I felt like I’ve</p>
         <p>found a second family of sorts and these people that I met there</p>
