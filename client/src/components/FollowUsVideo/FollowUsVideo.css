@@ -1,29 +1,33 @@
 .follow-us-div {
+  /* background: gray; */
   width: 100%;
   top: 40px;
-  max-height: 250px;
+  height: 380px;
 }
-.follow-text-div {
-  font-size: small;
-  position: relative;
-  top: 30px;
-  left: 70px;
+
+.followUs__left {
+  height: 380px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 120px;
+  padding-bottom: 50px;
 }
 
 .social-media {
-  position: relative;
-  width: 50%;
-  top: 40px;
-  left: 50px;
+  padding-top: 20px;
 }
-.social-icon:hover {
-  transform: scale(.8);
-  transition: 250ms all;
-  transition: all .2s ease;
+
+.social-media img {
+  padding-right: 24px;
 }
-img {
-  margin-left: 20px;
+.social-icon img:hover {
+  transform: scale(0.8);
+  transition: 500ms all;
+  transition: all 0.5s ease;
 }
+
 .iframe {
   width: 50%;
   position: relative;
@@ -38,7 +42,7 @@ img {
   font-size: 12px;
   margin-bottom: 30px;
 }
-.half-screen-div{
+.half-screen-div {
   width: calc(35% + 405px);
   box-sizing: border-box;
   border-left: 90px solid transparent;
