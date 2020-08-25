@@ -1,10 +1,29 @@
 import React from 'react'
 import './DonateForm.css'
+import DonateCardBox from '../DonateCardBox/DonateCardBox'
+import AmountBox from '../AmountBox/AmountBox'
+import DonateHeader from '../DonateHeader/DonateHeader'
+
+
+
+
+
 
 function DonateForm() {
   return (
+   
     
     <div className="donate-div" >
+      <div className="donate-text">
+      <DonateHeader />
+      </div>
+      <div className="amount-donate_box">
+        <AmountBox />
+        <DonateCardBox />
+      </div>
+      
+      
+   
     
       <div className="donate-div_form">
         

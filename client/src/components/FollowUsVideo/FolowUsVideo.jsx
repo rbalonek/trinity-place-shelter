@@ -22,7 +22,9 @@ export default function FolowUsVideo() {
         <p>found a second family of sorts and these people that I met there</p>
         <p>as a client. Thanks for everything TPS!”-Former Resident</p>
         </div>
-          </div>
+      </div>
+      <div className="half-screen-div">
+      </div>
       </div>
   )
 }
