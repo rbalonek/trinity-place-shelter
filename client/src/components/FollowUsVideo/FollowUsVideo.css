@@ -16,7 +16,7 @@
   top: 40px;
   left: 50px;
 }
-.social-icon:hover{
+.social-icon:hover {
   transform: scale(.8);
   transition: 250ms all;
   transition: all .2s ease;
