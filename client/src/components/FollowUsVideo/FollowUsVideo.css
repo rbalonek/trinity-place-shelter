@@ -22,6 +22,15 @@
   box-sizing: border-box;
   border-left: 150px solid transparent;
   border-bottom: 380px solid rgb(31, 31, 30);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.followUs__testimonial {
+  margin-top: -10px;
+  font-style: italic;
 }
 
 .social-media {
@@ -37,12 +46,6 @@
   transition: all 0.5s ease;
 }
 
-.iframe {
-  width: 50%;
-  position: relative;
-  left: 100%;
-  bottom: 220px;
-}
 .p-text-follow {
   color: white;
   position: relative;

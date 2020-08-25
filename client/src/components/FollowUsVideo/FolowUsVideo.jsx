@@ -4,7 +4,27 @@ import './FollowUsVideo.css'
 export default function FolowUsVideo() {
   return (
     <div className="follow-us-div">
-      <div className="followUs__right"></div>
+      <div className="followUs__right">
+        <div className="followUs__iframe">
+          <iframe
+            title="vimeo-player"
+            src="https://player.vimeo.com/video/68974299?byline=false&title=false"
+            height="280"
+            width="400"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div className="followUs__testimonial">
+          <p>
+            “The program was well run and staff truly caring. I felt like I’ve
+          </p>
+          <p>
+            found a second family of sorts and these people that I met there
+          </p>
+          <p>as a client. Thanks for everything TPS!”-Former Resident</p>
+        </div>
+      </div>
       <div className="followUs__left">
         <h2>FOLLOW US</h2>
         <h2>FOR CURRENT EVENTS</h2>
@@ -46,30 +66,8 @@ export default function FolowUsVideo() {
               alt="twitter"
             ></img>
           </a>
-
-          {/* <div className="iframe">
-            <iframe
-              title="vimeo-player"
-              src="https://player.vimeo.com/video/68974299"
-              width="300"
-              height="360"
-              frameborder="0"
-              allowfullscreen
-            ></iframe>
-          </div>
-          <div className="p-text-follow">
-            <p>
-              “The program was well run and staff truly caring. I felt like I’ve
-            </p>
-            <p>
-              found a second family of sorts and these people that I met there
-            </p>
-            <p>as a client. Thanks for everything TPS!”-Former Resident</p>
-          </div> */}
         </div>
       </div>
-
-      {/* <div className="half-screen-div"></div> */}
     </div>
   )
 }
