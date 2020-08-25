@@ -7,14 +7,13 @@ import ChevronRightIcon from '@material-ui/icons/ChevronRight'
 import HomeIconBox from '../../components/HomeIconBox/HomeIconBox.js'
 import VolunteerOptions from '../../components/VolunteerOptions/VolunteerOptions.js'
 import SmallBlackBar from '../../components/SmallBlackBar/SmallBlackBar.js'
-import WhiteSpace from '../../components/WhiteSpace/WhiteSpace.js'
 import VolunteerNowButton from '../../components/VolunteerNowButton/VolunteerNowButton.js'
 import CarouselSlide from '../../components/Carousel/CarouselSlide'
 import pic1 from '../../assets/images/VolunteerCarousel/pic1.jpg'
-import pic2 from '../../assets/images/VolunteerCarousel/pic2.png'
-import pic3 from '../../assets/images/VolunteerCarousel/pic3.png'
-import pic4 from '../../assets/images/VolunteerCarousel/pic4.png'
-import pic5 from '../../assets/images/VolunteerCarousel/pic5.png'
+import pic2 from '../../assets/images/VolunteerCarousel/pic2.jpg'
+import pic3 from '../../assets/images/VolunteerCarousel/pic3.jpg'
+import pic4 from '../../assets/images/VolunteerCarousel/pic4.jpg'
+import pic5 from '../../assets/images/VolunteerCarousel/pic5.jpg'
 
 function Volunteer() {
   const [x, setX] = useState(0)

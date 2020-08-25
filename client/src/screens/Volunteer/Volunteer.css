@@ -3,7 +3,7 @@
 }
 
 .volunteer__banner {
-  background: gray;
+  background: transparent;
   display: flex;
   height: 420px;
   overflow: hidden;

@@ -8,7 +8,6 @@ function CarouselSlide({ src, alt }) {
       style={{
         minWidth: '100%',
         marginLeft: '0',
-        paddingRight: '30%',
         objectFit: 'fit',
       }}
     />
