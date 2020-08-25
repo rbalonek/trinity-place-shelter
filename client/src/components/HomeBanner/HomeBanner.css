@@ -5,8 +5,7 @@
       rgba(0, 0, 0, 0.7) 60%,
       rgba(0, 0, 0, 0.5) 100%
     ),
-    url('https://res.cloudinary.com/bobalobbadingdong/image/upload/v1597945994/Trinity-Place-Shelter/HomePage/feet-people-holding-rainbow-flag-celebrating-lgbt-pride_bi48wy.jpg')
-      center/cover no-repeat;
+    url('../../assets/images/home-banner-bg.jpg') center/cover no-repeat;
   width: 100%;
   height: 420px;
   background-position-y: inherit;
