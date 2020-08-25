@@ -35,8 +35,9 @@ img {
   position: relative;
   bottom: 310px;
   left: 100%;
-  font-size: 12px;
+  font-size: x-small;
   margin-bottom: 30px;
+  width: 300px;
 }
 .half-screen-div {
   width: calc(35% + 405px);
@@ -117,9 +118,10 @@ img {
     color: white;
     position: relative;
     bottom: 300px;
-    left: 90%;
+    left: 65%;
     font-size: x-small;
     margin-bottom: 30px;
+    width: auto;
 }
 .social-media {
   position: relative;
@@ -127,7 +129,120 @@ img {
   top: 60px;
   left: 50px;
 }
-a{
-  height: 30px;
+.social-icon{
+  height: 20px;
+  width: auto;
+  right: 5%;
+  top: 5%;
 }
+.player {
+  position: relative;
+  top: 60px;
+  right: 80px;
+}
+}
+
+@media (max-width: 670px){
+  .player {
+    position: relative;
+    top: 12px;
+    right: 50px;
+  }
+}
+
+@media (max-width: 550px){
+  .player {
+    position: relative;
+    top: 42px;
+    right: 100px;
+  }
+  .p-text-follow {
+    color: white;
+    position: relative;
+    bottom: 275px;
+    left: 55%;
+    font-size: x-small;
+    /* margin-bottom: 30px; */
+    width: auto;
+}
+.social-icon{
+  height: 20px;
+  width: auto;
+  right: 12%;
+  bottom: 25px;
+}
+.follow-text-div {
+  font-size: 5px;
+  position: relative;
+  top: 0;
+  left: 1px;
+}
+}
+@media (max-width: 460px){
+  .social-icon{
+    height: 20px;
+    width: auto;
+    right: 15%;
+    bottom: 25px;
+  }
+  .half-screen-div {
+    width: calc(35% + 195px);
+    box-sizing: border-box;
+    border-left: 90px solid transparent;
+    border-bottom: 252px solid rgb(31, 31, 30);
+    z-index: -1;
+    position: absolute;
+    bottom: 50px;
+    right: 0;
+  }
+  .player {
+    position: relative;
+    top: 160px;
+    right: 100px;
+    height: 110px;
+  }
+  .p-text-follow {
+    color: white;
+    position: relative;
+    bottom: 50px;
+    left: 70%;
+    font-size: x-small;
+    width: auto;
+}
+@media (max-width: 360px){
+  .half-screen-div {
+    width: calc(35% + 180px);
+    box-sizing: border-box;
+    border-left: 90px solid transparent;
+    border-bottom: 252px solid rgb(31, 31, 30);
+    z-index: -1;
+    position: absolute;
+    bottom: 50px;
+    right: 0;
+  }
+  .player {
+    position: relative;
+    top: 110px;
+    right: 130px;
+    height: 100px;
+  }
+  .p-text-follow {
+    color: white;
+    position: relative;
+    bottom: 110px;
+    left: 50%;
+    font-size: x-small;
+    width: auto;
+}
+.social-icon{
+  display: flex;
+  /* flex-direction: column; */
+  height: 20px;
+  width: auto;
+  right: 15%;
+  bottom: 25px;
+  margin-bottom: 10px;
+}
+}
+
 }
