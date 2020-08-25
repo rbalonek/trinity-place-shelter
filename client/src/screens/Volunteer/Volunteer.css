@@ -3,10 +3,11 @@
 }
 
 .volunteer__banner {
+  background: gray;
   display: flex;
   justify-content: flex-end;
   height: 420px;
-  background: url('../../assets/images/VolunteerBanner/volunteer-banner-img-1.jpg');
+  /* background: url('../../assets/images/VolunteerBanner/volunteer-banner-img-1.jpg'); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: calc(40%);
@@ -41,4 +42,3 @@
 .volunteer_bannerText > h3 {
   padding: 20px 0;
 }
-
