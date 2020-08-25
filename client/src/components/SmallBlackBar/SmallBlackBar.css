@@ -5,6 +5,6 @@
 .black-bar-text{
   color: white;
   text-align: center;
-  font-family: robato;
-  font-size: 1.3vw;
+  /* font-family: robato bold; */
+  font-size: 1.2vw;
 }

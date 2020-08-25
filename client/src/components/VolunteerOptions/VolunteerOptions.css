@@ -27,6 +27,7 @@
   height: 180px;
   position: relative;
   top: 50px;
+  right: 10px;
 }
 .food-text {
   color: white;
