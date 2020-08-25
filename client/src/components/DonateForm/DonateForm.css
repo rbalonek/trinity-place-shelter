@@ -4,13 +4,21 @@
 
 .donate-div {
   width: 100vw;
-  padding-top:200px;
   background-image: url('../../assets/images/Donation\ Page\ Background.png');
   background-position:  1px;
   background-size: 100% 120%;
+  
+  
+}
 
-  
-  
+.donate-text {
+  margin-top:0;
+}
+ 
+.amount-donate_box {
+    display: flex;
+    justify-content: center;
+    margin-right:20px;
   }
 
 .donate-div_form {
