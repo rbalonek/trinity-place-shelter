@@ -8,7 +8,7 @@ function DonateHeader() {
         <h1 className="donate-divider">|</h1>
         <p className="donate-p">
           Hello! Your gift today helps Trinity Place Shelter support
-          homless LGBTQ youth in New York City.
+          homeless LGBTQ youth in New York City.
         </p>
       </div>
   )

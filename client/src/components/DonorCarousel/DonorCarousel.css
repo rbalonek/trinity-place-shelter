@@ -1,0 +1,14 @@
+.carousel-container {
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.carousel-container > img {
+  object-fit: contain;
+}
+
+.chevron--donors {
+  font-size: 60px !important;
+}

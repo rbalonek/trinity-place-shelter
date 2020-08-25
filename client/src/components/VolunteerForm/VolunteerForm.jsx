@@ -45,7 +45,7 @@ function VolunteerForm() {
         <h1 className="divider">|</h1>
         <p className="volunteer-p">
           Hello! Thank you for your interest in volunteering. There are several
-          ways you can give your time to help the youth of Trinityplace Shelter.
+          ways you can give your time to help the youth of Trinity Place Shelter.
         </p>
       </div>
       <div className="volunteer-div_form">
