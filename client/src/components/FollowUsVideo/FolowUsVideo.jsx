@@ -4,6 +4,7 @@ import './FollowUsVideo.css'
 export default function FolowUsVideo() {
   return (
     <div className="follow-us-div">
+      <div className="followUs__right"></div>
       <div className="followUs__left">
         <h2>FOLLOW US</h2>
         <h2>FOR CURRENT EVENTS</h2>
@@ -67,7 +68,7 @@ export default function FolowUsVideo() {
           </div> */}
         </div>
       </div>
-      <div className="followUs__right"></div>
+
       {/* <div className="half-screen-div"></div> */}
     </div>
   )

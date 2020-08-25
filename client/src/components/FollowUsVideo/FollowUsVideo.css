@@ -1,5 +1,4 @@
 .follow-us-div {
-  /* background: gray; */
   width: 100%;
   top: 40px;
   height: 380px;
@@ -13,6 +12,16 @@
   justify-content: center;
   padding-left: 120px;
   padding-bottom: 50px;
+}
+
+.followUs__right {
+  position: absolute;
+  height: 380px;
+  width: 60%;
+  right: 0;
+  box-sizing: border-box;
+  border-left: 150px solid transparent;
+  border-bottom: 380px solid rgb(31, 31, 30);
 }
 
 .social-media {
