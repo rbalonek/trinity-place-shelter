@@ -1,12 +1,12 @@
 .card-div {
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
   background: rgb(57,32,132);
   width: 340px;
   height: 325px;
-  margin: auto;
+  margin-left: 25px;
+  margin-right: 0px;
   
 }
 
@@ -64,6 +64,9 @@
 
  
 
+}
+.input-circle {
+  border:1px solid black;
 }
 
 .one-time-div {
