@@ -11,10 +11,10 @@ import WhiteSpace from '../../components/WhiteSpace/WhiteSpace.js'
 import VolunteerNowButton from '../../components/VolunteerNowButton/VolunteerNowButton.js'
 import CarouselSlide from '../../components/Carousel/CarouselSlide'
 import pic1 from '../../assets/images/VolunteerCarousel/pic1.jpg'
-import pic2 from '../../assets/images/VolunteerCarousel/pic2.jpg'
-import pic3 from '../../assets/images/VolunteerCarousel/pic3.jpg'
-import pic4 from '../../assets/images/VolunteerCarousel/pic4.jpg'
-import pic5 from '../../assets/images/VolunteerCarousel/pic5.jpg'
+import pic2 from '../../assets/images/VolunteerCarousel/pic2.png'
+import pic3 from '../../assets/images/VolunteerCarousel/pic3.png'
+import pic4 from '../../assets/images/VolunteerCarousel/pic4.png'
+import pic5 from '../../assets/images/VolunteerCarousel/pic5.png'
 
 function Volunteer() {
   const [x, setX] = useState(0)
@@ -38,6 +38,15 @@ function Volunteer() {
   return (
     <div className="volunteer">
       <div className="volunteer__banner">
+        <div className="volunteer__bannerRight">
+          <div className="volunteer_bannerText">
+            <h3>EVERYONE DESERVES...</h3>
+            <h3>A WARM BED</h3>
+            <h3>A SAFE SPACE</h3>
+            <h3>A ROOF OVERHEAD</h3>
+            <h3>LOVE & ACCEPTANCE</h3>
+          </div>
+        </div>
         {carouselArr.map((image, index) => {
           return (
             <div
