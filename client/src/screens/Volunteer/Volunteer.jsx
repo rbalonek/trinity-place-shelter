@@ -47,6 +47,7 @@ function Volunteer() {
             <h3>LOVE & ACCEPTANCE</h3>
           </div>
         </div>
+        <div className="volunteer__bannerAngledLine"></div>
         {carouselArr.map((image, index) => {
           return (
             <div
