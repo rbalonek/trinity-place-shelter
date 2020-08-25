@@ -91,10 +91,20 @@ img {
 }
 
 @media (max-width: 670px) {
+  .half-screen-div {
+    width: calc(35% + 265px);
+    box-sizing: border-box;
+    border-left: 90px solid transparent;
+    border-bottom: 252px solid rgb(31, 31, 30);
+    z-index: -1;
+    position: absolute;
+    bottom: 50px;
+    right: 0;
+  }
   .follow-text-div {
     font-size: xx-small;
     position: relative;
-    top: 50%;
+    top: 0;
     left: 3%;
   }
   .social-icon {
