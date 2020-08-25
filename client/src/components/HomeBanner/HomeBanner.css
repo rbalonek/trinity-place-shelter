@@ -1,10 +1,10 @@
 .banner {
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)),
     url('https://res.cloudinary.com/bobalobbadingdong/image/upload/v1597945994/Trinity-Place-Shelter/HomePage/feet-people-holding-rainbow-flag-celebrating-lgbt-pride_bi48wy.jpg')
       center/cover no-repeat;
   width: 100%;
-  min-height:60vh;
-  /* max-height: 50vh; */
+  height:250px;
+  background-position-y: inherit;
   
 }
 
@@ -15,7 +15,7 @@
   justify-content: right;
   margin-left: auto;
   width: 60%;
-  margin-top: 30px;
+  margin-top: 45px;
 }
 
 .banner-content h1 {
