@@ -1,0 +1,36 @@
+.donate-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+  color: white;
+  padding-top: 80px;
+  padding-left: 20px;
+
+  margin-bottom: 100px;
+  width: 710px;
+  top: 500px;
+}
+
+.donate-text {
+  display: flex;
+  align-items: center;
+  padding-right: 20px;
+  font-size: 34pt ;
+  
+}
+
+.donate-divider {
+  display: flex;
+  align-items: center;
+  font-size: 64px;
+  margin-bottom: 10px;
+  padding-right: 20px;
+  text-align: center;
+}
+
+.donate-p {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
