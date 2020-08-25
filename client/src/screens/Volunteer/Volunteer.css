@@ -3,29 +3,68 @@
 }
 
 .volunteer__banner {
+  background: transparent;
   display: flex;
-  justify-content: flex-end;
   height: 420px;
-  background: url('../../assets/images/VolunteerBanner/volunteer-banner-img-1.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position-y: calc(40%);
+  overflow: hidden;
 }
 
 .volunteer__bannerRight {
-  width: calc(35% + 220px);
+  position: absolute;
+  right: 0;
+  width: 50%;
+  height: 420px;
   box-sizing: border-box;
   border-left: 320px solid transparent;
   border-bottom: 420px solid rgb(31, 31, 30);
-  z-index: 100;
+  z-index: 50;
+}
+
+.volunteer__bannerSlider {
+  min-width: 100%;
+  transition: 0.5s;
+}
+
+.volunteer__bannerButton {
+  position: absolute;
+  top: 135px;
+  width: 10%;
+  height: 420px;
+  z-index: 50;
+  background: none;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 40px;
+}
+
+.--left {
+  left: 0;
+}
+
+.--right {
+  right: calc(50% - 100px);
+}
+
+.chevron {
+  font-size: 5vw !important;
+}
+
+.volunteer__bannerButton:hover {
+  transform: scale(1.8);
+  transition: 250ms all;
+  transition: all 0.2s ease;
 }
 
 .volunteer__bannerAngledLine {
   position: absolute;
-  width: calc(38% + 220px);
+  right: 0;
+  width: calc(50% + 30px);
+  height: 420px;
   box-sizing: border-box;
   border-left: 320px solid transparent;
   border-bottom: 420px solid white;
+  z-index: 40;
 }
 
 .volunteer_bannerText {
@@ -41,4 +80,3 @@
 .volunteer_bannerText > h3 {
   padding: 20px 0;
 }
-
