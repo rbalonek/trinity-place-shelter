@@ -19,7 +19,7 @@ function Footer() {
             <p>Donate</p>
           </Link> <br />
           <Link to="/admin">
-            <p>Doners</p>
+            <p>Admin</p>
           </Link> <br />
         </div>
 
