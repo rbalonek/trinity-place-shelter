@@ -118,7 +118,7 @@ a {
     display: flex;
     flex-direction: column;
     position: relative;
-    top: 55px;
+    top: -50px;
     left: -60px;
   }
   
