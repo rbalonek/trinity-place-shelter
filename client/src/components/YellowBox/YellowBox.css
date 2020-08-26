@@ -12,3 +12,25 @@ text-align: center;
 .hand-heart{
   margin-top: 45px;
 }
+
+@media screen and (max-width: 600px){
+  .hand-heart {
+    margin-top: 45px;
+    height: 300px;
+}
+.yellow-page-h1{
+  bottom: 200px;
+  font-size: x-large;
+}
+}
+
+@media screen and (max-width: 600px){
+  .hand-heart {
+    margin-top: 45px;
+    height: 200px;
+}
+.yellow-page-h1{
+  bottom: 120px;
+  font-size: large;
+}
+}
