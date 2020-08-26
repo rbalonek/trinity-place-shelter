@@ -32,20 +32,6 @@
 .right-div {
   background-image: url('../../assets/images/VolunteerOptions/vol-option-3.png');
 }
-/* 
-.volunteerOptions__circle {
-  height: 300px;
-  width: 300px;
-  background: blue;
-  border-radius: 50%;
-
-  /* border-radius: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center; 
-} */
 
 .food-circle {
   height: 220px;
