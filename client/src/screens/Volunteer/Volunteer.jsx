@@ -76,9 +76,8 @@ function Volunteer() {
       </div>
       <VolunteerOptions />
 
-      <div className="text-white-bar">
+      
         <SmallWhiteBar />
-      </div>
       <HomeIconBox />
     </div>
   )
