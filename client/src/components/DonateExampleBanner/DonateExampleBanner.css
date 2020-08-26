@@ -1,7 +1,7 @@
 .donateExampleBanner {
   height: 600px;
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url('../../assets/images/donate-examples-background.jpg') no-repeat center
+    url("../../assets/images/donate-examples-background.jpg") no-repeat center
       center;
   background-size: cover;
   color: white;
@@ -53,4 +53,96 @@
 .donateExampleBanner__icon {
   font-size: 70px !important;
   margin: 20px 0 !important;
+}
+
+@media screen and (max-width: 1114px) {
+  .donateExampleBanner > h1 {
+    font-size: 20px;
+  }
+  .donateExampleBanner__circle {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .donateExampleBanner__circle > p {
+    max-width: 150px;
+    font-size: 10px;
+  }
+  .donateExampleBanner__circle > h1 {
+    font-size: 15px;
+  }
+  .donateExampleBanner__icon {
+    font-size: 60px !important;
+    margin: 10px 0 !important;
+  }
+}
+@media screen and (max-width: 741px) {
+  .donateExampleBanner > h1 {
+    font-size: 15px;
+  }
+  .donateExampleBanner__circle {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .donateExampleBanner__circle > p {
+    max-width: 100px;
+    font-size: 8px;
+  }
+  .donateExampleBanner__circle > h1 {
+    font-size: 15px;
+  }
+  .donateExampleBanner__icon {
+    font-size: 60px !important;
+    margin: 0px 0 !important;
+  }
+}
+@media screen and (max-width: 570px) {
+  .donateExampleBanner__circle {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    right: 100px;
+  }
+  .donateExampleBanner__circles {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 0px;
+  }
+}
+@media screen and (max-width: 470px) {
+  .--purple {
+    position: relative;
+    right: 320px;
+    
+  }
+  .--red{
+    position: relative;
+  }
+  .--orange{
+    position: relative;
+    bottom:-150px;
+  }
+  .text-banner{
+    position: relative;
+    
+    top: -100px;
+    width: 100%;
+  }
 }
