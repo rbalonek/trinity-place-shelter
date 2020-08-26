@@ -6,6 +6,7 @@ import ChevronRightIcon from '@material-ui/icons/ChevronRight'
 //Components
 import HomeIconBox from '../../components/HomeIconBox/HomeIconBox.js'
 import VolunteerOptions from '../../components/VolunteerOptions/VolunteerOptions.js'
+import VolunteerOptionsCircles from '../../components/VolunteerOptions/VolunteerOptionsCircles'
 import SmallWhiteBar from '../../components/SmallWhiteBar/SmallWhiteBar.js'
 import VolunteerNowButton from '../../components/VolunteerNowButton/VolunteerNowButton.js'
 import CarouselSlide from '../../components/Carousel/CarouselSlide'
@@ -70,7 +71,11 @@ function Volunteer() {
       <div className="volunteer__ctaButton">
         <VolunteerNowButton />
       </div>
+      <div className="volunteer__circles">
+        <VolunteerOptionsCircles />
+      </div>
       <VolunteerOptions />
+
       <div className="text-white-bar">
         <SmallWhiteBar />
       </div>

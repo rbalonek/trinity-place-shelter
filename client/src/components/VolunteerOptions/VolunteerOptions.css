@@ -10,11 +10,13 @@
   background-repeat: no-repeat;
   height: 460px;
   width: 100%;
+  z-index: 20;
 }
 
 .left-div,
 .middle-div,
 .right-div {
+  z-index: 10;
   height: 460px;
   width: 100%;
   background-repeat: no-repeat;
@@ -26,11 +28,24 @@
 }
 .middle-div {
   background-image: url('../../assets/images/VolunteerOptions/vol-option-2.png');
-  background-position-y: -40px;
 }
 .right-div {
   background-image: url('../../assets/images/VolunteerOptions/vol-option-3.png');
 }
+/* 
+.volunteerOptions__circle {
+  height: 300px;
+  width: 300px;
+  background: blue;
+  border-radius: 50%;
+
+  /* border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center; 
+} */
 
 .food-circle {
   height: 220px;

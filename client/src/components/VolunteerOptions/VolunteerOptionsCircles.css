@@ -1,0 +1,33 @@
+.volunteerOptions__circle {
+  background: rgb(33, 33, 33);
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  color: white;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}
+
+.volunteerOptions__circleText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.volunteerOptions__circleText > p {
+  font-size: 14px;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+
+.volunteerOptions__iconContainer {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.volunteerOptions__icon {
+  font-size: 54px !important;
+}
