@@ -11,10 +11,10 @@ export default function HomeBanner() {
             <div className="banner__text">
               <p>
                 Where our mission is to help homeless
-                lesbian,gay,bisexual,trasngender or queer
+                lesbian, gay, bisexual, transgender or queer
               </p>
               <p>
-                (LGBTQ*)youth and young adults in New York City to safety
+                (LGBTQ*)youth and young adults in New York City to safely
                 transition out of the shelter
               </p>
               <p>
