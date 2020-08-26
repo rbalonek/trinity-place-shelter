@@ -45,3 +45,37 @@
   bottom: 90px;
   margin-bottom: 5px;
 }
+@media screen and (max-width: 881px){
+  .shapes-overlay {
+    height: 300px;
+  }
+  .left-div,
+.middle-div,
+.right-div{
+  height: 300px;
+}
+.volunteer__circles {
+  height: 250px;
+}
+}
+@media screen and (max-width: 455px){
+  .left-div,
+  .middle-div,
+  .right-div{
+    height: 250px;
+  }
+  .shapes-overlay {
+    height: 250px;
+  }
+  .volunteer__circles {
+    height: 250px;
+  }
+}
+
+/* @media screen and (max-width: 355px){
+  .left-div,
+  .middle-div,
+  .right-div{
+    height: 250px;
+  }
+} */
