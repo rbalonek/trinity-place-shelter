@@ -116,3 +116,20 @@
 .button:hover {
   opacity: 0.8;
 }
+
+@media screen and (max-width: 700px){
+  .button-div {
+    position: absolute;
+  }
+  .donate-div_form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 900px;
+    margin: auto;
+}
+.long-input {
+  width: 100%;
+}
+}
