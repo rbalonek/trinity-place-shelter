@@ -50,6 +50,11 @@ function SideNav() {
               </li>
               <li>RESOURCES</li>
               <li>FAQ</li>
+              <li>
+                <Link to="/donate" className="header-nav--link">
+                  DONATE
+                </Link>
+              </li>
             </ul>
           </nav>
         </div>

@@ -7,7 +7,7 @@ import CakeIcon from '@material-ui/icons/Cake'
 function DonateExampleBanner() {
   return (
     <div className="donateExampleBanner">
-      <h1>HERE ARE EXAMPLES OF HOW YOUR GIFT WILL MAKE AN IMPACT</h1>
+      <h1 className="text-banner">HERE ARE EXAMPLES OF HOW YOUR GIFT WILL MAKE AN IMPACT</h1>
       <div className="donateExampleBanner__circles">
         <div className="donateExampleBanner__circle --orange ">
           <h1>$117</h1>
