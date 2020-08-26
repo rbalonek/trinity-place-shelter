@@ -1,5 +1,47 @@
 .sideNav {
-  height: 200px;
-  width: 100px;
-  background: rgba(0, 0, 0, 0.5);
+  height: 210px;
+  width: 160px;
+  background: white;
+  color: white;
+  z-index: 300;
+  position: fixed;
+  top: 0;
+  right: 0;
+  color: black;
+}
+
+.open {
+  position: fixed;
+  top: 0;
+  right: 0;
+  transform: translateX(0);
+  z-index: 300;
+}
+
+.close {
+  display: none;
+}
+
+.sideNav__toggleButton {
+  height: 50px;
+  background: none !important;
+  cursor: pointer;
+  z-index: 300;
+}
+
+.sideNav__nav {
+  position: relative;
+  right: 40px;
+}
+
+.sideNav__nav > ul {
+  list-style-type: none;
+  padding-top: 15px;
+  margin-left: 15px;
+}
+
+.sideNav__nav li {
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-weight: 600;
 }
