@@ -11,7 +11,7 @@ export default function FollowUsVideo() {
             title="vimeo-player"
             src="https://player.vimeo.com/video/68974299?byline=false&title=false"
             height="280"
-            width="300"
+            width="455"
             frameborder="0"
             allowfullscreen
           ></iframe>
