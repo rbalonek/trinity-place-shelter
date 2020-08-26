@@ -64,6 +64,10 @@
   opacity: 0.8;
 }
 
+.header-nav__responsive {
+  display: none;
+}
+
 @media (max-width: 1166px) {
   .header-nav {
     background: gray;
@@ -78,5 +82,9 @@
   .header-nav__container,
   .header-nav__donateButton {
     display: none;
+  }
+
+  .header-nav__responsive {
+    display: flex;
   }
 }
