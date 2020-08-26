@@ -67,7 +67,9 @@ function Volunteer() {
           <ChevronLeftIcon className="chevron" />
         </button>
       </div>
-      <VolunteerNowButton />
+      <div className="volunteer__ctaButton">
+        <VolunteerNowButton />
+      </div>
       <VolunteerOptions />
       <div className="text-white-bar">
         <SmallWhiteBar />

@@ -81,19 +81,15 @@
   padding: 20px 0;
 }
 
-/* .small-white-bar {
-  position: relative;
-  bottom: 20px;
-} */
-
-.white-bar-text {
-  
+.volunteer__ctaButton {
+  display: flex;
+  justify-content: center;
+  height: 22px;
 }
-.text-white-bar{
+.text-white-bar {
   color: black;
   background-color: white;
   text-align: center;
-  /* font-family: robato; */
   font-size: 1vw;
   font-weight: bold;
   position: relative;
