@@ -29,12 +29,19 @@ export default function DonorCarousel() {
         alt="james-tudor-foundation"
       />
       <ChevronRightIcon className="chevron--donors" />
+      <a
+      style={{ zIndex: '100' }}
+      href="https://www.guidestar.org/profile/94-3447082"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
       <img
         className="seal-of-transparency"
         style={{ zIndex: '100' }}
         src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1597512463/Trinity-Place-Shelter/HomePage/Seal_of_transparancy_niagnw.png"
         alt="seal-of-transparency"
       />
+      </a>
     </div>
   )
 }
