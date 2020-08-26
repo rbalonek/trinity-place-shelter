@@ -146,30 +146,24 @@
     right: 20%;
     
   }
-/* 
-  .donateExampleBanner__circles {
-    display: flex;
-    justify-content: flex-end;
-    margin-right: 0px;
-  } */
 }
-@media screen and (max-width: 470px) {
-  /* .--purple {
+
+@media screen and (max-width: 375px) {
+  .--red{
     position: relative;
-    right: 320px;
+    top: 100px;
+    right: 125px;
+  }
+  .--orange{
+    position: relative;
+    top: 50px;
+    right: 50%;
+
+  }
+  .--purple {
+    position: relative;
+    bottom: 30px;
+    right: 20%;
     
-  } */
-  /* .--red{
-    position: relative;
-  } */
-  /* .--orange{
-    position: relative;
-    bottom:-150px;
-  } */
-  /* .text-banner{
-    position: relative;
-    
-    top: -100px;
-    width: 100%;
-  } */
+  }
 }
