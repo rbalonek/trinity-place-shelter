@@ -1,28 +1,19 @@
-.volunteer-button-div {
-  text-align: center;
-  height: 30px;
-}
 .volunteer-button {
+  position: relative;
+  bottom: 20px;
   background-color: var(--cta-color);
   color: white;
   height: 60px;
-  /* width: 150px; */
-  /* font-size: 24px; */
-  font-size: 20px;
+  font-size: 24px;
   font-weight: bold;
   border-radius: 50px;
   border: none;
   outline: none;
-  margin-left: 20px;
-  margin-top: 50px;
-  position: relative;
-  bottom: 70px;
-  z-index: 100;
-  width: 200px;
-  right: 50px;
+  z-index: 400;
+  width: 260px;
 }
-.volunteer-button:hover{
-  transform: scale(.9);
+.volunteer-button:hover {
+  transform: scale(1.2);
   transition: 250ms all;
-  transition: all .2s ease;
+  transition: all 0.2s ease;
 }

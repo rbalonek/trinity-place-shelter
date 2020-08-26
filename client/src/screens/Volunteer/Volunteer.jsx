@@ -6,8 +6,8 @@ import ChevronRightIcon from '@material-ui/icons/ChevronRight'
 //Components
 import HomeIconBox from '../../components/HomeIconBox/HomeIconBox.js'
 import VolunteerOptions from '../../components/VolunteerOptions/VolunteerOptions.js'
-import SmallWhiteBar from "../../components/SmallWhiteBar/SmallWhiteBar.js"
-import SmallBlackBar from '../../components/SmallBlackBar/SmallBlackBar.js'
+import VolunteerOptionsCircles from '../../components/VolunteerOptions/VolunteerOptionsCircles'
+import SmallWhiteBar from '../../components/SmallWhiteBar/SmallWhiteBar.js'
 import VolunteerNowButton from '../../components/VolunteerNowButton/VolunteerNowButton.js'
 import CarouselSlide from '../../components/Carousel/CarouselSlide'
 import pic1 from '../../assets/images/VolunteerCarousel/pic1.jpg'
@@ -67,13 +67,18 @@ function Volunteer() {
         <button onClick={slideLeft} className="volunteer__bannerButton --left">
           <ChevronLeftIcon className="chevron" />
         </button>
-
       </div>
-      <VolunteerNowButton />
+      <div className="volunteer__ctaButton">
+        <VolunteerNowButton />
+      </div>
+      <div className="volunteer__circles">
+        <VolunteerOptionsCircles />
+      </div>
       <VolunteerOptions />
+
       <div className="text-white-bar">
         <SmallWhiteBar />
-        </div>
+      </div>
       <HomeIconBox />
     </div>
   )

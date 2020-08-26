@@ -1,17 +1,17 @@
 import React from 'react'
 import './FollowUsVideo.css'
 
-export default function FolowUsVideo() {
+export default function FollowUsVideo() {
   return (
     <div className="follow-us-div">
       <div className="followUs__right">
         <div className="followUs__iframe">
           <iframe
-          className="iframe-resize"
+            className="iframe-resize"
             title="vimeo-player"
             src="https://player.vimeo.com/video/68974299?byline=false&title=false"
             height="280"
-            width="300"
+            width="455"
             frameborder="0"
             allowfullscreen
           ></iframe>
