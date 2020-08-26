@@ -95,52 +95,76 @@ a {
     height: 120px;
   }
 }
-
-@media screen and (max-width: 720px){
+/* FOR SOME REASON, THIS FOR CELL PHONE */
+@media screen and (max-width: 720px) {
   .footer-payment-methods {
+    display: none;
+    position: relative;
+    /* place-self: flex-end; */
+    flex-direction: column;
+    top: 80px;
+    left: -102%;
+  }
+  .footer-payment-methods-bottom {
+    display: none;
+    position: relative;
+    /* place-self: flex-end; */
+    flex-direction: column;
+    top: 80px;
+    left: -92%;
+  }
+  .footer-nav-links {
+    color: white;
     display: flex;
-    place-self: flex-end;
-    position: absolute;
-    top: 200px;
-    left: 2%;
-}
-.footer-payment-methods-bottom {
-  display: flex;
-  position: absolute;
-  top: 240px;
-  left: 2%;
-}
-.footer-nav-links {
-  color: white;
-  position: absolute;
-  font-size: 12px;
-  left: 2%;
-  top: 30px;
-}
-}
-@media screen and (max-width: 550px){
+    flex-direction: column;
+    position: relative;
+    top: 55px;
+    left: -60px;
+  }
+  
+/* }
+@media screen and (max-width: 650px) {
   .footer-card {
     block-size: 15px;
     margin-right: 5px;
+  }
 }
+@media screen and (max-width: 420) {
+  /* .footer-nav-links {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 15%;
+    left: 55px;
+  } */
 }
-@media screen and (max-width: 380px){
-.footer {
-  display: flex;
-  width: 100%;
-  height: 300px;
-  background-color: black;
-  contain: content;
-  /* justify-content: space-between; */
-  min-block-size: -moz-fit-content;
-  min-block-size: fit-content;
-  justify-content: flex-end;
-}
-.footer-501-info {
-  color: white;
-  font-size: 15px;
-  text-align: right;
-  margin-right: 5px;
-  margin-top: -30px;
-}
-}
+
+@media screen and (max-width: 380px) {
+  .footer {
+    display: flex;
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    contain: content;
+    /* justify-content: space-between; */
+    min-block-size: -moz-fit-content;
+    min-block-size: fit-content;
+    justify-content: flex-end;
+  }
+  .footer-501-info {
+    color: white;
+    font-size: 15px;
+    text-align: right;
+    margin-right: 10px;
+    margin-top: -30px;
+  }
+  .footer-nav-links {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 55px;
+    left: -40px;
+  }
+} 
