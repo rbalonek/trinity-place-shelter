@@ -111,6 +111,7 @@
   .banner-content p {
     right: 45%;
     font-size: xx-small;
+    
   }
   .banner{
     height: 200px;
@@ -118,12 +119,13 @@
 }
 @media screen and (max-width: 420px){
   .banner-content h1{
-    right: 65%;
+    right: 55%;
     font-size: medium;
   }
   .banner-content p {
-    right: 70%;
+    right: 50%;
     font-size: 8px;
+    
   }
   .banner__text {
     margin-top: 10px;
