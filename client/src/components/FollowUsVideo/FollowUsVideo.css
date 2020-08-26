@@ -64,6 +64,233 @@
   bottom: 50px;
   right: 0;
 }
-.iframe-test{
-  /* height:100px; */
+
+@media screen and (max-width: 1024px) {
+  .followUs__testimonial {
+    margin-top: 10px;
+    font-style: italic;
+    position: relative;
+    right: 0px;
+    font-size: small;
+  }
+  .iframe-resize {
+    height: 200px;
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 916px) {
+  .followUs__right {
+    position: absolute;
+    height: 380px;
+    width: 60%;
+    right: 0;
+    box-sizing: border-box;
+    border-left: 150px solid transparent;
+    border-bottom: 380px solid rgb(31, 31, 30);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    width: auto;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .followUs__testimonial {
+    margin-top: 10px;
+    font-style: italic;
+    position: relative;
+    right: 0px;
+    font-size: x-small;
+  }
+  .followUs__right {
+    width: auto;
+  }
+}
+@media screen and (max-width: 844px) {
+  .followUs__right {
+    position: absolute;
+    height: 380px;
+    width: 60%;
+    right: 0;
+    box-sizing: border-box;
+    border-left: 150px solid transparent;
+    border-bottom: 380px solid rgb(31, 31, 30);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    width: auto;
+  }
+  .followUs__left {
+    position: relative;
+    bottom: 15%;
+    right: 10%;
+    font-size: smaller;
+  }
+  .social-media img {
+    padding-right: 24px;
+    margin-top: 20px;
+    height: 40px;
+  }
+}
+
+@media screen and (max-width: 705px) {
+  .followUs__left {
+    position: relative;
+    bottom: 15%;
+    right: 15%;
+    font-size: x-small;
+  }
+  .social-media img {
+    padding-right: 24px;
+    margin-top: 20px;
+    height: 40px;
+  }
+  .followUs__testimonial {
+    margin-top: 10px;
+    font-style: italic;
+    position: relative;
+    right: 0%;
+    width: max-content;
+  }
+}
+@media screen and (max-width: 650px) {
+  .followUs__left {
+    position: absolute;
+    bottom: 25%;
+    left: 15%;
+    font-size: x-small;
+    width: 60%;
+  }
+  .social-media img {
+    position: relative;
+    padding-right: 24px;
+    margin-top: 0px;
+    height: 40px;
+  }
+  .iframe-resize {
+    margin-top: 120px;
+    position: relative;
+    right: 0%;
+  }
+
+  .followUs__right {
+    position: relative;
+    height: 380px;
+    width: 60%;
+    right: 0;
+    box-sizing: border-box;
+    border-left: 0px solid transparent;
+    border-bottom: 280px solid rgb(31, 31, 30);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    width: auto;
+  }
+  .followUs__testimonial {
+    margin-top: 10px;
+    font-style: italic;
+    position: relative;
+    right: 0%;
+    font-size: 10px;
+    width: max-content;
+  }
+}
+@media screen and (max-width: 545px){
+  .followUs__left {
+    position: absolute;
+    bottom: 32%;
+    left: 15%;
+    font-size: x-small;
+    width: 60%;
+  }
+  .social-media img {
+    position: relative;
+    padding-right: 24px;
+    margin-top: 0px;
+    height: 40px;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  .followUs__left {
+    position: absolute;
+    /* bottom: 25%; */
+    left: 15%;
+    font-size: x-small;
+    width: 60%;
+  }
+  .social-media {
+    width: max-content;
+    position: relative;
+    padding-right: 24px;
+    margin-top: 0px;
+    height: 40px;
+  }
+}
+@media screen and (max-width: 485px) {
+  .followUs__left {
+    position: absolute;
+    /* bottom: 25%; */
+    left: 5%;
+    font-size: x-small;
+    width: 60%;
+    inline-size: auto;
+  }
+  .social-media {
+    width: max-content;
+    position: relative;
+    padding-right: 24px;
+    margin-top: 0px;
+    height: 40px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  
+  .iframe-resize {
+    height: 150px;
+    margin-top: 150px;
+    position: relative;
+  }
+  .followUs__left {
+    position: absolute;
+    /* bottom: 25%; */
+    left: -5%;
+    font-size: x-small;
+    width: 100%;
+    inline-size: auto;
+  }
+  .social-media {
+    width: max-content;
+    position: relative;
+    padding-right: 24px;
+    margin-top: 0px;
+    height: 40px;
+  }
+  .follow-us-div {
+    width: 100%;
+    top: 40px;
+    height: 380px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .followUs__left {
+    position: absolute;
+    /* bottom: 25%; */
+    left: -15%;
+    font-size: x-small;
+    width: 60%;
+    inline-size: auto;
+  }
+  .social-media {
+    width: max-content;
+    position: relative;
+    padding-right: 24px;
+    margin-top: 0px;
+    height: 40px;
+  }
 }
