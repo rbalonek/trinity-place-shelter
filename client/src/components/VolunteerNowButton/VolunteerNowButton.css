@@ -21,8 +21,8 @@
   width: 200px;
   right: 50px;
 }
-.volunteer-button:hover{
-  transform: scale(.9);
+.volunteer-button:hover {
+  transform: scale(0.9);
   transition: 250ms all;
-  transition: all .2s ease;
+  transition: all 0.2s ease;
 }
