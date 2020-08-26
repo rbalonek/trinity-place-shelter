@@ -38,8 +38,13 @@ function Footer() {
       <p>164 West 100th</p>
       <p>New York, New York 10025</p>
       <br />
-      <p>646-580-7045</p>
-      <p>Contact Us</p>
+          <p>646-580-7045</p>
+          <a
+            href="https://www.123formbuilder.com/form-2356571/TPS-Contact-Form"
+            target="_blank"
+            rel="noopener noreferrer">
+            <p>Contact Us</p>
+            </a>
     </div>
 
     <div className="footer-payment-methods">
