@@ -21,11 +21,17 @@ function Footer() {
           <Link to="/admin">
             <p>Admin</p>
           </Link> <br />
+         
         </div>
 
        
       
-      <div className="footer-501-info">
+        <div className="footer-501-info">
+        <img
+        className="footer-seal-of-transparency"
+        src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1597512463/Trinity-Place-Shelter/HomePage/Seal_of_transparancy_niagnw.png"
+        alt="seal-of-transparency"
+      />
       <p>Trinity Community Connection</p>
       <p>is a 501(c)(3) Organization</p>
       <br />

@@ -7,11 +7,11 @@ export default function FolowUsVideo() {
       <div className="followUs__right">
         <div className="followUs__iframe">
           <iframe
-          className="iframe-test"
+          className="iframe-resize"
             title="vimeo-player"
             src="https://player.vimeo.com/video/68974299?byline=false&title=false"
             height="280"
-            width="400"
+            width="300"
             frameborder="0"
             allowfullscreen
           ></iframe>
