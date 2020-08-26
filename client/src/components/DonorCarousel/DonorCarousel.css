@@ -15,7 +15,15 @@
 .seal-of-transparency{
   /* display: none; */
 }
+@media screen and (max-width: 960px){
+  .doners-text{
+    font-size: smaller;
+  }
+}
 @media screen and (max-width: 916px){
+  .doners-text{
+    font-size: smaller;
+  }
   .seal-of-transparency{
     display: none;
   }
@@ -33,6 +41,9 @@
 }
 
 @media screen and (max-width: 850px){
+  .doners-text{
+    font-size: x-small;
+  }
   .carousel-container {
     height: 90px;
     display: flex;
@@ -43,9 +54,9 @@
 }
   
 }
-@media screen and (max-width: 760px) {
+/* @media screen and (max-width: 775px) {
 .doners-text{
-  font-size: smaller;
+  font-size: x-small;
 }
 .carousel-container {
   height: 90px;
@@ -55,16 +66,19 @@
   width: 90%;
   margin-left: 40px;
 }
-}
-@media screen and (max-width: 760px){
+} */
+@media screen and (max-width: 775px){
   .doners-text{
     font-size: x-small;
   }
   .img-carousel{
-    height:25px;
+    height:35px;
   }
+  .chevron--donors {
+    font-size: 40px !important;
 }
-@media screen and (max-width: 500px){
+}
+/* @media screen and (max-width: 500px){
 .carousel-container {
   height: 90px;
   display: flex;
@@ -119,15 +133,27 @@
     width: 99%;
     margin-left: 0px;
 }
+} */
+@media screen and (max-width: 600px){
+  .doners-text {
+    position: relative;
+    bottom: 30%;
+    left: 45%;
+    min-inline-size: max-content;
+  }
 }
-@media screen and (max-width: 343px){
+
+@media screen and (max-width: 500px){
+  .img-carousel{
+    height:25px;
+  }
   .carousel-container {
     height: 90px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 65%;
-    margin-left: 9px;
+    width: 59%;
+    /* margin-left: 20px; */
 }
 .chevron--donors{
   margin-left: 1px;
@@ -135,7 +161,27 @@
 .doners-text {
   position: relative;
   bottom: 30%;
-  left: 100%;
+  left: 90%;
   min-inline-size: max-content;
 }
+#left-chev{
+  position:relative;
+  left:13px;
+}
+}
+@media screen and (max-width: 375px){
+  .doners-text {
+    position: relative;
+    bottom: 30%;
+    left: 110%;
+    min-inline-size: max-content;
+  }
+}
+@media screen and (max-width: 320px){
+  .doners-text {
+    position: relative;
+    bottom: 30%;
+    left: 120%;
+    min-inline-size: max-content;
+  }
 }

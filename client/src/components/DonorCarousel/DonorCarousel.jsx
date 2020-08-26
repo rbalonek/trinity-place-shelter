@@ -7,7 +7,7 @@ export default function DonorCarousel() {
   return (
     <div className="carousel-container">
       <h3 className="doners-text">MAJOR DONORS</h3>
-      <ChevronLeftIcon className="chevron--donors" />
+      <ChevronLeftIcon id="left-chev" className="chevron--donors" />
       <img
         className="img-carousel"
         src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1598306691/Trinity-Place-Shelter/HomePage/AidsInst_vcypsl.png"
