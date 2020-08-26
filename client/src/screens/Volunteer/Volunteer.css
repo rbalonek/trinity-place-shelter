@@ -80,3 +80,23 @@
 .volunteer_bannerText > h3 {
   padding: 20px 0;
 }
+
+/* .small-white-bar {
+  position: relative;
+  bottom: 20px;
+} */
+
+.white-bar-text {
+  
+}
+.text-white-bar{
+  color: black;
+  background-color: white;
+  text-align: center;
+  /* font-family: robato; */
+  font-size: 1vw;
+  font-weight: bold;
+  position: relative;
+  bottom: 40px;
+  height: 20px;
+}
