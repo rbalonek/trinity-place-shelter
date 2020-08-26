@@ -14,33 +14,33 @@ export default function DonorCarousel() {
         alt="aids-institute"
       />
       <img
-      className="img-carousel"
+        className="img-carousel"
         src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1598306691/Trinity-Place-Shelter/HomePage/viacom_gziix6.png"
         alt="viacom-cbs"
       />
       <img
-      className="img-carousel"
+        className="img-carousel"
         src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1598306691/Trinity-Place-Shelter/HomePage/eltonJohn_zrrmb1.png"
         alt="elton-john-aids-foundation"
       />
       <img
-      className="img-carousel"
+        className="img-carousel"
         src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1598306691/Trinity-Place-Shelter/HomePage/tudor_dgayqt.png"
         alt="james-tudor-foundation"
       />
       <ChevronRightIcon className="chevron--donors" />
       <a
-      style={{ zIndex: '100' }}
-      href="https://www.guidestar.org/profile/94-3447082"
+        style={{ zIndex: '100' }}
+        href="https://www.guidestar.org/profile/94-3447082"
         target="_blank"
         rel="noopener noreferrer"
       >
-      <img
-        className="seal-of-transparency"
-        style={{ zIndex: '100' }}
-        src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1597512463/Trinity-Place-Shelter/HomePage/Seal_of_transparancy_niagnw.png"
-        alt="seal-of-transparency"
-      />
+        <img
+          className="seal-of-transparency"
+          style={{ zIndex: '100' }}
+          src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1597512463/Trinity-Place-Shelter/HomePage/Seal_of_transparancy_niagnw.png"
+          alt="seal-of-transparency"
+        />
       </a>
     </div>
   )
