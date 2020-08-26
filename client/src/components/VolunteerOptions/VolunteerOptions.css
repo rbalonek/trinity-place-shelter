@@ -13,20 +13,22 @@
 }
 
 .left-div {
-  background-image: url('../../assets/images/Shapes\ Volunteer\ Filter.png'),  url("https://res.cloudinary.com/bobalobbadingdong/image/upload/v1598294696/Trinity-Place-Shelter/HomePage/food_jgrelp.png");
+  background-image: url("../../assets/images/Left\ Shape\ Box.png"),
+    url("https://res.cloudinary.com/bobalobbadingdong/image/upload/v1598294696/Trinity-Place-Shelter/HomePage/food_jgrelp.png");
 }
 .middle-div {
-  background-image: url('../../assets/images/Shapes\ Volunteer\ Filter.png'), url("https://res.cloudinary.com/bobalobbadingdong/image/upload/v1598294695/Trinity-Place-Shelter/HomePage/volunteers_djfl9f.png");
+  background-image: url("../../assets/images/Mid\ Shape\ Box.png"),
+    url("https://res.cloudinary.com/bobalobbadingdong/image/upload/v1598294695/Trinity-Place-Shelter/HomePage/volunteers_djfl9f.png");
   background-position-y: -40px;
 }
 .right-div {
-  background-image: url('../../assets/images/Shapes\ Volunteer\ Filter.png'), url("https://res.cloudinary.com/bobalobbadingdong/image/upload/v1598294695/Trinity-Place-Shelter/HomePage/computer_hnhvv0.png");
+  background-image: url("../../assets/images/Right\ Shape\ Box.png"), url("https://res.cloudinary.com/bobalobbadingdong/image/upload/v1598294695/Trinity-Place-Shelter/HomePage/computer_hnhvv0.png");
 }
 
 .food-circle {
-  height: 180px;
+  height: 220px;
   position: relative;
-  top: 50px;
+  top: 30px;
 }
 .food-text {
   color: white;
@@ -35,4 +37,3 @@
   bottom: 50px;
   margin-bottom: 5px;
 }
-

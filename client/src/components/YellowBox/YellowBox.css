@@ -1,5 +1,5 @@
 .yelow-box{
-background-color: yellow;
+background-color:rgb(251, 233,117);
 align-items: center;
 text-align: center;
 }
@@ -8,4 +8,7 @@ text-align: center;
   color: white;
   position: relative;
   bottom: 250px;
+}
+.hand-heart{
+  margin-top: 45px;
 }
