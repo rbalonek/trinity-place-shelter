@@ -71,12 +71,22 @@
   .doners-text{
     font-size: x-small;
   }
+  
   .img-carousel{
     height:35px;
   }
   .chevron--donors {
     font-size: 40px !important;
 }
+}
+/* FOR IPHONE SOME REASON */
+@media screen and (max-width: 720px){
+  .doners-text{
+    font-size: x-small;
+    display: flex;
+    position: relative;
+    margin-left: 60px;
+  }
 }
 /* @media screen and (max-width: 500px){
 .carousel-container {
