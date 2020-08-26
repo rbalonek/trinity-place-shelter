@@ -1,12 +1,32 @@
 .carousel-container {
   height: 90px;
   display: flex;
-  align-items: center;
-  justify-content: space-around;
 }
 
-.carousel-container > img {
-  object-fit: contain;
+.donorCarousel__slider-container {
+  background: gray;
+  display: flex;
+  overflow: scroll;
+  width: calc(70% - 100px);
+}
+
+.donorCarousel__slider img {
+  height: 90px;
+  margin-right: 100px;
+}
+.donors-text {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.donorCarousel__leftButton,
+.donorCarousel__rightButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .chevron--donors {
