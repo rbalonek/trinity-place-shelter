@@ -34,3 +34,21 @@
   align-items: center;
   font-size: 20px;
 }
+
+@media screen and (max-width: 700px){
+  .donate-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    color: white;
+    padding-top: 80px;
+    padding-left: 20px;
+    margin-bottom: 100px;
+    width: 710px;
+    top: 500px;
+}
+.donate-divider {
+  display: none;
+}
+}

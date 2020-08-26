@@ -108,7 +108,7 @@
   }
 }
 @media screen and (max-width: 570px) {
-  .donateExampleBanner__circle {
+  /* .donateExampleBanner__circle {
     height: 150px;
     width: 150px;
     border-radius: 50%;
@@ -119,30 +119,51 @@
     text-align: center;
     position: relative;
     right: 100px;
+  } */
+  .text-banner{
+    position: relative;
+    top: -130px;
+    width: 100%;
   }
   .donateExampleBanner__circles {
-    display: flex;
+    display: inline-grid;
     justify-content: flex-end;
-    margin-right: 0px;
-  }
 }
-@media screen and (max-width: 470px) {
-  .--purple {
+.--red{
     position: relative;
-    right: 320px;
-    
-  }
-  .--red{
-    position: relative;
+    top: 80px;
+    right: 125px;
   }
   .--orange{
     position: relative;
-    bottom:-150px;
+    top: 0px;
+    right: 100%;
+
   }
-  .text-banner{
+  .--purple {
     position: relative;
+    bottom: 50px;
+    right: 20%;
     
-    top: -100px;
-    width: 100%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .--red{
+    position: relative;
+    top: 100px;
+    right: 125px;
+  }
+  .--orange{
+    position: relative;
+    top: 50px;
+    right: 50%;
+
+  }
+  .--purple {
+    position: relative;
+    bottom: 30px;
+    right: 20%;
+    
   }
 }
