@@ -1,0 +1,54 @@
+.sideNav {
+  height: 100vh;
+  width: 160px;
+  background: white;
+  color: white;
+  z-index: 300;
+  position: fixed;
+  top: 0;
+  right: 0;
+  color: black;
+  transition: transform 0.3s ease-out;
+}
+
+.open {
+  position: fixed;
+  top: 0;
+  right: 0;
+  transform: translateX(0);
+  z-index: 300;
+  transition: transform 0.3s ease-out;
+}
+
+.close {
+  position: fixed;
+  top: 0;
+  right: 0;
+  transform: translateX(500px);
+  z-index: 300;
+  transition: transform 0.3s ease-out;
+}
+
+.sideNav__toggleButton {
+  height: 50px;
+  background: none !important;
+  cursor: pointer;
+  z-index: 300;
+}
+
+.sideNav__nav {
+  position: relative;
+  right: 40px;
+}
+
+.sideNav__nav > ul {
+  list-style-type: none;
+  padding-top: 15px;
+  margin-left: 15px;
+}
+
+.sideNav__nav li {
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}

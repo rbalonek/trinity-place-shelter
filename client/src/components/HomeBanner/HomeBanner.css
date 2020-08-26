@@ -5,7 +5,7 @@
       rgba(0, 0, 0, 0.7) 60%,
       rgba(0, 0, 0, 0.5) 100%
     ),
-    url('../../assets/images/home-banner-bg.jpg') center/cover no-repeat;
+    url("../../assets/images/home-banner-bg.jpg") center/cover no-repeat;
   width: 100%;
   height: 420px;
   background-position-y: inherit;
@@ -40,4 +40,97 @@
   font-size: 1.1rem;
   font-weight: 600;
   letter-spacing: -0.04rem;
+}
+
+@media screen and (max-width: 1163px) {
+  .banner-content h1{
+    position: relative;
+    right: 10%;
+    inline-size: max-content;
+  }
+  .banner-content p {
+    position: relative;
+    right: 10%;
+    inline-size: max-content;
+  }
+}
+@media screen and (max-width: 1048px) {
+  .banner-content h1{
+    right: 25%;
+  }
+  .banner-content p{
+    right: 25%;
+  }
+}
+@media screen and (max-width: 930px) {
+  .banner-content h1 {
+    right: 35%;
+    font-size: xx-large;
+  }
+  .banner-content p {
+    right: 35%;
+    font-size: smaller;
+  }
+}
+@media screen and (max-width: 860px) {
+  .banner-content h1{
+    right: 35%;
+    font-size: xx-large;
+  }
+  .banner-content p {
+    right: 35%;
+    font-size: smaller;
+  }
+}
+
+@media screen and (max-width: 750px){
+  .banner-content h1{
+    right: 35%;
+    font-size: x-large;
+  }
+  .banner-content p {
+    right: 35%;
+    font-size: small;
+  }
+}
+@media screen and (max-width: 645px){
+  .banner-content h1{
+    right: 35%;
+    font-size: x-large;
+  }
+  .banner-content p {
+    right: 35%;
+    font-size: x-small;
+  }
+}
+@media screen and (max-width: 545px){
+  .banner-content h1{
+    right: 45%;
+    font-size: large;
+  }
+  .banner-content p {
+    right: 45%;
+    font-size: xx-small;
+    
+  }
+  .banner{
+    height: 200px;
+  }
+}
+@media screen and (max-width: 420px){
+  .banner-content h1{
+    right: 55%;
+    font-size: medium;
+  }
+  .banner-content p {
+    right: 50%;
+    font-size: 8px;
+    
+  }
+  .banner__text {
+    margin-top: 10px;
+  }
+  .banner{
+    height: 200px;
+  }
 }

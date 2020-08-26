@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './HeaderNav.css'
 import Logo from '../../../assets/Logo/Trinity-Logo.png'
+import SideNav from '../../Res/SideNav/SideNav'
 
 function HeaderNav() {
   return (
@@ -14,6 +15,10 @@ function HeaderNav() {
         />
       </Link>
       <nav>
+        <div className="header-nav__responsive">
+          <SideNav />
+        </div>
+
         <ul className="header-nav__container">
           <li>OUR STORY</li>
           <li>
@@ -26,7 +31,7 @@ function HeaderNav() {
         </ul>
         <button
           onClick={() => {
-            window.location.href = '/donate';
+            window.location.href = '/donate'
           }}
           className="header-nav__donateButton"
         >

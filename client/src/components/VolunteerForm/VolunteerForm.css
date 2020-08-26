@@ -129,3 +129,110 @@
 .button:hover {
   opacity: 0.8;
 }
+
+@media only screen and (max-device-width: 690px)
+   {
+
+    .header-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      width: 400px;
+    }
+
+    .volunteer-text {
+      align-items: center;
+      padding-right: 20px;
+      padding-bottom: 30px;
+
+    }
+
+    .divider {
+      display:none;
+     
+    }
+
+
+  
+
+    .volunteer-div_form {
+    
+     width: fit-content;
+     
+    }
+
+    .form {
+      display: flex;
+      flex-direction: column;
+      width: fit-content;
+     
+      
+    }
+
+    .long-input_box,
+.message {
+  display: inline-flex;
+  width: 450px;
+  
+}
+
+
+.short-input_box {
+  display: inline-block;
+  width: 450px;
+  
+}
+
+}
+
+@media only screen and (min-device-width: 320px) 
+and (max-device-width: 460px){
+
+  .volunteer-div_form {
+    
+    width: fit-content;
+    
+   }
+
+   .volunteer-text {
+     display: flex;
+     justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+    padding-bottom: 30px;
+
+  }
+
+  .volunteer-p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 14px ;
+    width: 320px;
+    margin: auto;
+  }
+
+   .form {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+   
+    
+  }
+
+  .header-container {
+    display: flex;
+    
+    justify-content: center;
+
+    width: 380px;
+  }
+
+  .long-input_box,
+  .message, .short-input_box {
+    
+    width: 320px;
+    
+  }
+}
