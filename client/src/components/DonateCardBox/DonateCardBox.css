@@ -72,3 +72,8 @@
 .one-time-div {
   background: rgb(89, 60,173);
 }
+
+.card-input::placeholder {
+  color: white;
+
+}

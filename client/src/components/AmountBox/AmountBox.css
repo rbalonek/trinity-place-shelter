@@ -44,11 +44,13 @@
   background: none;
   border: none;
   outline: none;
-  color: gray;
+  color: white;
   width: 220px;
+  padding-left: 8px;
 }
 
 .input-amount::placeholder {
   color: gray;
+  
 }
 
