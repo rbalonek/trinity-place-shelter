@@ -5,14 +5,3 @@
   position: relative;
   border: none;
 }
-
-@media screen and (max-width: 400px){
-  .black-border {
-    min-height: 5px;
-    width: 100%;
-    background-color: black;
-    position: relative;
-    border: none;
-    width: 92%;
-  }
-}

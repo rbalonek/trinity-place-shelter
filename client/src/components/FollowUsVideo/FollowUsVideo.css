@@ -233,8 +233,7 @@
 }
 
 @media screen and (max-width: 400px) {
-  .followUs__testimonial {
-  }
+  
   .iframe-resize {
     height: 150px;
     margin-top: 150px;
@@ -245,7 +244,7 @@
     bottom: 25%;
     left: -5%;
     font-size: x-small;
-    width: 60%;
+    width: 100%;
     inline-size: auto;
   }
   .social-media {
@@ -256,7 +255,7 @@
     height: 40px;
   }
   .follow-us-div {
-    width: 92%;
+    width: 100%;
     top: 40px;
     height: 380px;
   }

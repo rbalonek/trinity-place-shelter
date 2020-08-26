@@ -11,7 +11,7 @@ export default function FolowUsVideo() {
             title="vimeo-player"
             src="https://player.vimeo.com/video/68974299?byline=false&title=false"
             height="280"
-            width="400"
+            width="300"
             frameborder="0"
             allowfullscreen
           ></iframe>
