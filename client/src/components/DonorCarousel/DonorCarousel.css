@@ -45,8 +45,17 @@
 .chevron--donors {
   font-size: 60px !important;
 }
+
 .seal-of-transparency {
-  /* display: none; */
+  height: 160px;
+  transform: rotate(20deg);
+}
+.donorCarousel__seal {
+  position: relative;
+  bottom: 35px;
+  right: 20px;
+  margin-left: auto;
+  z-index: 200;
 }
 @media screen and (max-width: 960px) {
   .doners-text {

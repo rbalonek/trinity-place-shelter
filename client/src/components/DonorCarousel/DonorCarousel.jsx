@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import './DonorCarousel.css'
 import ChevronLeftIcon from '@material-ui/icons/ChevronLeft'
 import ChevronRightIcon from '@material-ui/icons/ChevronRight'
+import sealOfTrans from '../../assets/images/new-seal.png'
 // carousel images
 import pic1 from '../../assets/images/DonateCarousel/aids-institute.png'
 import pic2 from '../../assets/images/DonateCarousel/calamus.png'
@@ -58,40 +59,20 @@ export default function DonorCarousel() {
           <ChevronRightIcon className="chevron--donors" />
         </button>
       </div>
-      {/* <img
-        className="img-carousel"
-        src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1598306691/Trinity-Place-Shelter/HomePage/AidsInst_vcypsl.png"
-        alt="aids-institute"
-      />
-      <img
-        className="img-carousel"
-        src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1598306691/Trinity-Place-Shelter/HomePage/viacom_gziix6.png"
-        alt="viacom-cbs"
-      />
-      <img
-        className="img-carousel"
-        src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1598306691/Trinity-Place-Shelter/HomePage/eltonJohn_zrrmb1.png"
-        alt="elton-john-aids-foundation"
-      />
-      <img
-        className="img-carousel"
-        src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1598306691/Trinity-Place-Shelter/HomePage/tudor_dgayqt.png"
-        alt="james-tudor-foundation"
-      /> */}
-
-      {/* <a
-        style={{ zIndex: '100' }}
-        href="https://www.guidestar.org/profile/94-3447082"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
+      <div className="donorCarousel__seal">
+        {/* <a
+          style={{ zIndex: '100' }}
+          href="https://www.guidestar.org/profile/94-3447082"
+          target="_blank"
+          rel="noopener noreferrer"
+        > */}
         <img
           className="seal-of-transparency"
-          style={{ zIndex: '100' }}
-          src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1597512463/Trinity-Place-Shelter/HomePage/Seal_of_transparancy_niagnw.png"
+          src={sealOfTrans}
           alt="seal-of-transparency"
         />
-      </a> */}
+        {/* </a> */}
+      </div>
     </div>
   )
 }
