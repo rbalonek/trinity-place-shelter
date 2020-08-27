@@ -5,7 +5,8 @@
   width: 100vw;
   background-image: url('../../assets/images/Donation\ Page\ Background.png');
   background-position:  1px;
-  background-size: 100% 120%;
+  background-size: 100% 117%;
+  
   
   
 }
@@ -25,8 +26,9 @@
   justify-content: center;
   align-items: center;
   width: 700px;
-  height: 900px;
+  height: 680px;
   margin: auto;
+  padding-top: 85px;
 }
 
 .donate-form {

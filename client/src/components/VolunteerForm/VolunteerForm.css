@@ -8,7 +8,7 @@
   background-image: url("../../assets/images/Background\ Shapes.png"),
     url("https://res.cloudinary.com/bobalobbadingdong/image/upload/v1597945995/Trinity-Place-Shelter/HomePage/Form_background_box_a6tryx.png");
   background-position: 1px, center;
-  background-size: 100% 124%, cover;
+  background-size: 100% 118% , cover;
 }
 
 .header-container {
@@ -20,7 +20,7 @@
   color: white;
   padding-top: 80px;
 
-  margin-bottom: 100px;
+  margin-bottom: 30px;
   width: 710px;
   top: 500px;
 }
@@ -28,15 +28,17 @@
 .volunteer-text {
   display: flex;
   align-items: center;
-  padding-right: 33px;
-  /* font-family: 'Roboto', sans-serif; */
+  font-size: 35px;
+  padding-right: 18px;
+  
 }
 .divider {
   display: flex;
   align-items: center;
-  font-size: 64px;
+  font-size: 70px;
+  font-weight: 240;
   margin-bottom: 10px;
-  padding-right: 20px;
+  padding-right: 10px;
   text-align: center;
 }
 
@@ -49,8 +51,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  
   width: 645px;
-  height: 900px;
+  height: 780px;
   margin: auto;
 }
 

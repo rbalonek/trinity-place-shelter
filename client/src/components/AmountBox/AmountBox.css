@@ -3,7 +3,7 @@
   flex-direction: column;
   padding: 10px;
   padding-left: 10px;
-  background: rgb(57,32,132);
+  background: rgb(48, 49, 151);
   width: 291px;
   height: 325px;
   margin-right: 10px;
@@ -22,7 +22,7 @@
   display: inline-flex; 
    align-items: center;
    color: white;
-  border-bottom: 2px solid  rgba(196, 196, 196, 0.35);
+  border-bottom: 1.5px solid  rgba(159, 159, 184, 0.8);
   padding: 10px;
   width: 250px;
   padding-left: 20px;
