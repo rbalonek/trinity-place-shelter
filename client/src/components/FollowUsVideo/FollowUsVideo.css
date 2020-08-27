@@ -229,9 +229,7 @@
   }
   
 }
-/* @media screen and (max-width: 527px){
-  
-} */
+
 
 @media screen and (max-width: 520px) {
   .followUs__left {
@@ -318,6 +316,22 @@
     top: 40px;
     height: 380px;
   }
+}
+@media screen and (max-width: 376px) {
+  .followUs__left {
+    position: absolute;
+    left: 25px;
+    font-size: x-small;
+    width: 100%;
+    inline-size: auto;
+}
+.iframe-resize {
+  height: 150px;
+  padding-left: 70px;
+}
+.followUs__testimonial {
+  right: 35px;
+}
 }
 
 @media screen and (max-width: 365px) {
