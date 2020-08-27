@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  background: rgb(57,32,132);
+  background: rgb(48, 49, 151);
   width: 340px;
   height: 325px;
   margin-left: 25px;
@@ -29,7 +29,7 @@
 
 
 .card-input {
-  background: rgba(196, 196, 196, 0.35);
+  background: rgb(100, 100, 167);
   outline: none;
   border: none;
   width: 321px;
@@ -70,7 +70,7 @@
 }
 
 .one-time-div {
-  background: rgb(89, 60,173);
+  background: rgb(59, 72, 152);
 }
 
 .card-input::placeholder {

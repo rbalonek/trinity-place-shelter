@@ -5,10 +5,10 @@
   margin: auto;
   color: white;
   padding-top: 80px;
-  padding-left: 20px;
+  padding-left: 10px;
 
-  margin-bottom: 100px;
-  width: 710px;
+  margin-bottom: 60px;
+  width: 700px;
   top: 500px;
 }
 
@@ -16,23 +16,24 @@
   display: flex;
   align-items: center;
   padding-right: 20px;
-  font-size: 34pt ;
+  font-size: 28pt ;
   
 }
 
 .donate-divider {
   display: flex;
   align-items: center;
-  font-size: 64px;
+  font-size: 75px;
+  font-weight: 240;
   margin-bottom: 10px;
-  padding-right: 20px;
+  padding-right: 10px;
   text-align: center;
 }
 
 .donate-p {
   display: flex;
   align-items: center;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 @media screen and (max-width: 700px){
