@@ -8,7 +8,7 @@ export default function VolunteerNowButton() {
       onClick={() => {
         window.location.href = '/volunteer-form'
       }}
-      className="volunteer-button"
+      className="volunteer-now_button"
     >
       VOLUNTEER NOW
     </button>
