@@ -27,7 +27,7 @@
 
 .volunteer__bannerButton {
   position: absolute;
-  top: 255px;
+  top: 300px;
   width: 10%;
   height: 20px;
   z-index: 50;
@@ -96,9 +96,13 @@
   position: absolute;
   z-index: 200;
 }
-@media screen and (max-width: 860px){
+@media screen and (max-width: 860px) {
+  .volunteer_bannerText {
+    padding-left: 70px;
+    padding-bottom: 100px;
+  }
+
   .volunteer_bannerText > h3 {
-    padding: 0px 0;
     padding-top: 5px;
     padding-right: 0px;
     padding-bottom: 5px;
@@ -108,9 +112,53 @@
     top: 90px;
     text-align: -webkit-center;
     font-size: small;
+  }
 }
+
+.volunteer_bannerText--mobile {
+  display: none;
 }
-@media screen and (max-width: 598px){
+
+@media screen and (max-width: 598px) {
+  .volunteer__banner {
+    height: 300px;
+    overflow: hidden;
+  }
+
+  .volunteer__bannerButton {
+    top: 180px;
+  }
+
+  .chevron {
+    font-size: 12vw !important;
+  }
+
+  .volunteer__bannerSlider img {
+    height: 300px;
+  }
+
+  .--right {
+    right: 4%;
+  }
+
+  .volunteer_bannerText--mobile {
+    background: rgb(33, 33, 33);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+  }
+
+  .volunteer_bannerText--mobile > h3 {
+    font-size: 14px;
+    font-weight: 600 !important;
+    padding-bottom: 10px;
+  }
+
   .volunteer_bannerText > h3 {
     padding: 0px 0;
     padding-top: 15px;
@@ -122,9 +170,10 @@
     top: 40px;
     text-align: -webkit-center;
     font-size: xx-small;
-}
+  }
 
   .volunteer__bannerRight {
+    display: none;
     position: absolute;
     right: 0;
     width: 50%;
@@ -133,21 +182,19 @@
     border-left: 120px solid transparent;
     border-bottom: 420px solid rgb(31, 31, 30);
     z-index: 50;
-}
-.volunteer__bannerAngledLine {
-  position: absolute;
-  right: 0px;
-  width: calc(50% + 10px);
-  height: 420px;
-  box-sizing: border-box;
-  border-left: 120px solid transparent;
-  border-bottom: 120px solid white;
-  border-bottom-width: 420px;
-  border-bottom-style: solid;
-  border-bottom-color: white;
-  z-index: 49;
-}
-.volunteer__bannerSlider{
-  
-}
+  }
+  .volunteer__bannerAngledLine {
+    display: none;
+    position: absolute;
+    right: 0px;
+    width: calc(50% + 10px);
+    height: 420px;
+    box-sizing: border-box;
+    border-left: 120px solid transparent;
+    border-bottom: 120px solid white;
+    border-bottom-width: 420px;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+    z-index: 49;
+  }
 }
