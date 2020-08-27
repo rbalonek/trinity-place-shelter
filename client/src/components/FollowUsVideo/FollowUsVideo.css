@@ -10,7 +10,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 120px;
+  padding-left: 70px;
   padding-bottom: 50px;
 }
 
@@ -81,8 +81,16 @@
     height: 200px;
     margin-top: 50px;
   }
+  .followUs__right {
+    width: 70%;
 }
-@media screen and (max-width: 916px) {
+}
+
+@media screen and (max-width: 1010px){
+  
+}
+
+@media screen and (max-width: 970px) {
   .followUs__right {
     position: absolute;
     height: 380px;
@@ -99,7 +107,7 @@
   }
 }
 
-@media screen and (max-width: 890px) {
+@media screen and (max-width: 899px) {
   .followUs__testimonial {
     margin-top: 10px;
     font-style: italic;
@@ -129,7 +137,7 @@
   .followUs__left {
     position: relative;
     bottom: 15%;
-    right: 10%;
+    right: 0%;
     font-size: smaller;
   }
   .social-media img {
@@ -138,26 +146,13 @@
     height: 40px;
   }
 }
-/* @media screen and (max-width: 520px){
-  .followUs__left {
-    position: relative;
-    bottom: 5%;
-    left: 5%;
-    font-size: small;
-    color: red;
-  }
-  .social-media img {
-    padding-right: 24px;
-    margin-top: 20px;
-    height: 10px;
-  }
-} */
 
-@media screen and (max-width: 705px) {
+
+@media screen and (max-width: 780px) {
   .followUs__left {
     position: relative;
     bottom: 15%;
-    right: 15%;
+    right: 5%;
     font-size: x-small;
   }
   .social-media img {
@@ -173,13 +168,14 @@
     width: max-content;
   }
 }
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 720px) {
   .followUs__left {
     position: absolute;
     bottom: 25%;
     left: 15%;
     font-size: x-small;
     width: 60%;
+    
   }
   .social-media img {
     position: relative;
@@ -188,7 +184,7 @@
     height: 40px;
   }
   .iframe-resize {
-    margin-top: 120px;
+    margin-top: 100px;
     position: relative;
     right: 0%;
   }
@@ -223,6 +219,7 @@
     left: 15%;
     font-size: x-small;
     width: 60%;
+    
   }
   .social-media img {
     position: relative;
@@ -230,15 +227,20 @@
     margin-top: 0px;
     height: 40px;
   }
+  
 }
+/* @media screen and (max-width: 527px){
+  
+} */
 
 @media screen and (max-width: 520px) {
   .followUs__left {
     position: absolute;
     /* bottom: 25%; */
     left: 15%;
-    font-size: x-small;
+    /* font-size: x-small; */
     width: 60%;
+   
   }
   .social-media {
     width: max-content;
@@ -256,6 +258,7 @@
     font-size: x-small;
     width: 60%;
     inline-size: auto;
+    
   }
   .social-media {
     width: max-content;
@@ -266,15 +269,38 @@
   }
 }
 
+/* MY CELL */
+@media screen and (max-width: 455px) {
+  .iframe-resize {
+    height: 150px;
+    margin-top: 150px;
+    position: absolute;
+    /* right: -20px; */
+}
+.followUs__left {
+  position: absolute;
+  left: 12%;
+  width: 60%;
+}
+.followUs__testimonial {
+  position:absolute;
+  margin-top: 10px;
+  font-style: italic;
+  top: 320px;
+  position: absolute;
+  right: 12%;
+  font-size: 10px;
+  width: max-content;
+}
+}
+
 @media screen and (max-width: 400px) {
   .iframe-resize {
     height: 150px;
     margin-top: 150px;
-    position: relative;
   }
   .followUs__left {
     position: absolute;
-    /* bottom: 25%; */
     left: -5%;
     font-size: x-small;
     width: 100%;
@@ -294,10 +320,9 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 365px) {
   .followUs__left {
     position: absolute;
-    /* bottom: 25%; */
     left: -15%;
     font-size: x-small;
     width: 60%;
@@ -310,4 +335,11 @@
     margin-top: 0px;
     height: 40px;
   }
+  .iframe-resize {
+    height: 120px;
+    padding-left: 110px;
+}
+.followUs__testimonial {
+  right: 5px;
+}
 }
