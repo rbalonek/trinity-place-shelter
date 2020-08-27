@@ -11,7 +11,9 @@ function VolunteerFormScreen() {
     <div className="volunteer-form">
       <VolunteerForm />
       <SmallBlackBar />
-      <YellowBox />
+      <div className="quick-fix">
+        <YellowBox />
+      </div>
     </div>
   )
 }
