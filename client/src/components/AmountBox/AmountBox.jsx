@@ -23,7 +23,7 @@ function AmountBox() {
             
       </label> 
       <label className="radio"> 
-            <input className="input-circle" type="radio" name="amount"/> $ <input className="input-amount" placeholder="TYPE CUSTOM AMOUNT"/>
+            <input className="input-circle" type="radio" name="amount"/> $ <input className="input-amount" type="text number" placeholder="TYPE CUSTOM AMOUNT"/>
             
         </label> 
     

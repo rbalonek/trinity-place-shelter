@@ -2,17 +2,14 @@
   box-sizing: border-box;
 }
 
-
-
-
 .volunteer-div {
   width: 100vw;
 
-  background-image: url("../../assets/images/Background\ Shapes.png"), url("https://res.cloudinary.com/bobalobbadingdong/image/upload/v1597945995/Trinity-Place-Shelter/HomePage/Form_background_box_a6tryx.png");
-  background-position:  1px,  center ;
-  background-size: 100% 124%,  cover;
-  }
-
+  background-image: url("../../assets/images/Background\ Shapes.png"),
+    url("https://res.cloudinary.com/bobalobbadingdong/image/upload/v1597945995/Trinity-Place-Shelter/HomePage/Form_background_box_a6tryx.png");
+  background-position: 1px, center;
+  background-size: 100% 118% , cover;
+}
 
 .header-container {
   display: flex;
@@ -23,7 +20,7 @@
   color: white;
   padding-top: 80px;
 
-  margin-bottom: 100px;
+  margin-bottom: 30px;
   width: 710px;
   top: 500px;
 }
@@ -31,15 +28,17 @@
 .volunteer-text {
   display: flex;
   align-items: center;
-  padding-right: 33px;
-  /* font-family: 'Roboto', sans-serif; */
+  font-size: 35px;
+  padding-right: 18px;
+  
 }
 .divider {
   display: flex;
   align-items: center;
-  font-size: 64px;
+  font-size: 70px;
+  font-weight: 240;
   margin-bottom: 10px;
-  padding-right: 20px;
+  padding-right: 10px;
   text-align: center;
 }
 
@@ -52,8 +51,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  
   width: 645px;
-  height: 900px;
+  height: 780px;
   margin: auto;
 }
 
@@ -108,13 +108,13 @@
   resize: none;
 }
 
-.button-div {
+.volunteer-button_div {
   display: flex;
   flex-direction: row-reverse;
   margin-top: 40px;
 }
 
-.button {
+.volunteer-button {
   background-color: var(--cta-color);
   color: white;
   height: 45px;
@@ -126,113 +126,100 @@
   outline: none;
   cursor: pointer;
 }
-.button:hover {
+.volunteer-button:hover {
   opacity: 0.8;
 }
 
-@media only screen and (max-device-width: 690px)
-   {
+@media only screen and (max-device-width: 690px) {
+  .header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
-    .header-container {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
+    width: 400px;
+  }
 
-      width: 400px;
-    }
-
-    .volunteer-text {
-      align-items: center;
-      padding-right: 20px;
-      padding-bottom: 30px;
-
-    }
-
-    .divider {
-      display:none;
-     
-    }
-
-
-  
-
-    .volunteer-div_form {
-    
-     width: fit-content;
-     
-    }
-
-    .form {
-      display: flex;
-      flex-direction: column;
-      width: fit-content;
-     
-      
-    }
-
-    .long-input_box,
-.message {
-  display: inline-flex;
-  width: 450px;
-  
-}
-
-
-.short-input_box {
-  display: inline-block;
-  width: 450px;
-  
-}
-
-}
-
-@media only screen and (min-device-width: 320px) 
-and (max-device-width: 460px){
-
-  .volunteer-div_form {
-    
-    width: fit-content;
-    
-   }
-
-   .volunteer-text {
-     display: flex;
-     justify-content: center;
+  .volunteer-text {
     align-items: center;
     padding-right: 20px;
     padding-bottom: 30px;
+  }
 
+  .divider {
+    display: none;
+  }
+
+  .volunteer-div_form {
+    width: 80vw;
+    padding-bottom: 900px;
+
+  }
+
+  
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin-bottom:100px;
+  }
+
+  .long-input_box,
+  .message {
+    display: inline-flex;
+    width: 80vw;
+  }
+
+  .short-input_box {
+    display: inline-block;
+    width: 80vw;
+  }
+
+  .volunteer-button_div {
+    margin-right: 20px;
+  }
+}
+
+@media only screen and (min-device-width: 315px) and (max-device-width: 460px) {
+  .volunteer-div_form {
+    width: 100vw;
+
+   
+  }
+
+  .volunteer-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+    padding-bottom: 30px;
   }
 
   .volunteer-p {
     display: flex;
     justify-content: center;
     text-align: center;
-    font-size: 14px ;
-    width: 320px;
+    font-size: 14px;
+    /* width: 100%; */
     margin: auto;
   }
 
-   .form {
+  .form {
     display: flex;
     flex-direction: column;
-    width: fit-content;
-   
     
   }
 
   .header-container {
     display: flex;
-    
     justify-content: center;
-
-    width: 380px;
+    width: 100vw;
   }
 
   .long-input_box,
-  .message, .short-input_box {
-    
-    width: 320px;
-    
+  .message,
+  .short-input_box {
+    width: 95vw;
+
   }
 }

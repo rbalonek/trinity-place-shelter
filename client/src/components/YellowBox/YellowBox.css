@@ -1,5 +1,5 @@
 .yelow-box{
-background-color: yellow;
+background-color:rgb(251, 233,117);
 align-items: center;
 text-align: center;
 }
@@ -8,4 +8,29 @@ text-align: center;
   color: white;
   position: relative;
   bottom: 250px;
+}
+.hand-heart{
+  margin-top: 45px;
+}
+
+@media screen and (max-width: 600px){
+  .hand-heart {
+    margin-top: 45px;
+    height: 300px;
+}
+.yellow-page-h1{
+  bottom: 200px;
+  font-size: x-large;
+}
+}
+
+@media screen and (max-width: 600px){
+  .hand-heart {
+    margin-top: 45px;
+    height: 200px;
+}
+.yellow-page-h1{
+  bottom: 120px;
+  font-size: large;
+}
 }

@@ -2,7 +2,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  background: rgb(57,32,132);
+  background: rgb(48, 49, 151);
   width: 340px;
   height: 325px;
   margin-left: 25px;
@@ -29,7 +29,7 @@
 
 
 .card-input {
-  background: rgba(196, 196, 196, 0.35);
+  background: rgb(100, 100, 167);
   outline: none;
   border: none;
   width: 321px;
@@ -70,5 +70,79 @@
 }
 
 .one-time-div {
-  background: rgb(89, 60,173);
+  background: rgb(59, 72, 152);
+}
+
+.card-input::placeholder {
+  color: white;
+
+}
+
+@media screen and (max-width: 700px){
+  .amount-donate_box {
+    display: flex;
+    justify-content: center;
+    /* margin-right: 20px; */
+    flex-direction: column;
+    align-items: center;
+}
+.amount-div {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  padding-left: 10px;
+  background: rgb(57,32,132);
+  width: 291px;
+  height: 325px;
+  margin-bottom: 20px;
+}
+.card-div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: rgb(57,32,132);
+  width: 340px;
+  height: 325px;
+  /* margin-left: 25px;
+  margin-right: 0px; */
+}
+}
+@media screen and (max-width: 365px){
+  .amount-donate_box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+}
+  .card-div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: rgb(57,32,132);
+    width: 300px;
+    height: 325px;
+}
+.card-tab {
+  padding-top: 0;
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding-left: 0;
+}
+.card-image {
+  display: flex;
+  justify-content: left;
+  width: 300px;
+  padding: 10px;
+  margin-right: 20px;
+}
+.card-input {
+  background: rgba(196, 196, 196, 0.35);
+  outline: none;
+  border: none;
+  width: 300px;
+  height: 33px;
+  margin-top: 15px;
+}
 }

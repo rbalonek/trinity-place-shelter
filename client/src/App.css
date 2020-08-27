@@ -1,10 +1,8 @@
 body {
-  --cta-color: rgb(232, 129, 95);
-  /* width: fit-content; */
+  --cta-color: rgb(250, 125, 86);
 }
 
 .app {
   display: flex;
   flex-direction: column;
-  /* height: 100vh; */
 }

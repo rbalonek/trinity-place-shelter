@@ -1,7 +1,8 @@
-.black-border{
+.black-border {
   min-height: 5px;
   width: 100%;
   background-color: black;
   position: relative;
   border: none;
+  z-index: 100;
 }

@@ -94,8 +94,8 @@ function VolunteerForm() {
             <label className="input-label">ZIP CODE</label>
             <input className="short-input_box" onChange={handleChange} name="zip" required></input>
           </div>
-          <div className="button-div">
-            <button className="button" >{submitted ? 'Submitted!' : 'SUBMIT'}</button>
+          <div className="volunteer-button_div">
+            <button className="volunteer-button" >{submitted ? 'Submitted!' : 'SUBMIT'}</button>
           </div>
         </form>
       </div>

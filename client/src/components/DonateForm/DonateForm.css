@@ -1,12 +1,12 @@
 * {
   box-sizing: border-box;
 }
-
 .donate-div {
   width: 100vw;
   background-image: url('../../assets/images/Donation\ Page\ Background.png');
   background-position:  1px;
-  background-size: 100% 120%;
+  background-size: 100% 117%;
+  
   
   
 }
@@ -26,8 +26,9 @@
   justify-content: center;
   align-items: center;
   width: 700px;
-  height: 900px;
+  height: 680px;
   margin: auto;
+  padding-top: 85px;
 }
 
 .donate-form {
@@ -56,7 +57,7 @@
   font-size: 12px;
 } */
 
-.short-input {
+.donate-short-input {
   display: inline-block;
   width: 319px;
   height: 33px;
@@ -72,7 +73,7 @@
   padding: 10px;
 }
 
-.long-input{
+.donate-long-input{
   width: 664px;
   height: 33px;
   background: rgba(137, 207, 240, 0.35);
@@ -82,11 +83,16 @@
   font-size: 16px;
 }
 
-::placeholder {
+.donate-short-input::placeholder {
   color: white;
+  padding-left: 10px;
   
 }
-
+.donate-long-input::placeholder {
+  color: white;
+  padding-left: 10px;
+  
+}
 
 
 .button-div {
@@ -110,4 +116,51 @@
 }
 .button:hover {
   opacity: 0.8;
+}
+
+@media screen and (max-width: 670px){
+  
+  .donate-div_form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 700px;
+    width: 90vw;
+    
+}
+
+
+.donate-short-input, .donate-long-input{
+  width: 90vw;
+  
+  
+}
+.donate-long-input::placeholder {
+
+  color: white;
+  
+  
+  
+}
+
+.donate-form {
+  width: 900vw;
+  margin: auto;
+}
+}
+@media screen and (max-width: 328px){
+ 
+  .donate-short-input, .donate-long-input{
+    width: 80vw;
+    height: 40px;
+    
+    
+  }
+  
+
+  .donate-input-short_div {
+   
+    width: 80vw;
+}
+
 }

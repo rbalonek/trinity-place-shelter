@@ -2,37 +2,80 @@
   display: flex;
   width: 100%;
 }
+
+.shapes-overlay {
+  position: absolute;
+  background: url(../../assets/images/VolunteerOptions/shapes-overlay.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 460px;
+  width: 100%;
+  z-index: 20;
+}
+
 .left-div,
 .middle-div,
 .right-div {
-  height: 300px;
+  z-index: 10;
+  height: 460px;
   width: 100%;
-  background: center;
-  text-align: center;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
 .left-div {
-  background-image: url('../../assets/images/Shapes\ Volunteer\ Filter.png'),  url("https://res.cloudinary.com/bobalobbadingdong/image/upload/v1598294696/Trinity-Place-Shelter/HomePage/food_jgrelp.png");
+  background-image: url('../../assets/images/VolunteerOptions/vol-option-1.png');
 }
 .middle-div {
-  background-image: url('../../assets/images/Shapes\ Volunteer\ Filter.png'), url("https://res.cloudinary.com/bobalobbadingdong/image/upload/v1598294695/Trinity-Place-Shelter/HomePage/volunteers_djfl9f.png");
-  background-position-y: -40px;
+  background-image: url('../../assets/images/VolunteerOptions/vol-option-2.png');
 }
 .right-div {
-  background-image: url('../../assets/images/Shapes\ Volunteer\ Filter.png'), url("https://res.cloudinary.com/bobalobbadingdong/image/upload/v1598294695/Trinity-Place-Shelter/HomePage/computer_hnhvv0.png");
+  background-image: url('../../assets/images/VolunteerOptions/vol-option-3.png');
 }
 
 .food-circle {
-  height: 180px;
+  height: 220px;
   position: relative;
-  top: 50px;
+  top: 30px;
 }
 .food-text {
   color: white;
   font-size: 9px;
   position: relative;
-  bottom: 50px;
+  bottom: 90px;
   margin-bottom: 5px;
 }
+@media screen and (max-width: 881px){
+  .shapes-overlay {
+    height: 300px;
+  }
+  .left-div,
+.middle-div,
+.right-div{
+  height: 300px;
+}
+.volunteer__circles {
+  height: 250px;
+}
+}
+@media screen and (max-width: 455px){
+  .left-div,
+  .middle-div,
+  .right-div{
+    height: 250px;
+  }
+  .shapes-overlay {
+    height: 250px;
+  }
+  .volunteer__circles {
+    height: 250px;
+  }
+}
 
+/* @media screen and (max-width: 355px){
+  .left-div,
+  .middle-div,
+  .right-div{
+    height: 250px;
+  }
+} */

@@ -18,7 +18,6 @@ function HeaderNav() {
         <div className="header-nav__responsive">
           <SideNav />
         </div>
-
         <ul className="header-nav__container">
           <li>OUR STORY</li>
           <li>
