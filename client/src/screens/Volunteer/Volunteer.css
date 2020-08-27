@@ -2,6 +2,10 @@
   color: black;
 }
 
+.--volunteer--link {
+  color: rgb(84, 65, 167) !important;
+}
+
 .volunteer__banner {
   background: transparent;
   display: flex;
