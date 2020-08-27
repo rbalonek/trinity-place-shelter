@@ -62,7 +62,6 @@ export default function DonorCarousel() {
       </div>
       <div className="donorCarousel__seal">
         <a
-          style={{ zIndex: '100' }}
           href="https://www.guidestar.org/profile/94-3447082"
           target="_blank"
           rel="noopener noreferrer"

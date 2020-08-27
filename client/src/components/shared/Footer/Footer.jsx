@@ -27,11 +27,16 @@ function Footer() {
        
       
         <div className="footer-501-info">
+        <a
+        href="https://www.guidestar.org/profile/94-3447082"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <img
         className="footer-seal-of-transparency"
         src="https://res.cloudinary.com/bobalobbadingdong/image/upload/v1597512463/Trinity-Place-Shelter/HomePage/Seal_of_transparancy_niagnw.png"
         alt="seal-of-transparency"
-      />
+      /></a>
       <p>Trinity Community Connection</p>
       <p>is a 501(c)(3) Organization</p>
       <br />
