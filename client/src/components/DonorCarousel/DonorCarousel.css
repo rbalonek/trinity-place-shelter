@@ -15,13 +15,18 @@
 
 .donorCarousel__slider img {
   height: 90px;
-  /* width: 200px; */
-  /* margin-right: 100px; */
 }
 
-.--tsx {
-  background: blue;
+.carousel-container button {
+  background: transparent;
+  border: none;
+  outline: none;
+  transition: 250ms;
 }
+.carousel-container button:hover {
+  transform: scale(1.3);
+}
+
 .donors-text {
   width: 200px;
   display: flex;
