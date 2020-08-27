@@ -54,3 +54,31 @@
   
 }
 
+@media screen and (max-width: 670px){
+  .amount-div {
+    
+   display: flex;
+    
+    flex-direction: column;
+    margin-right: 0px ;
+    margin-left: 10px ;
+   
+    
+  }
+}
+
+@media screen and (max-width: 310px) {
+
+  .amount-div {
+    display: flex;
+    width: 80vw;
+   
+    
+ 
+   
+    
+  }
+
+  
+
+}

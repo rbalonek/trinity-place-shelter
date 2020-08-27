@@ -105,13 +105,13 @@
   resize: none;
 }
 
-.button-div {
+.volunteer-button_div {
   display: flex;
   flex-direction: row-reverse;
   margin-top: 40px;
 }
 
-.button {
+.volunteer-button {
   background-color: var(--cta-color);
   color: white;
   height: 45px;
@@ -123,7 +123,7 @@
   outline: none;
   cursor: pointer;
 }
-.button:hover {
+.volunteer-button:hover {
   opacity: 0.8;
 }
 
@@ -147,30 +147,37 @@
   }
 
   .volunteer-div_form {
-    width: fit-content;
+    width: 80vw;
   }
 
   .form {
     display: flex;
     flex-direction: column;
     width: fit-content;
+    margin-bottom:100px;
   }
 
   .long-input_box,
   .message {
     display: inline-flex;
-    width: 450px;
+    width: 80vw;
   }
 
   .short-input_box {
     display: inline-block;
-    width: 450px;
+    width: 80vw;
+  }
+
+  .volunteer-button_div {
+    margin-right: 20px;
   }
 }
 
-@media only screen and (min-device-width: 320px) and (max-device-width: 460px) {
+@media only screen and (min-device-width: 315px) and (max-device-width: 460px) {
   .volunteer-div_form {
-    width: fit-content;
+    width: 100vw;
+
+   
   }
 
   .volunteer-text {
@@ -186,27 +193,26 @@
     justify-content: center;
     text-align: center;
     font-size: 14px;
-    width: 100%;
+    /* width: 100%; */
     margin: auto;
   }
 
   .form {
     display: flex;
     flex-direction: column;
-    width: fit-content;
+    
   }
 
   .header-container {
     display: flex;
-
     justify-content: center;
-
-    width: 100%;
+    width: 100vw;
   }
 
   .long-input_box,
   .message,
   .short-input_box {
-    width: 100%;
+    width: 95vw;
+
   }
 }
