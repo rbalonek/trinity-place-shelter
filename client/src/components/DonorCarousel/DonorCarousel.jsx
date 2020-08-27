@@ -1,35 +1,81 @@
-import React, { useState } from 'react'
-import './DonorCarousel.css'
-import ChevronLeftIcon from '@material-ui/icons/ChevronLeft'
-import ChevronRightIcon from '@material-ui/icons/ChevronRight'
-import sealOfTrans from '../../assets/images/new-seal.png'
+import React, { useState } from "react";
+import "./DonorCarousel.css";
+import ChevronLeftIcon from "@material-ui/icons/ChevronLeft";
+import ChevronRightIcon from "@material-ui/icons/ChevronRight";
+import sealOfTrans from "../../assets/images/new-seal.png";
 // carousel images
-import pic1 from '../../assets/images/DonateCarousel/aids-institute.png'
-import pic2 from '../../assets/images/DonateCarousel/calamus.png'
-import pic3 from '../../assets/images/DonateCarousel/elton-john.png'
-import pic4 from '../../assets/images/DonateCarousel/james-tudor.png'
-import pic5 from '../../assets/images/DonateCarousel/tjx.png'
-import pic6 from '../../assets/images/DonateCarousel/van-amerigen.png'
+import pic1 from "../../assets/images/DonateCarousel/aids-institute.png";
+import pic2 from "../../assets/images/DonateCarousel/calamus.png";
+import pic3 from "../../assets/images/DonateCarousel/elton-john.png";
+import pic4 from "../../assets/images/DonateCarousel/not-cropped-james-tudor.png";
+import pic5 from "../../assets/images/DonateCarousel/tjx.png";
+import pic6 from "../../assets/images/DonateCarousel/van-amerigen.png";
 
 export default function DonorCarousel() {
-  const [x, setX] = useState(0)
+  const [x, setX] = useState(0);
 
   let carouselArr = [
-    <img src={pic1} alt="pic1" />,
-    <img src={pic2} alt="pic2" />,
-    <img src={pic3} alt="pic3" />,
-    <img src={pic5} alt="pic5" />,
-    <img src={pic6} alt="pic6" />,
-    <img src={pic4} alt="pic4" />,
-  ]
+    <img
+      src={pic1}
+      alt="pic1"
+      style={{
+        height: "50px",
+        marginLeft: "0",
+        marginTop: "18px",
+      }}/>,
+
+    <img 
+      src={pic2}
+      alt="pic2"
+    style={{
+      height: "50px",
+      marginLeft: "50px",
+      marginTop: "18px",
+    }}
+    />,
+    
+    <img
+      src={pic3} 
+      alt="pic3"
+      style={{
+        height: "50px",
+        marginLeft: "50px",
+        marginTop: "18px",
+      }} />,
+    <img
+      src={pic5}
+      alt="pic5"
+      style={{
+        height: "50px",
+        marginLeft: "50px",
+        marginTop: "18px",
+      }}/>,
+      
+    <img
+      src={pic6}
+      alt="pic6" 
+      style={{
+        height: "50px",
+        marginLeft: "50px",
+        marginTop: "18px",
+      }}/>,
+      <img
+      src={pic4}
+      alt="pic4"
+      style={{
+        height: "50px",
+        marginTop: "18px",
+        marginLeft:"140px",
+      }}/>,
+  ];
 
   const slideLeft = () => {
-    x === 0 ? setX(-400) : setX(x + 100)
-  }
+    x === 0 ? setX(-400) : setX(x + 100);
+  };
 
   const slideRight = () => {
-    x < -300 ? setX(0) : setX(x - 100)
-  }
+    x < -300 ? setX(0) : setX(x - 100);
+  };
 
   return (
     <div className="carousel-container">
@@ -52,7 +98,7 @@ export default function DonorCarousel() {
             >
               {image}
             </div>
-          )
+          );
         })}
       </div>
       <div className="donorCarousel__rightButton">
@@ -74,5 +120,5 @@ export default function DonorCarousel() {
         </a>
       </div>
     </div>
-  )
+  );
 }
