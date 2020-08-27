@@ -59,7 +59,7 @@ function AdminUpdate(props) {
           <b>Update Volunteer:</b>
         </p>
         <form onSubmit={handleSubmit} className="admin-update__form">
-          <input
+          <input className="update-input-screen"
             value={volunteer.firstName}
             placeholder="First Name"
             name="firstName"
@@ -67,7 +67,7 @@ function AdminUpdate(props) {
             autoFocus
             onChange={handleChange}
           />
-          <input
+          <input className="update-input-screen"
             value={volunteer.lastName}
             placeholder="Last Name"
             name="lastName"
@@ -75,7 +75,7 @@ function AdminUpdate(props) {
             autoFocus
             onChange={handleChange}
           />
-          <input
+          <input className="update-input-screen"
             value={volunteer.phone}
             placeholder="Phone"
             name="phone"
@@ -83,7 +83,7 @@ function AdminUpdate(props) {
             autoFocus
             onChange={handleChange}
           />
-          <input
+          <input className="update-input-screen"
             value={volunteer.address}
             placeholder="Address"
             name="address"
@@ -91,14 +91,14 @@ function AdminUpdate(props) {
             autoFocus
             onChange={handleChange}
           />
-          <input
+          <input className="update-input-screen"
             value={volunteer.secondAddress}
             placeholder="Address Line 2"
             name="secondAddress"
             autoFocus
             onChange={handleChange}
           />
-          <input
+          <input className="update-input-screen"
             value={volunteer.city}
             placeholder="City"
             name="city"
@@ -106,7 +106,7 @@ function AdminUpdate(props) {
             autoFocus
             onChange={handleChange}
           />
-          <input
+          <input className="update-input-screen"
             value={volunteer.state}
             placeholder="State"
             name="state"
@@ -114,7 +114,7 @@ function AdminUpdate(props) {
             autoFocus
             onChange={handleChange}
           />
-          <input
+          <input className="update-input-screen"
             value={volunteer.zip}
             placeholder="Zip"
             name="zip"
@@ -122,7 +122,7 @@ function AdminUpdate(props) {
             autoFocus
             onChange={handleChange}
           />
-          <textarea
+          <textarea className="update-input-screen"
             value={volunteer.message}
             placeholder="Volunteer message..."
             name="message"
@@ -130,11 +130,11 @@ function AdminUpdate(props) {
             onChange={handleChange}
           />
           {isUpdated ? <p>Update saved!</p> : ''}
-          <button type="submit">Save Update</button>
+          <button className="save-button" type="submit">Save Update</button>
         </form>
       </div>
       <div className="admin-update__buttons">
-        <button onClick={backToAdmin}>Back to Admin</button>
+        <button className="backto-button"onClick={backToAdmin}>Back to Admin</button>
       </div>
     </div>
   )
