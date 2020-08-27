@@ -122,7 +122,7 @@ a {
     margin-top: -30px;
   }
 }
-@media screen and (max-width: 500px){
+@media screen and (max-width: 500px) {
   .footer-nav-links {
     color: white;
     display: flex;
@@ -130,14 +130,14 @@ a {
     position: relative;
     top: 0px;
     left: -120px;
-    
+
   }
 }
 @media screen and (max-width: 470px){
   .footer-nav-links {
     left: -120px;
   }
-}
+
 @media screen and (max-width: 414px) {
  
 .footer-nav-links {
@@ -169,8 +169,7 @@ a {
     flex-direction: column;
     position: relative;
     top: 0px;
-    left: -60px;
-    
+    left: -60px;  
   }
 } 
 @media screen and (max-width: 320px){
