@@ -7,8 +7,9 @@ function CarouselSlide({ src, alt }) {
       alt={alt}
       style={{
         height: '420px',
-        marginLeft: '0',
-        objectFit: 'fit',
+        marginLeft: 'auto',
+        backgroundRepeat: 'repeat-x',
+        objectFit: 'cover',
       }}
     />
   )
