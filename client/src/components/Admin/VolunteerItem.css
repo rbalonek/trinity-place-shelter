@@ -2,14 +2,42 @@
   border-bottom: 1px solid darkgray;
   display: flex;
   align-items: center;
+  padding-left: 10px;
   padding-bottom: 10px;
   margin: 10px 0;
+  color: rgb(80, 79, 79);
+  
+  
+}
+
+.admin-name {
+  width: 500px;
+}
+
+.admin-p{
+  display: flex;
+flex-direction: flex-end;
+width: 250px;
+padding-right: 0;
 }
 
 .volunteer-item:hover {
-  color: gray;
+  color: rgb(43, 94, 214)
 }
 
 .volunteer-item > p {
   margin-left: auto;
+  
+}
+
+@media screen and (max-width: 700px){
+  .volunteer-item > .admin-p{
+
+    font-size: 13px;
+    padding-left:30px;
+  }
+  .admin-name {
+    width: 200px;
+  }
+
 }
