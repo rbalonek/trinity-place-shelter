@@ -12,6 +12,10 @@
   border-radius: 20px;
   margin-bottom: 30px;
   max-width: 600px;
+  /* Bobs fun background */
+  background-color: #1fd1f9;
+background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
+
 }
 
 .admin-update__details > p {
@@ -32,7 +36,8 @@
 
 .admin-update__form > textarea {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: transparent;
+  /* Not sure why this was here but it messed with bobs fun background... */
+  /* background: transparent; */
   border: 1px solid rgba(33, 33, 33, 0.5);
   border-radius: 3px;
   padding: 5px;
