@@ -30,7 +30,7 @@ function Admin() {
   return (
     <div className="admin">
       <div className="admin__volunteers">
-        <h1>Volunteers Admin Screen</h1>
+        <h1 className="volunteer-admin">Volunteers Admin Screen</h1>
         {renderVolunteers}
       </div>
     </div>

@@ -1,3 +1,9 @@
+.volunteer-admin {
+  color: rgb(250, 125, 87);
+  padding-bottom: 40px;
+  font-weight: 800;
+}
+
 .admin {
   display: flex;
   flex-direction: column;
