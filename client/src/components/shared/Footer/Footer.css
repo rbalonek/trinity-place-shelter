@@ -122,6 +122,22 @@ a {
     margin-top: -30px;
   }
 }
+@media screen and (max-width: 500px){
+  .footer-nav-links {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 0px;
+    left: -160px;
+    
+  }
+}
+@media screen and (max-width: 411px) {
+  .footer-nav-links {
+    left: -120px;
+}
+}
 
 @media screen and (max-width: 380px) {
   .footer {
@@ -146,8 +162,8 @@ a {
     display: flex;
     flex-direction: column;
     position: relative;
-    top: 55px;
-    left: -40px;
+    top: 0px;
+    left: -90px;
     
   }
 } 

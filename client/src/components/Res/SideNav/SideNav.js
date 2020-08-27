@@ -39,19 +39,19 @@ function SideNav() {
         <div className="sideNav">
           <nav className="sideNav__nav">
             <ul>
-              <Link to="/" className="header-nav--link">
+              <Link to="/" className="side-nav-nav--link">
                 <li>HOME</li>
               </Link>
-              <li className="header-nav--no-link">OUR STORY</li>
+              <li className="side-nav-nav--no-link">OUR STORY</li>
               <li>
-                <Link to="/volunteer" className="header-nav--link">
+                <Link to="/volunteer" className="side-nav-nav--link">
                   VOLUNTEER
                 </Link>
               </li>
-              <li className="header-nav--no-link">RESOURCES</li>
-              <li className="header-nav--no-link">FAQ</li>
+              <li className="side-nav-nav--no-link">RESOURCES</li>
+              <li className="side-nav-nav--no-link">FAQ</li>
               <li>
-                <Link to="/donate" className="header-nav--link">
+                <Link to="/donate" className="side-nav-nav--link">
                   DONATE
                 </Link>
               </li>
