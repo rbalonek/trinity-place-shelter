@@ -4,7 +4,6 @@
 }
 
 .donorCarousel__slider-container {
-  background: gray;
   display: flex;
   overflow: scroll;
   width: 600px;
@@ -16,7 +15,8 @@
 
 .donorCarousel__slider img {
   height: 90px;
-  margin-right: 100px;
+  /* width: 200px; */
+  /* margin-right: 100px; */
 }
 
 .--tsx {

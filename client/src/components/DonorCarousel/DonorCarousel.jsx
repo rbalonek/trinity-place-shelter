@@ -17,9 +17,9 @@ export default function DonorCarousel() {
     <img src={pic1} alt="pic1" />,
     <img src={pic2} alt="pic2" />,
     <img src={pic3} alt="pic3" />,
-    <img src={pic4} alt="pic4" />,
-    // <img src={pic5} alt="pic5" />,
+    <img src={pic5} alt="pic5" />,
     <img src={pic6} alt="pic6" />,
+    <img src={pic4} alt="pic4" />,
   ]
 
   const slideLeft = () => {
