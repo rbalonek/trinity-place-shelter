@@ -1,14 +1,74 @@
 .sideNav {
-  height: 100vh;
-  width: 160px;
+  height: 250px;
+  /* box-shadow: 0px 2px 5px 5px red; */
+  /* border: 5px solid transparent;
+  border-image: linear-gradient(
+    to bottom right,
+    #b827fc 0%,
+    #2c90fc 25%,
+    #b8fd33 50%,
+    #fec837 75%,
+    #fd1892 100%
+  );
+  border-image-slice: 1;
+  margin: 20px auto;
+  margin-top: 40px;
+  margin-right: 40px; */
+  /* border-radius: 10%; */
+
+  margin-top: 40px;
+  margin-right: 40px;
+  padding: 10px 20px 50px 20px;
+  width: 260px;
   background: white;
   color: white;
   z-index: 300;
   position: fixed;
   top: 0;
   right: 0;
-  color: black;
+  /*  */
+  /* color: black; */
   transition: transform 0.3s ease-out;
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(
+    left,
+    orange,
+    yellow,
+    green,
+    cyan,
+    blue,
+    violet
+  ); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(
+    right,
+    orange,
+    yellow,
+    green,
+    cyan,
+    blue,
+    violet
+  ); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(
+    right,
+    orange,
+    yellow,
+    green,
+    cyan,
+    blue,
+    violet
+  ); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(
+    to right,
+    orange,
+    yellow,
+    green,
+    cyan,
+    blue,
+    violet
+  ); /* Standard syntax (must be last) */
+  border-top-left-radius: 90px;
+  border-bottom-left-radius: 90px;
+  border-bottom-right-radius: 90px;
 }
 
 .open {
@@ -51,4 +111,26 @@
   padding-bottom: 10px;
   font-size: 20px;
   font-weight: 600;
+}
+
+.sideNav__nav,
+.header-nav--link {
+  text-align: center;
+  color: darkblue;
+}
+
+.header-nav--no-link:hover{
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  }
+
+.header-nav--link:hover {
+  color: red;
+}
+
+@media screen and (max-width: 450px) {
+  .sideNav {
+    height: 250px;
+    width: 280px;
+  }
 }
