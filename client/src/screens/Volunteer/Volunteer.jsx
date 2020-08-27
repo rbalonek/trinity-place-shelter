@@ -24,15 +24,15 @@ function Volunteer() {
     <CarouselSlide src={pic2} alt="pic2" />,
     <CarouselSlide src={pic3} alt="pic3" />,
     <CarouselSlide src={pic4} alt="pic4" />,
-    <CarouselSlide src={pic5} alt="pic5" />,
+    // <CarouselSlide src={pic5} alt="pic5" />,
   ]
 
   const slideLeft = () => {
-    x === 0 ? setX(-400) : setX(x + 100)
+    x === 0 ? setX(-300) : setX(x + 100)
   }
 
   const slideRight = () => {
-    x < -300 ? setX(0) : setX(x - 100)
+    x < -200 ? setX(0) : setX(x - 100)
   }
 
   return (
@@ -67,6 +67,13 @@ function Volunteer() {
         <button onClick={slideLeft} className="volunteer__bannerButton --left">
           <ChevronLeftIcon className="chevron" />
         </button>
+      </div>
+      <div className="volunteer_bannerText--mobile">
+        <h3>EVERYONE DESERVES...</h3>
+        <h3>A WARM BED</h3>
+        <h3>A SAFE SPACE</h3>
+        <h3>A ROOF OVERHEAD</h3>
+        <h3>LOVE & ACCEPTANCE</h3>
       </div>
       <div className="volunteer__ctaButton">
         <VolunteerNowButton />

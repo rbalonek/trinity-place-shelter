@@ -32,7 +32,8 @@
 .volunteer__bannerButton {
   position: absolute;
   top: 300px;
-  height: 75px;
+  width: 10%;
+  height: 20px;
   z-index: 50;
   background: none;
   border: none;
@@ -101,8 +102,13 @@
   z-index: 200;
 }
 @media screen and (max-width: 860px) {
+
+  .volunteer_bannerText {
+    padding-left: 70px;
+    padding-bottom: 100px;
+  }
+
   .volunteer_bannerText > h3 {
-    padding: 0px 0;
     padding-top: 5px;
     padding-right: 0px;
     padding-bottom: 5px;
@@ -114,6 +120,52 @@
     font-size: small;
   }
 }
+
+
+.volunteer_bannerText--mobile {
+  display: none;
+}
+
+@media screen and (max-width: 598px) {
+  .volunteer__banner {
+    height: 300px;
+    overflow: hidden;
+  }
+
+  .volunteer__bannerButton {
+    top: 180px;
+  }
+
+  .chevron {
+    font-size: 12vw !important;
+  }
+
+  .volunteer__bannerSlider img {
+    height: 300px;
+  }
+
+  .--right {
+    right: 4%;
+  }
+
+  .volunteer_bannerText--mobile {
+    background: rgb(33, 33, 33);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+  }
+
+  .volunteer_bannerText--mobile > h3 {
+    font-size: 14px;
+    font-weight: 600 !important;
+    padding-bottom: 10px;
+  }
+
 @media screen and (max-width: 598px) {
   .volunteer_bannerText > h3 {
     padding: 0px 0;
@@ -129,6 +181,7 @@
   }
 
   .volunteer__bannerRight {
+    display: none;
     position: absolute;
     right: 0;
     width: 50%;
@@ -139,6 +192,7 @@
     z-index: 50;
   }
   .volunteer__bannerAngledLine {
+    display: none;
     position: absolute;
     right: 0px;
     width: calc(50% + 10px);

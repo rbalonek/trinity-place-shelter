@@ -41,12 +41,12 @@ a:visited {
 }
 
 .header-nav__container > li:hover {
-  color: rgb(84, 65, 167);
+  color: rgb(84, 65, 167) !important;
 }
 
 .header-nav-link {
   text-decoration: none;
-  color: black;
+  color: black !important;
 }
 
 .header-nav--link:hover {
