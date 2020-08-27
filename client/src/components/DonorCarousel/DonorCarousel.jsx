@@ -19,9 +19,17 @@ export default function DonorCarousel() {
     <img src={pic2} alt="pic2" />,
     <img src={pic3} alt="pic3" />,
     <img src={pic4} alt="pic4" />,
-    <img src={pic5} alt="pic5" />,
+    // <img src={pic5} alt="pic5" />,
     <img src={pic6} alt="pic6" />,
   ]
+
+  const slideLeft = () => {
+    x === 0 ? setX(-400) : setX(x + 100)
+  }
+
+  const slideRight = () => {
+    x < -300 ? setX(0) : setX(x - 100)
+  }
 
   return (
     <div className="carousel-container">
@@ -29,7 +37,9 @@ export default function DonorCarousel() {
         <h3>MAJOR DONORS</h3>
       </div>
       <div className="donorCarousel__leftButton">
-        <ChevronLeftIcon id="left-chev" className="chevron--donors" />
+        <button onClick={slideLeft}>
+          <ChevronLeftIcon id="left-chev" className="chevron--donors" />
+        </button>
       </div>
       {/* carousel maps image elements onto page */}
       <div className="donorCarousel__slider-container">
@@ -45,7 +55,9 @@ export default function DonorCarousel() {
         })}
       </div>
       <div className="donorCarousel__rightButton">
-        <ChevronRightIcon className="chevron--donors" />
+        <button onClick={slideRight}>
+          <ChevronRightIcon className="chevron--donors" />
+        </button>
       </div>
       {/* <img
         className="img-carousel"

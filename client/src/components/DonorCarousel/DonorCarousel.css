@@ -7,12 +7,20 @@
   background: gray;
   display: flex;
   overflow: scroll;
-  width: calc(70% - 100px);
+  width: 600px;
+}
+
+.donorCarousel__slider {
+  transition: 0.5s;
 }
 
 .donorCarousel__slider img {
   height: 90px;
   margin-right: 100px;
+}
+
+.--tsx {
+  background: blue;
 }
 .donors-text {
   width: 200px;
