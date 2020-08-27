@@ -42,14 +42,14 @@ function SideNav() {
               <Link to="/" className="header-nav--link">
                 <li>HOME</li>
               </Link>
-              <li>OUR STORY</li>
+              <li className="header-nav--no-link">OUR STORY</li>
               <li>
                 <Link to="/volunteer" className="header-nav--link">
                   VOLUNTEER
                 </Link>
               </li>
-              <li>RESOURCES</li>
-              <li>FAQ</li>
+              <li className="header-nav--no-link">RESOURCES</li>
+              <li className="header-nav--no-link">FAQ</li>
               <li>
                 <Link to="/donate" className="header-nav--link">
                   DONATE
