@@ -53,8 +53,8 @@
 }
 .donorCarousel__seal {
   position: relative;
-  bottom: 35px;
-  right: 20px;
+  bottom: 25px;
+  right: 25px;
   margin-left: auto;
   z-index: 200;
 }
