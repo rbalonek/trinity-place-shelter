@@ -75,7 +75,7 @@ function Volunteer() {
         <VolunteerOptionsCircles />
       </div>
       <VolunteerOptions />
-        <SmallWhiteBar />
+      <SmallWhiteBar />
       <HomeIconBox />
     </div>
   )

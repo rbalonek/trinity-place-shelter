@@ -6,7 +6,7 @@ function CarouselSlide({ src, alt }) {
       src={src}
       alt={alt}
       style={{
-        minWidth: '100%',
+        height: '420px',
         marginLeft: '0',
         objectFit: 'fit',
       }}
