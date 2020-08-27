@@ -5,7 +5,7 @@
 
 .donorCarousel__slider-container {
   display: flex;
-  overflow: scroll;
+  overflow: hidden;
   width: 600px;
 }
 
