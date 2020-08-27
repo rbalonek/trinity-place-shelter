@@ -36,6 +36,7 @@ export default function DonorCarousel() {
       <div className="donors-text">
         <h3>MAJOR DONORS</h3>
       </div>
+
       <div className="donorCarousel__leftButton">
         <button onClick={slideLeft}>
           <ChevronLeftIcon id="left-chev" className="chevron--donors" />
@@ -60,18 +61,18 @@ export default function DonorCarousel() {
         </button>
       </div>
       <div className="donorCarousel__seal">
-        {/* <a
+        <a
           style={{ zIndex: '100' }}
           href="https://www.guidestar.org/profile/94-3447082"
           target="_blank"
           rel="noopener noreferrer"
-        > */}
-        <img
-          className="seal-of-transparency"
-          src={sealOfTrans}
-          alt="seal-of-transparency"
-        />
-        {/* </a> */}
+        >
+          <img
+            className="seal-of-transparency"
+            src={sealOfTrans}
+            alt="seal-of-transparency"
+          />
+        </a>
       </div>
     </div>
   )
