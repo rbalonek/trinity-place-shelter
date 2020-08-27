@@ -107,6 +107,31 @@
   z-index: 200;
 }
 
+@media screen and (min-width: 1147px) {
+  .volunteer__bannerRight {
+    width: 60%;
+    height: 420px;
+    box-sizing: border-box;
+    border-left: 320px solid transparent;
+    border-bottom: 420px solid rgb(33, 33, 33);
+  }
+
+  .volunteer__bannerAngledLine {
+    position: absolute;
+    right: 0;
+    width: calc(61% + 30px);
+    height: 420px;
+    box-sizing: border-box;
+    border-left: 320px solid transparent;
+    border-bottom: 420px solid white;
+    z-index: 40;
+  }
+
+  .--right {
+    right: calc(60% - 100px) !important;
+  }
+}
+
 @media screen and (max-width: 860px) {
   .volunteer_bannerText {
     padding-bottom: 40px;
