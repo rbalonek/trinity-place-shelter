@@ -137,37 +137,25 @@
   }
 }
 
-@media screen and (max-width: 500px) {
-  .img-carousel {
-    height: 25px;
-  }
-  .carousel-container {
-    height: 90px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 59%;
-  }
-  .chevron--donors {
-    margin-left: 1px;
-  }
-  .doners-text {
-    position: relative;
-    bottom: 30%;
-    left: 90%;
-    min-inline-size: max-content;
-  }
-  #left-chev {
-    position: relative;
-    left: 13px;
-  }
-}
 @media screen and (max-width: 375px) {
   .doners-text {
     position: relative;
     bottom: 30%;
     left: 110%;
     min-inline-size: max-content;
+  }
+
+  .donorCarousel__slider-container {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .donors-text {
+    display: none;
+  }
+  .donorCarousel__slider img {
+    height: 60px;
+    padding-right: 25px;
   }
 }
 @media screen and (max-width: 320px) {
