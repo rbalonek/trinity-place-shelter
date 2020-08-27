@@ -37,7 +37,7 @@
   position: absolute;
   top: 300px !important;
   width: 10%;
-  height: 20px;
+  height: 9%;
   z-index: 50;
   background: none;
   border: none;
@@ -55,12 +55,14 @@
 }
 
 .chevron {
-  font-size: 5vw !important;
+  font-size: 50px !important;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 30%;
   cursor: pointer;
 }
 
 .volunteer__bannerButton:hover {
-  transform: scale(1.8);
+  transform: scale(1.2);
   transition: 250ms all;
   transition: all 0.2s ease;
 }
@@ -83,7 +85,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* margin-right: 15%; */
 }
 
 .volunteer_bannerText > h3 {
@@ -135,18 +136,6 @@
   }
 }
 
-.volunteer__bannerButton {
-  top: 180px;
-}
-
-.chevron {
-  font-size: 12vw;
-}
-
-.--right {
-  right: 4%;
-}
-
 .volunteer_bannerText--mobile > h3 {
   font-size: 14px;
   font-weight: 600 !important;
@@ -154,6 +143,14 @@
 }
 
 @media screen and (max-width: 598px) {
+  .volunteer__bannerButton {
+    top: 180px !important;
+  }
+
+  .--right {
+    right: 10% !important;
+  }
+
   .volunteer_bannerText--mobile {
     background: rgb(33, 33, 33);
     color: white;
