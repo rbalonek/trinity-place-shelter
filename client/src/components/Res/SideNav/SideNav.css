@@ -60,11 +60,14 @@
 }
 
 .sideNav__nav,
-.header-nav--link {
+.side-nav-nav--link {
   width: 200px;
   color: white;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: rgb(14, 14, 15);
+}
+.side-nav-nav--link:hover {
+  color: red;
 }
 .open {
   position: fixed;
@@ -109,20 +112,18 @@
 }
 
 .sideNav__nav,
-.header-nav--link {
+.side-nav-nav--link {
   text-align: center;
   color: darkblue;
 }
 
-.header-nav--no-link:hover {
+.side-nav-nav--no-link:hover {
   filter: blur(3px);
   -webkit-filter: blur(3px);
   cursor: not-allowed;
 }
 
-.header-nav--link:hover {
-  color: red;
-}
+
 
 @media screen and (max-width: 450px) {
   /* .sideNav {
@@ -130,7 +131,7 @@
     width: 280px;
   } */
   .sideNav__nav,
-  .header-nav--link {
+  .side-nav-nav--link {
     width: 200px;
     height: 260px;
     color: darkblue;

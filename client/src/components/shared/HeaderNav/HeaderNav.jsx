@@ -21,7 +21,7 @@ function HeaderNav() {
         <ul className="header-nav__container">
           <li className="dead-link">OUR STORY</li>
           <li>
-            <Link to="/volunteer" className="nav-link">
+            <Link to="/volunteer" className="header-nav-link">
               VOLUNTEER
             </Link>
           </li>
