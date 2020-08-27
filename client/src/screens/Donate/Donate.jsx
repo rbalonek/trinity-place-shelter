@@ -2,7 +2,7 @@ import React from 'react'
 import './Donate.css'
 
 //Components
-import YellowBox from "../../components/YellowBox/YellowBox.js"
+import YellowBoxDonate from "../../components/YellowBox/YellowBoxDonate.js"
 import DonateForm from '../../components/DonateForm/DonateForm'
 import DonateExampleBanner from '../../components/DonateExampleBanner/DonateExampleBanner'
 import WhiteSpace from "../../components/WhiteSpace/WhiteSpace.js"
@@ -22,7 +22,7 @@ function Donate() {
       <WhiteSpace />
       <DonateExampleBanner />
       <WhiteSpace />
-      <YellowBox />
+      <YellowBoxDonate />
     </div>
   )
 }
