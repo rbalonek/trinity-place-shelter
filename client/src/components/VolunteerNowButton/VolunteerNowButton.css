@@ -1,4 +1,4 @@
-.volunteer-button {
+.volunteer-now_button {
   position: relative;
   bottom: 20px;
   background-color: var(--cta-color);
@@ -12,7 +12,7 @@
   z-index: 400;
   width: 260px;
 }
-.volunteer-button:hover {
+.volunteer-now_button:hover {
   transform: scale(1.2);
   transition: 250ms all;
   transition: all 0.2s ease;
