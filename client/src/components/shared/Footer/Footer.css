@@ -129,16 +129,23 @@ a {
     flex-direction: column;
     position: relative;
     top: 0px;
-    left: -160px;
+    left: -120px;
+
   }
 }
-@media screen and (max-width: 411px) {
+@media screen and (max-width: 470px){
   .footer-nav-links {
     left: -120px;
   }
+
+@media screen and (max-width: 414px) {
+ 
+.footer-nav-links {
+  left: -120px;
+}
 }
 
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 390px) {
   .footer {
     display: flex;
     width: 100%;
@@ -162,6 +169,17 @@ a {
     flex-direction: column;
     position: relative;
     top: 0px;
-    left: -90px;
+    left: -60px;  
+  }
+} 
+@media screen and (max-width: 320px){
+  .footer-nav-links {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 0px;
+    left: -40px;
+    
   }
 }
