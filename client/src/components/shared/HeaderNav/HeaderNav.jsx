@@ -19,14 +19,14 @@ function HeaderNav() {
           <SideNav />
         </div>
         <ul className="header-nav__container">
-          <li>OUR STORY</li>
+          <li className="dead-link">OUR STORY</li>
           <li>
             <Link to="/volunteer" className="header-nav--link">
               VOLUNTEER
             </Link>
           </li>
-          <li>RESOURCES</li>
-          <li>FAQ</li>
+          <li className="dead-link">RESOURCES</li>
+          <li className="dead-link">FAQ</li>
         </ul>
         <button
           onClick={() => {

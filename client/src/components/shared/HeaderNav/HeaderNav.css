@@ -1,3 +1,10 @@
+a:visited {
+  color: inherit;
+}
+.dead-link:hover{
+  cursor: not-allowed;
+}
+
 .header-nav {
   display: flex;
   justify-content: flex-start;
@@ -58,6 +65,7 @@
   outline: none;
   margin-right: 25px;
   margin-top: 50px;
+  cursor: pointer;
 }
 
 .header-nav__donateButton:hover {
