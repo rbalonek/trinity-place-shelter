@@ -57,11 +57,11 @@ function AdminDetail(props) {
         <p>Message: {volunteer.message}</p>
       </div>
       <div className="admin-detail__buttons">
-        <button onClick={backToAdmin}>Back to Admin</button>
+        <button onClick={backToAdmin} className="backto-button">Back to Admin</button>
         <Link to={`/admin-detail/${volunteer._id}/update`}>
-          <button>Update Volunteer</button>
+          <button className="update-button">Update Volunteer</button>
         </Link>
-        <button onClick={handleDeleteVolunteer}>Delete</button>
+        <button onClick={handleDeleteVolunteer} className="delete-button">Delete</button>
       </div>
     </div>
   )
