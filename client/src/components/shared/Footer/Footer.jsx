@@ -11,7 +11,7 @@ function Footer() {
           <Link to="/">
             <p>Home</p>
           </Link> <br />
-          <p>Our Story</p> <br />
+          <p className="dead-link">Our Story</p> <br />
           <Link to="/volunteer"> 
             <p>Volunteer</p>
           </Link> <br />

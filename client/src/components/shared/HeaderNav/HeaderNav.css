@@ -1,3 +1,10 @@
+a:visited {
+  color: inherit;
+}
+.dead-link:hover{
+  cursor: not-allowed;
+}
+
 .header-nav {
   display: flex;
   justify-content: flex-start;
