@@ -1,23 +1,14 @@
 .sideNav {
-  height: 250px;
+  /* Position of Sidebar */
+  margin-top: 30px;
+  margin-right: 35px;
+  /* Sidebar shape */
+  border-top-left-radius: 70px;
+  border-bottom-left-radius: 70px;
+  border-bottom-right-radius: 70px;
+  /* Sidebar dimentions */
+  height: 225px;
   box-shadow: 0px 2px 3px 2px rgba(145, 16, 150, 0.817);
-  /* border: 5px solid transparent;
-  border-image: linear-gradient(
-    to bottom right,
-    #b827fc 0%,
-    #2c90fc 25%,
-    #b8fd33 50%,
-    #fec837 75%,
-    #fd1892 100%
-  );
-  border-image-slice: 1;
-  margin: 20px auto;
-  margin-top: 40px;
-  margin-right: 40px; */
-  /* border-radius: 10%; */
-
-  margin-top: 40px;
-  margin-right: 40px;
   padding: 10px 20px 50px 20px;
   width: 210px;
   background: white;
@@ -26,9 +17,9 @@
   position: fixed;
   top: 0;
   right: 0;
-  /*  */
-  /* color: black; */
+  /* Animation */
   transition: transform 0.3s ease-out;
+  /* Rainbow Background */
   background: red; /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(
     left,
@@ -66,11 +57,18 @@
     blue,
     violet
   ); /* Standard syntax (must be last) */
-  border-top-left-radius: 90px;
-  border-bottom-left-radius: 90px;
-  border-bottom-right-radius: 90px;
 }
 
+.sideNav__nav,
+.side-nav-nav--link {
+  width: 200px;
+  color: white;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgb(14, 14, 15);
+}
+.side-nav-nav--link:hover {
+  color: red;
+}
 .open {
   position: fixed;
   top: 0;
@@ -114,23 +112,30 @@
 }
 
 .sideNav__nav,
-.header-nav--link {
+.side-nav-nav--link {
   text-align: center;
   color: darkblue;
 }
 
-.header-nav--no-link:hover{
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
-  }
-
-.header-nav--link:hover {
-  color: red;
+.side-nav-nav--no-link:hover {
+  filter: blur(3px);
+  -webkit-filter: blur(3px);
+  cursor: not-allowed;
 }
 
+
+
 @media screen and (max-width: 450px) {
-  .sideNav {
+  /* .sideNav {
     height: 250px;
     width: 280px;
+  } */
+  .sideNav__nav,
+  .side-nav-nav--link {
+    width: 200px;
+    height: 260px;
+    color: darkblue;
+    -webkit-font-smoothing: subpixel-antialiased;
+    /* font-weight: bolder; */
   }
 }

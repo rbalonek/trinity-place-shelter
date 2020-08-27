@@ -12,6 +12,10 @@
   border-radius: 20px;
   margin-bottom: 30px;
   max-width: 600px;
+  /* Bobs fun background */
+  background-color: #1fd1f9;
+background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
+
 }
 
 .admin-update__details > p {
@@ -32,7 +36,8 @@
 
 .admin-update__form > textarea {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: transparent;
+  /* Not sure why this was here but it messed with bobs fun background... */
+  /* background: transparent; */
   border: 1px solid rgba(33, 33, 33, 0.5);
   border-radius: 3px;
   padding: 5px;
@@ -45,6 +50,36 @@
   margin-bottom: 15px;
 }
 
+.save-button {
+  padding: 10px;
+  margin: 6px;
+  background: rgb(250, 125, 87);
+  color: whitesmoke;
+  font-weight:800;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.save-button:hover {
+  background: rgb(174, 43, 254);
+  background: rgb(12, 65, 114);
+  box-shadow: 3px 5px 4px white, 3px 10px 20px black;
+  transform: scale(1.1);
+  transition: 250ms all;
+  transition: all 0.4s ease;
+  }
+
+  .backto-button:hover{
+    background: blueviolet;
+  }
+
 .admin-update__buttons {
   margin-bottom: 5vh;
+}
+
+.update-input-screen {
+  background: rgb(167, 199, 250);
+  color:black;
 }

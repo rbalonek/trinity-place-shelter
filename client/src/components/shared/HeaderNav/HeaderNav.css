@@ -1,3 +1,10 @@
+a:visited {
+  color: inherit;
+}
+.dead-link:hover {
+  cursor: not-allowed;
+}
+
 .header-nav {
   display: flex;
   justify-content: flex-start;
@@ -34,16 +41,16 @@
 }
 
 .header-nav__container > li:hover {
-  color: rgb(84, 65, 167);
+  color: rgb(84, 65, 167) !important;
 }
 
-.header-nav--link {
+.header-nav-link {
   text-decoration: none;
-  color: black;
+  color: black !important;
 }
 
 .header-nav--link:hover {
-  color: rgb(84, 65, 167);
+  color: rgb(84, 65, 167) !important;
 }
 
 .header-nav__donateButton {
@@ -58,6 +65,7 @@
   outline: none;
   margin-right: 25px;
   margin-top: 50px;
+  cursor: pointer;
 }
 
 .header-nav__donateButton:hover {
@@ -76,7 +84,7 @@
   }
 }
 
-@media (max-width: 1035px){
+@media (max-width: 1035px) {
   .header-nav__logo {
     height: 200px;
     z-index: 100;
@@ -84,36 +92,36 @@
     left: 0px;
   }
 }
-@media (max-width: 1010px){
-  .header-nav__container > li{
+@media (max-width: 1010px) {
+  .header-nav__container > li {
     margin-right: 20px;
     font-size: 20px;
     height: max-content;
   }
   .header-nav > nav {
     height: max-content;
+  }
 }
-}
-@media (max-width: 875px){
+@media (max-width: 875px) {
   .header-nav__logo {
     height: 150px;
     z-index: 100;
     position: absolute;
     top: 20px;
   }
-  .header-nav__container > li{
+  .header-nav__container > li {
     margin-right: 20px;
     font-size: 15px;
   }
 }
-@media (max-width: 715px){
+@media (max-width: 715px) {
   /* .header-nav__logo {
     height: 120px;
     z-index: 100;
     position: absolute;
     top: 30px;
   } */
-  .header-nav__container > li{
+  .header-nav__container > li {
     margin-right: 20px;
     font-size: 12px;
   }

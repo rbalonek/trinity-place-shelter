@@ -9,10 +9,10 @@ function VolunteerItem({ _id, firstName, lastName, createdAt, updatedAt }) {
   return (
     <Link to={`/admin-detail/${_id}`}>
       <div className="volunteer-item">
-        <h3>
+        <h3 className="admin-name">
           {firstName} {lastName}
         </h3>
-        <p>Updated: {transformTimestamp(updatedAt)}</p>
+        <p className="admin-p">Updated: {transformTimestamp(updatedAt)}</p>
       </div>
     </Link>
   )
