@@ -86,14 +86,10 @@
 @media screen and (min-width: 1300px) {
   .donorCarousel__slider-container {
     width: calc(80% - 200px);
-    overflow: scroll;
+    overflow: hidden;
   }
-  .donorCarousel__slider {
-    transform: translateX(0) !important;
-  }
-  .carousel-container button:hover {
-    cursor: not-allowed;
-    transform: scale(1);
+  .donorCarousel__slider img {
+    padding-right: 225px;
   }
 }
 
