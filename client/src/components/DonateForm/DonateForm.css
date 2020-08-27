@@ -55,7 +55,7 @@
   font-size: 12px;
 } */
 
-.short-input {
+.donate-short-input {
   display: inline-block;
   width: 319px;
   height: 33px;
@@ -71,7 +71,7 @@
   padding: 10px;
 }
 
-.long-input{
+.donate-long-input{
   width: 664px;
   height: 33px;
   background: rgba(137, 207, 240, 0.35);
@@ -81,14 +81,14 @@
   font-size: 16px;
 }
 
-.short-input::placeholder {
+.donate-short-input::placeholder {
   color: white;
-  padding: 10px;
+  padding-left: 10px;
   
 }
-.long-input::placeholder {
+.donate-long-input::placeholder {
   color: white;
-  padding: 10px;
+  padding-left: 10px;
   
 }
 
@@ -116,57 +116,49 @@
   opacity: 0.8;
 }
 
-@media screen and (max-width: 700px){
-  .button-div {
-    position: absolute;
-  }
+@media screen and (max-width: 670px){
+  
   .donate-div_form {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 900px;
-    margin: auto;
+    
+    width: 90vw;
+    
 }
-.long-input {
-  width: 100%;
+
+
+.donate-short-input, .donate-long-input{
+  width: 90vw;
+  
+  
 }
+.donate-long-input::placeholder {
+
+  color: white;
+  
+  
+  
+}
+
 .donate-form {
-  width: 100%;
-  height: 800px;
+  width: 900vw;
   margin: auto;
 }
 }
 @media screen and (max-width: 328px){
-  .amount-donate_box {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: flex-end;
-    margin-right: 10px;
-}
+ 
+  .donate-short-input, .donate-long-input{
+    width: 80vw;
+    height: 40px;
+    
+    
+  }
+  
+
   .donate-input-short_div {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    display: inline-block;
-    width: 280px;
+   
+    width: 80vw;
 }
-.short-input {
-  display: inline-block;
-  width: 290px;
-  height: 33px;
-  border: none;
-  background: rgba(137, 207, 240, 0.35);
-  outline: none;
-  color: white;
-  font-size: 16px;
-}
-.card-input {
-  background: rgba(196, 196, 196, 0.35);
-  outline: none;
-  border: none;
-  width: 290px;
-  height: 33px;
-  margin-top: 15px;
-}
+
 }
