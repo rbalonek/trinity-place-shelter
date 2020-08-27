@@ -325,6 +325,13 @@
     width: 100%;
     inline-size: auto;
 }
+.iframe-resize {
+  height: 150px;
+  padding-left: 70px;
+}
+.followUs__testimonial {
+  right: 35px;
+}
 }
 
 @media screen and (max-width: 365px) {
