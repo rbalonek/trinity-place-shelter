@@ -40,14 +40,20 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     margin: auto;
     color: white;
     padding-top: 80px;
     padding-left: 20px;
     margin-bottom: 100px;
-    width: 710px;
+    width: 90vw;
     top: 500px;
 }
+.donate-text {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
 .donate-divider {
   display: none;
 }
