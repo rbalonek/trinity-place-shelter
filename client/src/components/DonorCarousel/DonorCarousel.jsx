@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import './DonorCarousel.css'
 import ChevronLeftIcon from '@material-ui/icons/ChevronLeft'
 import ChevronRightIcon from '@material-ui/icons/ChevronRight'
-import CarouselSlide from '../Carousel/CarouselSlide'
 // carousel images
 import pic1 from '../../assets/images/DonateCarousel/aids-institute.png'
 import pic2 from '../../assets/images/DonateCarousel/calamus.png'
