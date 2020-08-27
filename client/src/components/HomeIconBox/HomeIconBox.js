@@ -9,7 +9,7 @@ export default function HomeIconBox() {
       <h1 className="house-text">family-like environment where youth</h1>
       <h1 className="house-text">receive individualized care, respect,</h1>
       <h1 className="house-text">and the basic services so often</h1>
-      <h1 className="house-text">denied to them</h1>
+      <h1 className="house-text">denied to them.</h1>
     </div>
   )
 }
