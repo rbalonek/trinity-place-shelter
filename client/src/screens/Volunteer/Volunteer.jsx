@@ -14,7 +14,7 @@ import pic1 from '../../assets/images/VolunteerCarousel/pic1.jpg'
 import pic2 from '../../assets/images/VolunteerCarousel/pic2.jpg'
 import pic3 from '../../assets/images/VolunteerCarousel/pic3.jpg'
 import pic4 from '../../assets/images/VolunteerCarousel/pic4.jpg'
-import pic5 from '../../assets/images/VolunteerCarousel/pic5.jpg'
+// import pic5 from '../../assets/images/VolunteerCarousel/pic5.jpg'
 
 function Volunteer() {
   const [x, setX] = useState(0)
