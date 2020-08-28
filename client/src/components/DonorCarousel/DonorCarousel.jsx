@@ -12,7 +12,36 @@ import pic5 from "../../assets/images/DonateCarousel/tjx.png";
 import pic6 from "../../assets/images/DonateCarousel/van-amerigen.png";
 
 export default function DonorCarousel() {
+  const [windowSize, updateWindowSize] = useState(window.innerWidth);
+  const [slideChange, setSlideChange] = useState(-300);
+  const [slideChangeX, setSlideChangeX] = useState(150);
   const [x, setX] = useState(0);
+
+  const slideRightChanger = () => {
+    if (windowSize <= 500){ 
+      setSlideChange(-400);
+      setSlideChangeX(100);
+    }else if(windowSize <= 555 && windowSize > 501) { 
+      setSlideChange(-300);
+      setSlideChangeX(140);
+    }else if(windowSize < 800 && windowSize >556 ) {
+      setSlideChange(-300);
+      setSlideChangeX(100);
+    } else if(windowSize > 801 && windowSize < 1000){
+      setSlideChange(-300);
+      setSlideChangeX(100);
+    } else if(windowSize >= 1000){
+      setSlideChange(-250);
+      setSlideChangeX(200);
+    }
+
+  };
+
+  
+  // console.log(slideChange)
+  // console.log(windowSize)
+  // console.log(slideChangeX)
+  
 
   let carouselArr = [
     <img
@@ -22,26 +51,28 @@ export default function DonorCarousel() {
         height: "50px",
         marginLeft: "0",
         marginTop: "18px",
-      }}/>,
+      }}
+    />,
 
-    <img 
+    <img
       src={pic2}
       alt="pic2"
-    style={{
-      height: "50px",
-      marginLeft: "50px",
-      marginTop: "18px",
-    }}
+      style={{
+        height: "50px",
+        marginLeft: "50px",
+        marginTop: "18px",
+      }}
     />,
-    
+
     <img
-      src={pic3} 
+      src={pic3}
       alt="pic3"
       style={{
         height: "50px",
         marginLeft: "50px",
         marginTop: "18px",
-      }} />,
+      }}
+    />,
     <img
       src={pic5}
       alt="pic5"
@@ -49,32 +80,36 @@ export default function DonorCarousel() {
         height: "50px",
         marginLeft: "50px",
         marginTop: "18px",
-      }}/>,
-      
+      }}
+    />,
+
     <img
       src={pic6}
-      alt="pic6" 
+      alt="pic6"
       style={{
         height: "50px",
         marginLeft: "50px",
         marginTop: "18px",
-      }}/>,
-      <img
+      }}
+    />,
+    <img
       src={pic4}
       alt="pic4"
       style={{
         height: "50px",
         marginTop: "18px",
-        marginLeft:"140px",
-      }}/>,
+        marginLeft: "140px",
+      }}
+    />,
   ];
+  
 
   const slideLeft = () => {
     x === 0 ? setX(-400) : setX(x + 100);
   };
 
   const slideRight = () => {
-    x < -300 ? setX(0) : setX(x - 100);
+    x < slideChange ? setX(0) : setX(x - slideChangeX);
   };
 
   return (
@@ -102,7 +137,13 @@ export default function DonorCarousel() {
         })}
       </div>
       <div className="donorCarousel__rightButton">
-        <button onClick={slideRight}>
+        <button
+          onClick={() => {
+            slideRightChanger();
+            slideRight();
+          }}
+          // {slideRight}
+        >
           <ChevronRightIcon className="chevron--donors" />
         </button>
       </div>
